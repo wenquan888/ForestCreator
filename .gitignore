@@ -1,0 +1,15 @@
+# Build output
+bin/
+obj/
+
+# IDE / editor
+.idea/
+.vs/
+*.user
+*.suo
+
+# OS
+Thumbs.db
+Desktop.ini
+
+# Keep libs/ — the referenced dlls are committed so the project compiles out-of-the-box.
