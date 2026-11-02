@@ -1,6 +1,6 @@
 # ForestCreator
 
-《风暴之城》(Against the Storm) 的 BepInEx Mod，独立项目，与原版 mod 分离。
+《风暴之城》(Against the Storm) 的 BepInEx Mod
 
 ## 功能
 
