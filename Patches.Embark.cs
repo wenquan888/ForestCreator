@@ -11,6 +11,7 @@ using Eremite.Controller;
 using Eremite.Characters;
 using Eremite.Characters.Behaviours;
 using Eremite.Model;
+using Eremite.Model.Effects;
 using Eremite.Model.Meta;
 using Eremite.Model.State;
 using Eremite.Services;
@@ -103,11 +104,93 @@ namespace ForestCreator
                     return;
                 }
 
+                // ---- diagnostic: log the building options actually read by the embark screen ----
+                try
+                {
+                    var ss = MainController.Instance.Settings;
+                    string KindOf(string n)
+                    {
+                        if (ss == null) return "";
+                        try
+                        {
+                            var b = ss.GetBuilding(n);
+                            if (b is CampModel) return "Camp";
+                            if (b is GathererHutModel) return "GathererHut";
+                            if (b is FishingHutModel) return "FishingHut";
+                            if (b is FarmModel) return "Farm";
+                        }
+                        catch { return "(bld-key?)"; }
+                        return "";
+                    }
+                    string EffTypeOf(string n)
+                    {
+                        if (ss == null) return "";
+                        try { return ss.GetEffect(n)?.GetType().Name ?? "(no-effect)"; } catch { return "(eff-key?)"; }
+                    }
+
+                    var bnames = new List<string>();
+                    foreach (var o in state.buildingsOptions)
+                    {
+                        if (o == null) { bnames.Add("(null)"); continue; }
+                        string k = KindOf(o.name);
+                        bnames.Add(o.name + (k != "" ? "[" + k + "]" : ""));
+                    }
+                    Instance.Logger.LogInfo("FC EMBARK-STATE buildingsOptions(" + state.buildingsOptions.Count + "): " + string.Join(", ", bnames));
+                    FileLog("FC EMBARK-STATE buildingsOptions(" + state.buildingsOptions.Count + "): " + string.Join(", ", bnames));
+
+                    var eff = new List<string>();
+                    foreach (var o in state.effectsOptions)
+                    {
+                        if (o == null) { eff.Add("(null)"); continue; }
+                        string k = KindOf(o.name);
+                        eff.Add(o.name + (k != "" ? "[" + k + "]" : "") + "<" + EffTypeOf(o.name) + ">");
+                    }
+                    Instance.Logger.LogInfo("FC EMBARK-STATE effectsOptions(" + state.effectsOptions.Count + "): " + string.Join(", ", eff));
+                    FileLog("FC EMBARK-STATE effectsOptions(" + state.effectsOptions.Count + "): " + string.Join(", ", eff));
+
+                    var goods = new List<string>();
+                    foreach (var o in state.goodsOptions)
+                    {
+                        if (o == null) { goods.Add("(null)"); continue; }
+                        string k = KindOf(o.name);
+                        goods.Add(o.name + (k != "" ? "[" + k + "]" : ""));
+                    }
+                    Instance.Logger.LogInfo("FC EMBARK-STATE goodsOptions(" + state.goodsOptions.Count + "): " + string.Join(", ", goods));
+                    FileLog("FC EMBARK-STATE goodsOptions(" + state.goodsOptions.Count + "): " + string.Join(", ", goods));
+                }
+                catch (Exception de)
+                {
+                    Instance.Logger.LogError("FC ERR EMBARK-STATE dump: " + de.Message);
+                    FileLog("ERR EMBARK-STATE dump: " + de.Message);
+                }
+
                 var settings = MainController.Instance.Settings;
                 if (settings == null)
                 {
                     FileLog("EXTRA: settings null, skip.");
                     return;
+                }
+
+                // ---- remove gather/farm blueprint effects from the embark offer ----
+                // The embark pick screen only renders goods + effects slots, so the "采集/种植建筑"
+                // the user sees in the starting-bonus panel are EFFECTS whose internal name is a
+                // building blueprint (e.g. "Herbalist Camp Blueprint"). Strip the "Blueprint" suffix
+                // to resolve the building, and drop it when it is a Camp/GathererHut/FishingHut/Farm.
+                // TEMP-DISABLED: re-enable once the diagnostic confirms which effects are gather/farm.
+                bool REMOVE_GATHER_FARM_EFFECTS = true;
+                if (REMOVE_GATHER_FARM_EFFECTS)
+                {
+                    try
+                    {
+                        int removedEff = state.effectsOptions.RemoveAll(o => o != null && IsGatherOrFarmEffect(o.name));
+                        if (removedEff > 0)
+                            FileLog($"FC REMOVED {removedEff} gather/farm blueprint effects from effectsOptions.");
+                    }
+                    catch (Exception rex)
+                    {
+                        FileLog("ERR removing gather/farm effects: " + rex.Message);
+                        Instance.Logger.LogError("removing gather/farm effects: " + rex.Message);
+                    }
                 }
 
                 // ---- resolve the extra goods by localized display name ----
@@ -147,6 +230,24 @@ namespace ForestCreator
                     if (lower.Contains("昆虫") || lower.Contains("insect")) FileLog($"EXTRA-EFFECT[insect?] {effect.Name} | {disp}");
                 }
 
+                // ---- golden cornerstone "搬运车": all 3 variants are Legendary (gold). ----
+                // Inject only the COMPLETE composite cornerstone (CompositeEffectModel), not the
+                // "- main" / "- small" sub-effects, so the player gets exactly one golden cart.
+                foreach (var effect in settings.effects)
+                {
+                    if (effect == null) continue;
+                    string disp = null;
+                    try { disp = effect.displayName != null ? effect.displayName.Text : null; } catch { }
+                    string lower = (disp ?? "").ToLowerInvariant();
+                    if (lower.Contains("搬运车"))
+                        Instance.Logger.LogInfo($"FC CART-RARITY: {effect.Name} | {disp} | {effect.GetType().Name}");
+                    if (lower.Contains("搬运车") && effect is CompositeEffectModel && !HasEffectOption(state, effect.Name))
+                    {
+                        state.effectsOptions.Add(new ConditionPickState { name = effect.Name, cost = 1 });
+                        Instance.Logger.LogInfo($"FC EXTRA-CORNERSTONE added: {effect.Name} | {disp}");
+                    }
+                }
+
                 // ---- re-render the offer slots so the new items show up right away ----
                 var t = __instance.GetType();
                 var m1 = t.GetMethod("UpdateGoodsOfferSlots", BindingFlags.Instance | BindingFlags.NonPublic);
@@ -174,6 +275,43 @@ namespace ForestCreator
         {
             foreach (var o in state.effectsOptions)
                 if (o != null && o.name == name) return true;
+            return false;
+        }
+
+        /// <summary>
+        /// True when an effect's internal name represents a gather/farm building blueprint
+        /// (e.g. "Herbalist Camp Blueprint"). Resolution order:
+        ///   1) preferred: the effect is a BaseBuildingEffectModel whose `building` is a
+        ///      Camp/GathererHut/FishingHut/Farm;
+        ///   2) fallback: strip a trailing "Blueprint" suffix and resolve the remainder as a
+        ///      building name, then check its type.
+        /// </summary>
+        private static bool IsGatherOrFarmEffect(string effectName)
+        {
+            if (string.IsNullOrEmpty(effectName)) return false;
+            var settings = MainController.Instance.Settings;
+            if (settings == null) return false;
+
+            try
+            {
+                var e = settings.GetEffect(effectName);
+                if (e is BaseBuildingEffectModel bbe && bbe.building != null)
+                    return IsGatherOrFarm(bbe.building);
+            }
+            catch { }
+
+            foreach (var suffix in new[] { " Blueprint", "Blueprint", " blueprint", " blueprint " })
+            {
+                if (!effectName.EndsWith(suffix, StringComparison.OrdinalIgnoreCase)) continue;
+                string cand = effectName.Substring(0, effectName.Length - suffix.Length).Trim();
+                if (cand.Length == 0) continue;
+                try
+                {
+                    var b = settings.GetBuilding(cand);
+                    if (b != null && IsGatherOrFarm(b)) return true;
+                }
+                catch { }
+            }
             return false;
         }
     }

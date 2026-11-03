@@ -1,3 +1,8 @@
+## v1.0.1
+- Embark: auto-unlock all gathering/farming buildings & the advanced rain catcher; remove them from the starting offer / 开局：自动解锁采集营地、高级集雨器、所有种植建筑；开局可选项移除采集/种植建筑
+- Add the golden "Hauling Cart" cornerstone to the starting offer / 开局可选项新增金色基石「搬运车」
+- Robot-worked buildings now receive the rainpunk engine production bonus (automatons were skipped due to no-crit) / 机器人工作的建筑产出享受雨朋克发动机加成
+
 ## v1.0.0
 - Initial release / 首次发布
 - Housing capacity x10 / 住房容量 ×10

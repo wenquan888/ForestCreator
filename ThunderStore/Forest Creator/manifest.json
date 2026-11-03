@@ -1,8 +1,8 @@
 {
   "name": "ForestCreator",
-  "version_number": "1.0.0",
+  "version_number": "1.0.1",
   "website_url": "https://github.com/wenquan888/ForestCreator",
-  "description": "ForestCreator for Against the Storm: 10x housing, more embark points & starting goods, up to 10 trade routes, continuous collectors, movable trading post, and a robot worker slot for production buildings.",
+  "description": "A super-cheat mod for Against the Storm. Master everything like the Forest Creator himself — even the hardest difficulty becomes trivially easy.",
   "dependencies": [
     "BepInEx-BepInExPack-5.4.2100"
   ]
