@@ -1,0 +1,3122 @@
+# Against the Storm - all game effects / cornerstones
+# Format: internalName | displayName | type
+# Lines starting with '# Missing key' mean the localized name is missing in this build.
+
+Corrupted Sacrifice | 被封印者的印记 | HookedEffectModel
+Eggs For Cysts | 疫腐修剪者 | HookedEffectModel
+Newcomers Block | >Missing key< | NewcomersBlockEffectModel
+No Beaver Hostility | 森林之友 | BlockHostilityForRaceEffectModel
+SE Grim Fate | 悲惨的命运 | VillagersDeathEffectModel
+Spawn Ferile Soil Around - Cauldron | 复耕 | SpawnFertileSoilAroundEffectModel
+Villagers For Corruption | 来自阴影 | HookedEffectModel
+[Altar] Extra Trader Merch - random trader visit | 召唤行会商人 | RandomTraderVisitEffectModel
+[Map Mod] 2 Races | 叛军藏身处 | RemoveGameplayRaceEffectModel
+[Mod] Land of Greed | 贪婪之地 | HookedEffectModel
+[Map Mod] 4 Races | 神圣林地 | AddRandomGameplayRaceEffectModel
+Add Active Ability - Borrowed Time | 透支时间 | AddActiveAbilityEffectModel
+Add Active Ability - remove hunger stack | 紧急口粮 | AddActiveAbilityEffectModel
+[Altar] Extra Trader Merch - add ability | >Missing key< | AddActiveAbilityEffectModel
+Additional Impatience for Death | >Missing key< | AdditionalDeathEffectModel
+[Mod] Additional Impatience for Death | 女王的子民 | AdditionalDeathEffectModel
+[WE] Adopted Town 1 - Easy | 被遗弃的城镇 | AdoptedTownEffectModel
+[WE] Adopted Town 1 - Hard | 被遗弃的城镇 | AdoptedTownEffectModel
+[WE] Adopted Town Only Glades | 被毁坏的森林 | AdoptedTownEffectModel
+Altar Activation | >Missing key< | AltarActivationEffectModel
+Blood Price | 血价合约 | HookedEffectModel
+[Altar] Alarm Bells | 警钟 | HookedEffectModel
+[Altar] AncientGate_Hardships | 幸存者纽带 | CompositeEffectModel
+[Altar] Back To Nature | 回归自然 | CompositeEffectModel
+[Altar] Blood Price | 血价合约 | HookedEffectModel
+[Altar] Cannibalism | 同类相食 | HookedEffectModel
+[Altar] Construction cost for nodes | 廉价建筑物 | CompositeEffectModel
+[Altar] Cornerstone Reroll each year | 被遗弃的印章 | HookedEffectModel
+[Altar] Cornerstone Reroll | >Missing key< | CornerstonesRerollsEffectModel
+[Altar] Fedora Hat | 旧费多拉帽 | RelicsExtraRewardsChanceEffectModel
+[Altar] Forge Trip Hammer | 锻造之锤 | CompositeEffectModel
+[Altar] Fuel Recipes Rate | 高级燃料 | CompositeEffectModel
+[Altar] FuelConsumption -25 | 秘密护火者技术 | CompositeEffectModel
+[Altar] Hidden From The Queen | 不让女王看见 | VillagerDeathEffectBlockEffectModel
+[Altar] Houses +1 for Break Time | 拥挤的房子 | CompositeEffectModel
+[Altar] Hubs for newcomer goods | 慷慨的礼物 | HookedEffectModel
+[Altar] HunterGatherers | 狩猎采集者 | CompositeEffectModel
+[Altar] Insect for tree | 啄木鸟技能 | HookedEffectModel
+[Altar] Killed for GladeInfo | 古老的协议 | GladeInfoEffectModel
+[Altar] LessHostilityPerWoodcutter | 火焰护身符 | CompositeEffectModel
+[Altar] Lower Hostility For Religion | 火链仪式 | HookedEffectModel
+[Altar] Metal Production Speed Boost | 冶金效率 | CompositeEffectModel
+[Altar] Mists Piercers | 刺雾器 | GladeInfoEffectModel
+[Altar] More Amber from Routes | 贸易谈判 | TradeRoutesBonusRewardsEffectModel
+[Altar] Mushrooms in Farms | 蘑菇苗 | CompositeEffectModel
+[Altar] NewNewcomersBonus_Random | 拥挤的商队 | CompositeEffectModel
+[Altar] Packs of Goods +1 | 出口专业化 | CompositeEffectModel
+[Altar] PacksForResolveRep | 出口合同 | CompositeEffectModel
+[Altar] Relic time reduction | 护火者的祈祷 | CompositeEffectModel
+[Altar] Resolve for consumption | 丰厚的配给 | CompositeEffectModel
+[Altar] Resolve for Impatience | 叛逆精神 | HookedEffectModel
+[Altar] Route Less Travel Time | 风暴行者的训练 | CompositeEffectModel
+[Altar] Storm Water for Woodcutters | 自然之力 | HookedEffectModel
+[Altar] Tablets for Events | 隐藏奖励 | HookedEffectModel
+[Altar] Tools for death | 骨制工具 | HookedEffectModel
+[Altar] Trade Routes Bonus Fuel | 勒紧裤腰带 | TradeRoutesBonusFuelEffectModel
+[Altar] Trade Routes for housing spots | 城市规划 | HookedEffectModel
+[Altar] Trading Packs | 交易日志 | CompositeEffectModel
+[Altar] Villager for glade | 迷失荒野 | CompositeEffectModel
+[Altar] Wood +2 for insects | 无质量控制 | HookedEffectModel
+[Altar] Working time for firekeeper | 祈祷书 | HookedEffectModel
+Cysts Faster Burning 5 | >Missing key< | CystsBonusBurningTimeEffectModel
+Cysts Longer Burning 5 | 强力寄生 | CystsBonusBurningTimeEffectModel
+Incantation Cysts Longer Burning 10 | >Missing key< | CystsBonusBurningTimeEffectModel
+SE Resistant Cysts | 吸收 | CystsBonusBurningTimeEffectModel
+Block Hostility For Beavers | >Missing key< | BlockHostilityForRaceEffectModel
+Hearth Sacrifice Block - Baptism of Fire | 火的洗礼 | HearthSacrificeBlockEffectModel
+Hearth Sacrifice Block - Plague of Darkness | 黑暗灾害 | HearthSacrificeBlockEffectModel
+Hearth Sacrifice Block | 否认仪式 | HearthSacrificeBlockEffectModel
+SE Hearth Sacrifice Block | 被诅咒的雨 | HearthSacrificeBlockEffectModel
+Port Blueprint From Category Pick | Effect_PortBlueprintFromCategoryPick_Name | BlueprintFromCategoryPickEffectModel
+Corruption Per Removed Cyst -50 | 护火者盔甲 | BonusCorruptionPerRemovedCystEffectModel
+Bonus Global Reputation Treshold Increase 1 | TODO NAME | BonusGlobalReputationTresholdIncreaseEffectModel
+[Mod] Global Reputation Treshold Increase | 不满意者 | BonusGlobalReputationTresholdIncreaseEffectModel
+[Mod] Less Hearth Range | 霜冻 | BonusHearthRangeEffectModel
+Gargoyle Decoration Lower Rain Engine Cost | 休眠的石像鬼 | BonusRainpunkUnlockPriceEffectModel
+Half Reputation From Orders | >Missing key< | BonusReputationFromSourceRateEffectModel
+SE No Impatience Reduction | 无法联络 | BonusReputationPenaltyPerReputationEffectModel
+[Mod] Lower Impatience Reduction | 更高的期望 | BonusReputationPenaltyPerReputationEffectModel
+[Mod] Politically Outmaneuvered | 政治失利 | BonusReputationPenaltyPerReputationEffectModel
+SE Unearthly Element | 神奇元素 | BonusSacrificeStacksEffectModel
+Break Time +25 | >Missing key< | VillagersBreakTimeRateEffectModel
+Break Time +50 | >Missing key< | VillagersBreakTimeRateEffectModel
+Break Time -3 | >Missing key< | VillagersBreakTimeRateEffectModel
+Break Time -50 | >Missing key< | VillagersBreakTimeRateEffectModel
+Academy Blueprint | 探险者小屋 | BuildingEffectModel
+Advanced Rain Collector Blueprint | 被遗弃的祭坛 | BuildingEffectModel
+Alchemist Blueprint | 炼金术士的小屋 | BuildingEffectModel
+Altar Blueprint | 被遗弃的祭坛 | BuildingEffectModel
+Apothecary Blueprint | 药剂师 | BuildingEffectModel
+Artisan Blueprint | 工匠 | BuildingEffectModel
+Bakery Blueprint | 面包店 | BuildingEffectModel
+Bath House Blueprint | 澡堂 | BuildingEffectModel
+Bats Shrine Blueprint | 庄园法庭 | BuildingEffectModel
+Beanery Blueprint | 小吃店 | BuildingEffectModel
+Beaver House Blueprint | 海狸屋 | BuildingEffectModel
+Blight Post Blueprint | 被遗弃的祭坛 | BuildingEffectModel
+Brewery Blueprint | 啤酒厂 | BuildingEffectModel
+Brick Oven Blueprint | 砖炉 | BuildingEffectModel
+Brickyard Blueprint | 砖厂 | BuildingEffectModel
+Brineworks Blueprint | 卤水作坊 | BuildingEffectModel
+Butcher Blueprint | 肉店 | BuildingEffectModel
+Cannery Blueprint | 罐装厂 | BuildingEffectModel
+Carpenter Blueprint | 木工 | BuildingEffectModel
+Cellar Blueprint | 地窖 | BuildingEffectModel
+Clay Pit Blueprint | 粘土坑 | BuildingEffectModel
+Cobbler Blueprint | 鞋匠 | BuildingEffectModel
+Common Hall Blueprint | 氏族议事厅 | BuildingEffectModel
+Cookhouse Blueprint | 厨房 | BuildingEffectModel
+Cooperage Blueprint | 制桶工场 | BuildingEffectModel
+Crude Workstation Blueprint | 初加工工作站 | BuildingEffectModel
+Distillery Blueprint | 蒸馏厂 | BuildingEffectModel
+Druid Blueprint | 德鲁伊的小屋 | BuildingEffectModel
+Explorers Lodge Blueprint | 探险者小屋 | BuildingEffectModel
+Farm Blueprint | 自耕农场 | BuildingEffectModel
+Feast Hall - Funeral Feast - Blueprint | 宴会大厅 | BuildingEffectModel
+Feast Hall Blueprint | 宴会大厅 | BuildingEffectModel
+Finesmith Blueprint | 金银工坊 | BuildingEffectModel
+Fishing Hut Blueprint | 捕鱼小屋 | BuildingEffectModel
+Flame Altar Blueprint | 火焰祭坛 | BuildingEffectModel
+Forager's Camp Blueprint | 觅食者营地 | BuildingEffectModel
+Forum Blueprint | 论坛 | BuildingEffectModel
+Frog House Blueprint | 蛙族屋 | BuildingEffectModel
+Fuel Rod Workshop Blueprint | Building_FuelRodsWorkshop_Name | BuildingEffectModel
+Furnace Blueprint | 熔炉 | BuildingEffectModel
+Granary Blueprint | 谷仓 | BuildingEffectModel
+Greenhouse Blueprint | 温室 | BuildingEffectModel
+Grill Blueprint | 烤架 | BuildingEffectModel
+Grove Blueprint | 护林人的小屋 | BuildingEffectModel
+Guild House Blueprint | 行业工会 | BuildingEffectModel
+Herb Garden Blueprint | 香草园 | BuildingEffectModel
+Herbalist Camp Blueprint | 草药医生的营地 | BuildingEffectModel
+Human House Blueprint | 人类住宅 | BuildingEffectModel
+Hydrant Blueprint | 被遗弃的祭坛 | BuildingEffectModel
+Kiln Blueprint | 窑炉 | BuildingEffectModel
+Leatherworks Blueprint | 制革工坊 | BuildingEffectModel
+Library Blueprint | 图书馆 | BuildingEffectModel
+Lizard House Blueprint | 蜥蜴屋 | BuildingEffectModel
+Lumbermill Blueprint | 锯木场 | BuildingEffectModel
+Manufactory Blueprint | 工厂 | BuildingEffectModel
+Market Blueprint | 市场 | BuildingEffectModel
+Mill Blueprint | 雨水磨坊 | BuildingEffectModel
+Monastery Blueprint | 修道院 | BuildingEffectModel
+Pantry Blueprint | 食品室 | BuildingEffectModel
+Plantation Blueprint | 种植园 | BuildingEffectModel
+Press Blueprint | 压榨工坊 | BuildingEffectModel
+Provisioner Blueprint | 杂货商 | BuildingEffectModel
+Ranch Blueprint | 牧场 | BuildingEffectModel
+Scribe Blueprint | 抄写室 | BuildingEffectModel
+Sealed Biome Shrine Blueprint | 信标之塔 | BuildingEffectModel
+Sewer Blueprint | 裁缝 | BuildingEffectModel
+SmallFarm Blueprint | 小农场 | BuildingEffectModel
+Smelter Blueprint | 冶炼厂 | BuildingEffectModel
+Smithy Blueprint | 铁匠铺 | BuildingEffectModel
+Smokehouse Blueprint | 熏制室 | BuildingEffectModel
+Stamping Mill Blueprint | 冲压厂 | BuildingEffectModel
+Supplier Blueprint | 供应商 | BuildingEffectModel
+Tavern Blueprint | 酒馆 | BuildingEffectModel
+Tea House Blueprint | 药剂师 | BuildingEffectModel
+Temple Blueprint | 神殿 | BuildingEffectModel
+Tinctury Blueprint | 炼金屋 | BuildingEffectModel
+Tinkerer Blueprint | 修补匠屋 | BuildingEffectModel
+Toolshop Blueprint | 工具车间 | BuildingEffectModel
+Trapper's Camp Blueprint | 设阱捕兽者营地 | BuildingEffectModel
+Weaver Blueprint | 编织工 | BuildingEffectModel
+Workshop Blueprint | 车间 | BuildingEffectModel
+[Biome] Cave - Black Market Blueprint | 黑市 | BuildingEffectModel
+[Biome] Moorlands - Archaeologist Blueprint | 皇家考古学家 | BuildingEffectModel
+[Biome] Poro Biome - Grass Spawner Blueprint | 雨蚀土壤 | BuildingEffectModel
+[Biome] Striders Port Blueprint | 水黾港 | BuildingEffectModel
+[WE] Blight Bomb Blueprint | 疫腐炸弹 | BuildingEffectModel
+[WE] Temporary Engineering Station Blueprint | 野外工程站 | BuildingEffectModel
+[Biome] Fuel Rod Blight Rate Effect | >Missing key< | BuildingPerkFromContextEffectModel
+2 Hauling Carts in Main Warehouse | 双重运输系统 | BuildingPerkEffectModel
+Hauling Cart in All Warehouses - main | 搬运车 | BuildingPerkEffectModel
+Hauling Cart in All Warehouses - small | 搬运车 | BuildingPerkEffectModel
+Hauling Cart in All Warehouses | 搬运车 | CompositeEffectModel
+Large Automaton in All Woodcutters | 雨朋克伐木机 | BuildingPerkEffectModel
+Water Extractor Extra Production Chance | 水之书 | BuildingPerkEffectModel
+[WE] Automaton in All Mines | 采矿机器人 | BuildingPerkEffectModel
+Apothecary +50 | 强化炉 | BuildingProductionEffectModel
+Bakery +50 | 强化炉 | BuildingProductionEffectModel
+Brewery +50 | 有效酿造技术 | BuildingProductionEffectModel
+Brewery +60 | 先进酿造技术 | BuildingProductionEffectModel
+Brewery Haunted +50 | 有效酿造技术 | BuildingProductionEffectModel
+Brewery Haunted +60 | 先进酿造技术 | BuildingProductionEffectModel
+Brineworks +100 | >Missing key< | BuildingProductionEffectModel
+Brineworks +150 | >Missing key< | BuildingProductionEffectModel
+Brineworks +25 | 浸渍工具 | BuildingProductionEffectModel
+Brineworks +50 | 农业工业化 | BuildingProductionEffectModel
+Brineworks -50 | 强化工具 | BuildingProductionEffectModel
+Butcher +50 | 切肉刀 | BuildingProductionEffectModel
+Clay Pit +100 | >Missing key< | BuildingProductionEffectModel
+Clay Pit +150 | >Missing key< | BuildingProductionEffectModel
+Clay Pit +50 | 强化工具 | BuildingProductionEffectModel
+Clay Pit -50 | 强化工具 | BuildingProductionEffectModel
+Clothier +50 | 强化炉 | BuildingProductionEffectModel
+Crude Workstation +100 | 工作站升级 | BuildingProductionEffectModel
+Crude Workstation +50 | 工作站升级 | BuildingProductionEffectModel
+Farm +100 | 黑曜石工具 | BuildingProductionEffectModel
+Farm +150 | 黑曜石工具 | BuildingProductionEffectModel
+Farm +50 | 黑曜石工具 | BuildingProductionEffectModel
+Farm -50 | 强化工具 | BuildingProductionEffectModel
+Foragers Camp +100 | 强化工具 | BuildingProductionEffectModel
+Foragers Camp +50 | 强化工具 | BuildingProductionEffectModel
+Foragers Camp Primitive +50 | 强化工具 | BuildingProductionEffectModel
+Greenhouse +100 | >Missing key< | BuildingProductionEffectModel
+Greenhouse +150 | >Missing key< | BuildingProductionEffectModel
+Greenhouse +50 | 强化工具 | BuildingProductionEffectModel
+Greenhouse -50 | 强化工具 | BuildingProductionEffectModel
+Grove +100 | >Missing key< | BuildingProductionEffectModel
+Grove +150 | >Missing key< | BuildingProductionEffectModel
+Grove +50 | 农业工业化 | BuildingProductionEffectModel
+Grove -50 | 强化工具 | BuildingProductionEffectModel
+Harvester Camp +100 | 强化工具 | BuildingProductionEffectModel
+Harvester Camp +50 | 强化工具 | BuildingProductionEffectModel
+Herb Garden +100 Haunted | >Missing key< | BuildingProductionEffectModel
+Herb Garden +100 | >Missing key< | BuildingProductionEffectModel
+Herb Garden +150 Haunted | >Missing key< | BuildingProductionEffectModel
+Herb Garden +150 | >Missing key< | BuildingProductionEffectModel
+Herb Garden +25 Haunted | 先进的草药医术 | BuildingProductionEffectModel
+Herb Garden +25 | 先进的草药医术 | BuildingProductionEffectModel
+Herb Garden +50 Haunted | 先进的草药医术 | BuildingProductionEffectModel
+Herb Garden +50 | 先进的草药医术 | BuildingProductionEffectModel
+Herb Garden -50 Haunted | 强化工具 | BuildingProductionEffectModel
+Herb Garden -50 | 强化工具 | BuildingProductionEffectModel
+Herbalist Camp +100 | 强化工具 | BuildingProductionEffectModel
+Herbalist Camp +50 | 强化工具 | BuildingProductionEffectModel
+Makeshift Post  +50 | 工人能动性 | BuildingProductionEffectModel
+Mine +100 | 雨朋克钻头 | BuildingProductionEffectModel
+Mine +30 | 雨朋克钻头 | BuildingProductionEffectModel
+Plantation +100 | >Missing key< | BuildingProductionEffectModel
+Plantation +150 | >Missing key< | BuildingProductionEffectModel
+Plantation +25 | 大篮 | BuildingProductionEffectModel
+Plantation +50 | 大篮 | BuildingProductionEffectModel
+Plantation -50 | 强化工具 | BuildingProductionEffectModel
+Provisioner +50 | 强化炉 | BuildingProductionEffectModel
+SE Nodes Bonuses (Forager) | 未开发的财富 | BuildingProductionEffectModel
+SE Nodes Bonuses (Harvester) | 未开发的财富 | BuildingProductionEffectModel
+SE Nodes Bonuses (Herbalist) | 未开发的财富 | BuildingProductionEffectModel
+SE Nodes Bonuses (P Forager) | 未开发的财富 | BuildingProductionEffectModel
+SE Nodes Bonuses (P Herbalist) | 未开发的财富 | BuildingProductionEffectModel
+SE Nodes Bonuses (P Trapper) | 未开发的财富 | BuildingProductionEffectModel
+SE Nodes Bonuses (Stonecutter) | 未开发的财富 | BuildingProductionEffectModel
+SE Nodes Bonuses (Trapper) | 未开发的财富 | BuildingProductionEffectModel
+SE Productive Mine | 暴露的资源 | BuildingProductionEffectModel
+SE Rotting Wood | 腐烂的树木 | CompositeEffectModel
+SE Woodcutters Camp Extra Only +100 [Intensive Mutations] | 密集突变 | BuildingProductionEffectModel
+SmallFarm +100 Haunted | 强化工具 | BuildingProductionEffectModel
+SmallFarm +100 | 强化工具 | BuildingProductionEffectModel
+SmallFarm +150 Haunted | 强化工具 | BuildingProductionEffectModel
+SmallFarm +150 | 强化工具 | BuildingProductionEffectModel
+SmallFarm +25 Haunted | 老格兰的技术 | BuildingProductionEffectModel
+SmallFarm +25 | 老格兰的技术 | BuildingProductionEffectModel
+SmallFarm +50 Haunted | 耕作工具 | BuildingProductionEffectModel
+SmallFarm +50 | 耕作工具 | BuildingProductionEffectModel
+SmallFarm -50 Haunted | 强化工具 | BuildingProductionEffectModel
+SmallFarm -50 | 强化工具 | BuildingProductionEffectModel
+Smithy +100 | >Missing key< | BuildingProductionEffectModel
+Stonecutters Camp +100 | 强化工具 | BuildingProductionEffectModel
+Stonecutters Camp +50 | 强化工具 | BuildingProductionEffectModel
+Supplier +50 | 强化炉 | BuildingProductionEffectModel
+Trappers Camp +100 | 强化工具 | BuildingProductionEffectModel
+Trappers Camp +50 | 强化工具 | BuildingProductionEffectModel
+Woodcutters Camp +100 | 伐木工的工具 | BuildingProductionEffectModel
+Woodcutters Camp +50 | 强化工具 | BuildingProductionEffectModel
+Bigger Storage | 有序存储 | BuildingsStorageGlobalCapacityEffectModel
+Remove Buildings Thunder | 闪电打击 | RemoveBuildingEffectModel
+SE Remove Buildings 3 | >Missing key< | RemoveBuildingEffectModel
+SE Remove Buildings3 | 崩塌 | RemoveBuildingEffectModel
+TEST Plague of Thunderstorm | 雷暴灾害 | RemoveBuildingEffectModel
+[Map Mod] No Goods Refund | 腐蚀洪流 | BuildingsRefundRateEffectModel
+[We] Woodcutters Camp Upgrades Activation | 伐木升级 | CampsUpgradesActivationModel
+Extra Consumption +10 | >Missing key< | ChanceForExtraConsumptionEffectModel
+Extra Consumption +100 | >Missing key< | ChanceForExtraConsumptionEffectModel
+Extra Consumption +15 | >Missing key< | ChanceForExtraConsumptionEffectModel
+Extra Consumption +50 | >Missing key< | ChanceForExtraConsumptionEffectModel
+SE Food Consumption | 极度饥渴 | ChanceForExtraConsumptionEffectModel
+SE Service Waste | 消失的物品 | ChanceForExtraConsumptionEffectModel
+[Mod] Higher Needs Consumption Rate | 消费主义 | ChanceForExtraConsumptionEffectModel
+[Mod] Parasites | 寄生虫 | ChanceForExtraConsumptionEffectModel
+Bats Lower Food Consumption | 铁石肠胃 | ChanceForNoConsumptionEffectModel
+Chance for no consumption 10 | >Missing key< | ChanceForNoConsumptionEffectModel
+[Diff] Lower Food Consumption | 移民者的运气 | ChanceForNoConsumptionEffectModel
+Charm Villagers Effect Model | >Missing key< | CharmVillagersEffectModel
+[Map Mod] One Initial Villager Per Race | 行会领土 | ClampInitialVillagersEffectModel
+Blightrot Cloning | 有丝分裂 | CloningEffectModel
+Aftermath - Blight Bomb | 爆炸余波 | CompositeEffectModel
+All Camps Unlock | 大师蓝图 | CompositeEffectModel
+All Waters Per Min | >Missing key< | CompositeEffectModel
+AncientGate_Hardships | 幸存者纽带 | CompositeEffectModel
+Barrel Recipes | 木桶示意图 | CompositeEffectModel
+Biscuit Recipes | 饼干配方 | CompositeEffectModel
+Blight Rate for Resolve Reputation | 疫腐病过滤器 | CompositeEffectModel
+Blightrot Outbreak | 疫腐病爆发 | CompositeEffectModel
+Borrowed Time - Active Ability | 透支时间 | CompositeEffectModel
+Brewery +50 (Composite) | 有效酿造技术 | CompositeEffectModel
+Brewery +60 (Composite) | 先进酿造技术 | CompositeEffectModel
+Brewery Speed +50 (Composite) | 雨泵 | CompositeEffectModel
+Cache Rewards for Nodes | 鲁莽劫掠 | CompositeEffectModel
+Construction cost for nodes | 廉价建筑物 | CompositeEffectModel
+Consumption Control for Extra Production | 不受限制 | CompositeEffectModel
+Copper For Trees [Parent] | 铜提取器 | CompositeEffectModel
+Extra Prod for consumption | 工人的配给 | CompositeEffectModel
+Farming -25 for Wood +1 | 满是根茎的地面 | CompositeEffectModel
+Faster Event Working Time for death | 急于求成 | CompositeEffectModel
+Fishing Huts Speed | 宽网 | CompositeEffectModel
+Foragers Camp +50 Composite | 白蚁侵扰 | CompositeEffectModel
+Forge Trip Hammer | 锻造之锤 | CompositeEffectModel
+Fox Hostility Hearth Bonus | 森林亲和 | CompositeEffectModel
+Gargoyle Hostility Composite | 绝望的祈祷者 | CompositeEffectModel
+Gargoyle Positive Composite | 休眠的石像鬼 | CompositeEffectModel
+Hauler Break Interval | 旅行配给 | CompositeEffectModel
+Hauler Speed | 专用工作服 | CompositeEffectModel
+Herb Garden +25 (Composite) | 先进的草药医术 | CompositeEffectModel
+Herb Garden +50 (Composite) | 先进的草药医术 | CompositeEffectModel
+Houses +1 for Break Time | 拥挤的房子 | CompositeEffectModel
+HunterGatherers | 狩猎采集者 | CompositeEffectModel
+Incantation | 疫腐咒 | CompositeEffectModel
+Instant Storm effect - Stormforge | 暴戾的暴风雨 | CompositeEffectModel
+Instant Storm effect | 风暴鸟之怒 | CompositeEffectModel
+Institution Camps Production | 古老传统 | CompositeEffectModel
+Institution More Resolve From Meat | 食肉传统 | CompositeEffectModel
+Institution Temple Burn Rate | 火焰圣礼 | CompositeEffectModel
+Longer Storm for Wood Production | 古老的稳定器 | CompositeEffectModel
+Longer Storm Rain Totem | 渔民的仪式 | CompositeEffectModel
+Makeshift Extractor - Water Per Minute And Tank | 抽取地下水 | CompositeEffectModel
+Metalurgic Proficiency 33 | 冶金效率 | CompositeEffectModel
+Mole Infestation Composite | 侵袭 | CompositeEffectModel
+MoleResolvePenalty - hard | 巨兽 | CompositeEffectModel
+MoleResolvePenalty - impossible | 巨兽 | CompositeEffectModel
+MoleResolvePenalty - normal | 巨兽 | CompositeEffectModel
+MoleResolvePenalty - very hard | 巨兽 | CompositeEffectModel
+Monolith hostility | 方尖碑 | CompositeEffectModel
+More Trade Offers | 市场转变计划 | CompositeEffectModel
+Mushrooms in Farms | 蘑菇苗 | CompositeEffectModel
+NeedPerk Housing Resolve - Composite | 家具 | CompositeEffectModel
+Noria plant and harvest | 雨朋克诺瑞亚 | CompositeEffectModel
+Overexploitation | 过度开发 | CompositeEffectModel
+Overflow | 溢出 | CompositeEffectModel
+Packs of Goods +1 | 出口专业化 | CompositeEffectModel
+Packs of Goods +2 | 出口专业化 | CompositeEffectModel
+PacksForResolveRep | 出口合同 | CompositeEffectModel
+Queens Sailors | 女王的水手 | CompositeEffectModel
+Relic time reduction | 护火者的祈祷 | CompositeEffectModel
+Replace Rainpunk Engine - Composite | 水晶极体 | CompositeEffectModel
+Resolve for consumption | 丰厚的配给 | CompositeEffectModel
+Royal Guard Training | 皇家卫队训练 | CompositeEffectModel
+SE Nodes Bonuses | 未开发的财富 | CompositeEffectModel
+SE Productive Farms in Drizzle | 再生长 | CompositeEffectModel
+Slow Farming Termites - normal | 白蚁侵扰 | CompositeEffectModel
+SmallFarm +25 (Composite) | 老格兰的技术 | CompositeEffectModel
+SmallFarm +50 (Composite) | 耕作工具 | CompositeEffectModel
+Spiced Ale - Composite | 加香料的麦芽酒 | CompositeEffectModel
+TEST Plague of Blindness | 盲目灾害 | CompositeEffectModel
+TEST Plague of Darkness | 黑暗灾害 | CompositeEffectModel
+TEST Plague of Malady | 痼疾灾害 | CompositeEffectModel
+TEST Plague of Mosquito | 蚊蝇灾害 | CompositeEffectModel
+Trade Block for Production Speed | 废弃的商队 | CompositeEffectModel
+Trading Packs | 交易日志 | CompositeEffectModel
+VaultResolvePenalty - hard | 不祥的低语 | CompositeEffectModel
+VaultResolvePenalty - impossible | 不祥的低语 | CompositeEffectModel
+VaultResolvePenalty - normal | 不祥的低语 | CompositeEffectModel
+VaultResolvePenalty - very hard | 不祥的低语 | CompositeEffectModel
+Woodcutters Prayer | 伐木工的祈祷 | CompositeEffectModel
+Woodcutting For Fuel | 马虎的伐木 | CompositeEffectModel
+[Altar] Extra Trader Merch | 行会目录 | CompositeEffectModel
+[Altar] Farming -25 for Wood +1 | 满是根茎的地面 | CompositeEffectModel
+[Altar] Overexploitation | 过度开发 | CompositeEffectModel
+[Altar] Pack of Trade Goods Worth More - Composite | 增值税 | CompositeEffectModel
+[Altar] Replace Rainpunk Engine - Composite | 水晶极体 | CompositeEffectModel
+[Altar] Royal Guard Training | 皇家卫队训练 | CompositeEffectModel
+[Altar] Trade Block for Production Speed | 废弃的商队 | CompositeEffectModel
+[BIOME] Big Trees | 生长过度的植被 | CompositeEffectModel
+[BIOME] Cave Initial Goods | 皇家赞助 | CompositeEffectModel
+[BIOME] Cursed Glades | 受诅咒的战场 | CompositeEffectModel
+[BIOME] Diverse Flora | 多样的植物群落 | CompositeEffectModel
+[BIOME] Faster Trade For Goods Sold | 资源中心区 | HookedEffectModel
+[BIOME] Giant Organisms | 巨型有机体 | CompositeEffectModel
+[Biome] Moorlands - glades | 埋藏的秘密 | CompositeEffectModel
+[BIOME] Sealed Biome | 信标之塔 | CompositeEffectModel
+[BIOME] Shard 2 - composite | >Missing key< | CompositeEffectModel
+[BIOME] Shard 3 - composite | >Missing key< | CompositeEffectModel
+[BIOME] Shard 4 - composite | >Missing key< | CompositeEffectModel
+[BIOME] Tree Hostility | 深渊复仇 | CompositeEffectModel
+[BT] Increased farm production - child | 农耕工具箱 | CompositeEffectModel
+[Diff] Altar | 被遗弃的祭坛 | CompositeEffectModel
+[Diff] Blightrot | 疫腐病与腐蚀 | CompositeEffectModel
+[Diff] No Blightrot | >Missing key< | CompositeEffectModel
+[Hub] Extra Production Chance - Composite | 行政区（3 级） | CompositeEffectModel
+[Hub] Production Speed - Composite | 社区（2 级） | CompositeEffectModel
+[Hub] Resolve - Composite | 营地（1 级） | CompositeEffectModel
+[Map Mod] 4 Races - composite | 神圣林地 | CompositeEffectModel
+[Map Mod] Hostility People | 淹没的矿井 | CompositeEffectModel
+[Map Mod] No Control | 圣火修道院 | CompositeEffectModel
+[Map Mod] No Hostility | 瞭望塔 | CompositeEffectModel
+[Map Mod] No Leaving | 被弃之神神殿 | CompositeEffectModel
+[Map Mod] Overgrown Library | 杂草丛生的图书馆 | CompositeEffectModel
+[Map Mod] Petrified Necropolis | 石化墓地 | CompositeEffectModel
+[Map Mod] Ruins | 废墟 | CompositeEffectModel
+[Map Mod] Small Map | 河间地 | CompositeEffectModel
+[Mod] Advent of Flame | 火焰降临 | CompositeEffectModel
+[Mod] Calm Lands | 平静的土地 | CompositeEffectModel
+[Mod] Exploration Tax - Composite | 土地税 | CompositeEffectModel
+[Mod] No Crude Workstation | 丢失的初加工工作站 | CompositeEffectModel
+[Mod] Scavenging Party | 拾荒党 | CompositeEffectModel
+[Mod] Third Party | 第三者 | CompositeEffectModel
+[Mod] Wine Shortage | 葡萄酒短缺 | CompositeEffectModel
+[U][B] Planting And Harvesting Speed | >Missing key< | CompositeEffectModel
+[WE] Crashed Airship Bonus | 行会纹章 | CompositeEffectModel
+[WE] Fallen Viceroy Commemoration Composite | 节庆氛围 | CompositeEffectModel
+[WE] First Elder Bonus | 长者的猫 | CompositeEffectModel
+[WE] Roaming Shelled Mosquitos | 游荡虫群 | CompositeEffectModel
+[WE] Temporary Engineering Station with Enriched Fuel recipe | 野外工程站 | CompositeEffectModel
+[WE] Temporary Engineering Station with Fuel Rod recipe | 燃料棒 | CompositeEffectModel
+Banish Bat Parent | 流放 | CompositeEffectModel
+Banish Beaver Parent | 流放 | CompositeEffectModel
+Banish Fox Parent | 流放 | CompositeEffectModel
+Banish Frog Parent | 流放 | CompositeEffectModel
+Banish Harpy Parent | 流放 | CompositeEffectModel
+Banish Human Parent | 流放 | CompositeEffectModel
+Banish Lizard Parent | 流放 | CompositeEffectModel
+Construction Cost -33 | >Missing key< | ConstructionCostEffectModel
+Construction Cost -40 | >Missing key< | ConstructionCostEffectModel
+Construction Cost -50 | >Missing key< | ConstructionCostEffectModel
+[Mod] Wet Soil | 潮湿的泥土 | ConstructionCostEffectModel
+Construction Speed 50 | 蓝图改良 | ConstructionRateEffectModel
+Construction Speed Slower 25 | >Missing key< | ConstructionRateEffectModel
+Consumption Control Block - Without Restrictions | 不受限制 | ConsumptionControlBlockEffectModel
+[Map Mod] Consumption Control Block | 圣火修道院 | ConsumptionControlBlockEffectModel
+Cornerstone Reroll +1 | 皇家许可证 | CornerstonesRerollsEffectModel
+[Embark] Cornerstone Reroll +3 | 皇家许可证 | CornerstonesRerollsEffectModel
+[Map Mod] Cornerstone Limit | 无声领域 | CornerstonesLimitEffectModel
+Cysts Activation - Blight Bomb | >Missing key< | CystsActivationEffectModel
+Cysts Activation | 苏醒 | CystsActivationEffectModel
+Dangerous Glades Info Block Mistworm | 浓雾 | DangerousGladesInfoBlockEffectModel
+[Map Mod] No Glade Info | 闹鬼森林 | DangerousGladesInfoBlockEffectModel
+[Mod] Dangerous Glades Info Block | 闹鬼森林 | DangerousGladesInfoBlockEffectModel
+Destroy All Crops | 有毒的软泥 | CropsWitherEffectModel
+Blight Rate for Resolve Reputation - Blight Rate -50 | 发动机腐蚀 | EnginesBlightRateEffectModel
+Engines Blight Rate +20 | >Missing key< | EnginesBlightRateEffectModel
+Engines Blight Rate +25 | >Missing key< | EnginesBlightRateEffectModel
+Engines Blight Rate +50 | 发动机腐蚀 | EnginesBlightRateEffectModel
+SE Low Engines Blight Rate | 自然过滤 | EnginesBlightRateEffectModel
+TEST Plague of Corrupted Water | 腐水灾害 | EnginesBlightRateEffectModel
+[U][BP] Cyst Generation Rate - child | 专人值守 | EnginesBlightRateEffectModel
+Mole Earthquake | 地震 | ExplosionEffectModel
+Rainpunk Explosion - Big | 神奇的爆炸 | ExplosionEffectModel
+Rainpunk Explosion - Blight Bomb | 实地试验 | ExplosionEffectModel
+Rainpunk Explosion - Noxious | >Missing key< | ExplosionEffectModel
+Rainpunk Explosion - Small | 神奇的爆炸 | ExplosionEffectModel
+Rainpunk Explosion - Smallest | 释出 | ExplosionEffectModel
+Rainpunk Explosion - Stormforge Reward | 灵魂献祭 | ExplosionEffectModel
+Rainpunk Explosion - Stormforge | 神奇的爆炸 | ExplosionEffectModel
+Sealed Vault Explosion | 小瘴气云 | ExplosionEffectModel
+More Trade Offers - Extra Trade Routes | >Missing key< | ExtendTradeRoutesEffectModel
+TEMP Extend Trade Routes Effect Model | 更多贸易报价 | ExtendTradeRoutesEffectModel
+Bait Production +1 | >Missing key< | ExtraBaitProductionEffectModel
+Archeology Extra Cornerstone | 科学奖 | ExtraCornerstonePickEffectModel
+Port Extra Cornerstone | Effect_PortExtraCornerstone_Name | ExtraCornerstonePickEffectModel
+Seal Extra Cornerstone - Last | 封印已重铸 | ExtraCornerstonePickEffectModel
+Seal Extra Cornerstone | 封印守护者的礼物 | ExtraCornerstonePickEffectModel
+Extra Glade - Moorlands Dangerous | >Missing key< | ExtraGladeEffectModel
+Extra Glade - Moorlands Forbidden | >Missing key< | ExtraGladeEffectModel
+Extra Glade - Moorlands Normal | >Missing key< | ExtraGladeEffectModel
+Extra Glade - Seal | 隐秘封印 | ExtraGladeEffectModel
+ModifierEffect_AncientGate | ModifierEffect_AncientGate_Name | ExtraGladeEffectModel
+ModifierEffect_RuinedSettlement_Dangerous | 废墟 | ExtraGladeEffectModel
+ModifierEffect_RuinedSettlement_Forbidden | 废墟 | ExtraGladeEffectModel
+Extra Trader Merch | 行会目录 | TraderMerchAmountEffectModel
+Less Trader Merch | >Missing key< | TraderMerchAmountEffectModel
+Archeology Extra Blueprint | 科学理事会 | ExtraReputationPickEffectModel
+Trader Assault - 2 more Impatience | >Missing key< | TraderAssaultExtraConsequenceEffectModel
+[Mod] Fewer Initial Blueprints - Overgrown Library | 预算缩减 | ExtraReputationPickEffectModel
+[Mod] Fewer Initial Blueprints | 预算缩减 | ExtraReputationPickEffectModel
+[Mod] Queens Support | 女王的支持 | ExtraReputationPickEffectModel
+Spawn Trader - The Hermit | >Missing key< | ExtraTraderEffectModel
+Spawn Trader - The Seer | >Missing key< | ExtraTraderEffectModel
+Spawn Trader - The Shaman | >Missing key< | ExtraTraderEffectModel
+[WE] Favor Random Race | 玩弄感情 | FavorRandomRaceEffectModel
+[Map Mod] Favoring Block | >Missing key< | FavoringBlockEffectModel
+Flooding Remove Roads | 水灾 | RoadsFloodEffectModel
+[WE] Call Syndicate Trader Ability | 密盟商人 | TraderArrivalEffectModel
+FuelConsumption +150 Wildfire | 野火化身 | FuelRateEffectModel
+FuelConsumption +200 Wildfire | 野火化身 | FuelRateEffectModel
+FuelConsumption +250 Wildfire | 野火化身 | FuelRateEffectModel
+FuelConsumption +300 Wildfire | 野火化身 | FuelRateEffectModel
+FuelConsumption +33 | 变幻无常的火焰 | FuelRateEffectModel
+FuelConsumption -20 | 秘密护火者技术 | FuelRateEffectModel
+FuelConsumption -25 | 秘密护火者技术 | FuelRateEffectModel
+FuelConsumption -33 | 秘密护火者技术 | FuelRateEffectModel
+FuelConsumption 200 | >Missing key< | FuelRateEffectModel
+FuelConsumption_HearthEffect_Beaver | 务实节俭 | FuelRateEffectModel
+Institution Slower Burn Rate | >Missing key< | FuelRateEffectModel
+SE FuelRate | 刺骨的风 | FuelRateEffectModel
+SE FuelRateHostility | 潮湿气候 | FuelRateEffectModel
+Generic Glade Info | >Missing key< | GladeInfoEffectModel
+[WE] Glade Info | 行会日志 | GladeInfoEffectModel
+ModifierEffect_AdditionalGrass | 沃土 | GrassAmountEffectModel
+ModifierEffect_NoGrass | 贫瘠之地 | GrassAmountEffectModel
+Global Capacity 10 | >Missing key< | GlobalCapacityEffectModel
+Global Capacity 3 | >Missing key< | GlobalCapacityEffectModel
+Global Capacity 5 | >Missing key< | GlobalCapacityEffectModel
+Harpy Global Capacity | 轻如鸿毛 | GlobalCapacityEffectModel
+Institution Global Capacity | 市场推车 | GlobalCapacityEffectModel
+Archeology Global Extra Production | >Missing key< | GlobalExtraProductionChanceEffectModel
+Bats Shrine Global Extra Prod | 勤奋 | GlobalExtraProductionChanceEffectModel
+Global Extra Prod +10 | >Missing key< | GlobalExtraProductionChanceEffectModel
+Global Extra Prod +15 | >Missing key< | GlobalExtraProductionChanceEffectModel
+Global Extra Prod +20 | >Missing key< | GlobalExtraProductionChanceEffectModel
+Global Extra Prod +25 | >Missing key< | GlobalExtraProductionChanceEffectModel
+Global Extra Prod +30 | >Missing key< | GlobalExtraProductionChanceEffectModel
+Global Extra Prod +33 | >Missing key< | GlobalExtraProductionChanceEffectModel
+Global Extra Prod +5 | >Missing key< | GlobalExtraProductionChanceEffectModel
+Institution Global Extra Production | 公共表演 | GlobalExtraProductionChanceEffectModel
+[Biome] Biome Poro Production Chance | 生命支柱 | GlobalExtraProductionChanceEffectModel
+[BIOME] Inspiring Pressure | 鼓舞人心的压力 | GlobalExtraProductionChanceEffectModel
+[Hub] Extra Production Chance | 行政区（3 级） | GlobalExtraProductionChanceEffectModel
+[TW] Global Extra Prod | 祈祷 | GlobalExtraProductionChanceEffectModel
+Chance For No Production Plague | 盲目灾害 | GlobalNoProductionChanceEffectModel
+Global Prod Speed -50 (plague) | 蚊蝇灾害 | GlobalProductionRateEffectModel
+Global Production Faster 10 | >Missing key< | GlobalProductionRateEffectModel
+Global Production Faster 15 | >Missing key< | GlobalProductionRateEffectModel
+Global Production Faster 20 | >Missing key< | GlobalProductionRateEffectModel
+Global Production Faster 25 | >Missing key< | GlobalProductionRateEffectModel
+Global Production Faster 30 | >Missing key< | GlobalProductionRateEffectModel
+Global Production Faster 33 | >Missing key< | GlobalProductionRateEffectModel
+Global Production Faster 40 | >Missing key< | GlobalProductionRateEffectModel
+Global Production Faster 5 | >Missing key< | GlobalProductionRateEffectModel
+Global Production Faster 50 | >Missing key< | GlobalProductionRateEffectModel
+Global Production Faster 66 | >Missing key< | GlobalProductionRateEffectModel
+Global Production Faster 8 | >Missing key< | GlobalProductionRateEffectModel
+Institution Global Production Rate | 良好的健康状况 | GlobalProductionRateEffectModel
+SE Global Production Speed -15 | 过热 | GlobalProductionRateEffectModel
+[BT] Global Production Rate - child | 迅捷之歌 | GlobalProductionRateEffectModel
+[Hearth] Production Speed | 献祭油 | GlobalProductionRateEffectModel
+[Hub] Production Speed | 社区（2 级） | GlobalProductionRateEffectModel
+[WE] Petrified Egg | 石化蛋 | GlobalProductionRateEffectModel
+Agriculture Penalty | 农业工业化 | GlobalResolveEffectEffectModel
+Ancient Artifact 1 | 小型古代文物 | GlobalResolveEffectEffectModel
+Ancient Artifact 2 | 古代文物 | GlobalResolveEffectEffectModel
+Ancient Artifact 3 Tutorial | 古代文物 | GlobalResolveEffectEffectModel
+Ancient Artifact 3 | 古代文物 | GlobalResolveEffectEffectModel
+City Renown | 著名城市 | GlobalResolveEffectEffectModel
+Explorers Boredom | 探险家的厌倦 | GlobalResolveEffectEffectModel
+Exploring Expedition - Resolve Bonus Effect | 探险考察 | GlobalResolveEffectEffectModel
+Forsaken Crypt Resolve Penalty - hard | 被洗劫的亡者 | GlobalResolveEffectEffectModel
+Forsaken Crypt Resolve Penalty - impossible | 被洗劫的亡者 | GlobalResolveEffectEffectModel
+Forsaken Crypt Resolve Penalty - normal | 被洗劫的亡者 | GlobalResolveEffectEffectModel
+Forsaken Crypt Resolve Penalty - very hard | 被洗劫的亡者 | GlobalResolveEffectEffectModel
+Frightening Visions Resolve Penalty | 恐怖的幻象 | GlobalResolveEffectEffectModel
+Generous Rations | 丰厚的配给 | GlobalResolveEffectEffectModel
+GlobalResolve_HearthEffect_Lizard | 神圣的火堆 | GlobalResolveEffectEffectModel
+Harmony Altar Resolve | 和谐 | GlobalResolveEffectEffectModel
+Institution Global Resolve | 吟游诗人的传说 | GlobalResolveEffectEffectModel
+Long Live the Queen | 女王万岁 | GlobalResolveEffectEffectModel
+Rebelious Spirit | 叛逆精神 | GlobalResolveEffectEffectModel
+Resolve - Institution Resolve for Ruins | 王室编年史 | GlobalResolveEffectEffectModel
+Resolve - Institution Resolve for Sales | 行会福利 | GlobalResolveEffectEffectModel
+Resolve - Resolve for chests | 欣欣向荣的考古活动 | GlobalResolveEffectEffectModel
+Resolve - Resolve for sales | 欣欣向荣的定居点 | GlobalResolveEffectEffectModel
+Resolve - Resolve for Standing | 友好的关系 | GlobalResolveEffectEffectModel
+Resolve for Glade - Resolve Bonus Effect | 伐木工之歌 | GlobalResolveEffectEffectModel
+SacrificeTotemPositive | 转化的否认图腾 | GlobalResolveEffectEffectModel
+SE Creeping Shadows - Resolve Penalty Effect | 缓缓移动的阴影 | GlobalResolveEffectEffectModel
+SE Resolve for Water - Global Resolve Effect | 酣畅淋漓的空气 | GlobalResolveEffectEffectModel
+Stag Blessing | 鹿之祝福 | GlobalResolveEffectEffectModel
+Stormbird Egg - Global Resolve Penalty | 风暴鸟之恸 | GlobalResolveEffectEffectModel
+Survivor Bonding - Altar | 幸存者纽带 | GlobalResolveEffectEffectModel
+Survivor Bonding | 幸存者纽带 | GlobalResolveEffectEffectModel
+Trade - Explorer Tales | 发现之旅 | GlobalResolveEffectEffectModel
+Trade - Spices from the Capital | 来自城堡的香料 | GlobalResolveEffectEffectModel
+Vitality | 活力 | GlobalResolveEffectEffectModel
+Wealth | 财富 | GlobalResolveEffectEffectModel
+[Altar] Exploring Expedition - Resolve Bonus Effect | 探险考察 | GlobalResolveEffectEffectModel
+[Biome] Biome Poro Resolve | 村庄吉祥物 | GlobalResolveEffectEffectModel
+[Hub] Resolve T1 | 营地（1 级） | GlobalResolveEffectEffectModel
+[Hub] Resolve T2 | 社区（2 级） | GlobalResolveEffectEffectModel
+[Hub] Resolve T3 | 行政区（3 级） | GlobalResolveEffectEffectModel
+[TW] Global Resolve | 传说 | GlobalResolveEffectEffectModel
+[WE] First Elder Cat Resolve | 长者的猫 | GlobalResolveEffectEffectModel
+Blightrot Resolve | 血之花 | GlobalResolveEffectEffectModel
+Chaos | 混沌 | GlobalResolveEffectEffectModel
+Convicts - hard | 无法自卫 | GlobalResolveEffectEffectModel
+Convicts - impossible | 无法自卫 | GlobalResolveEffectEffectModel
+Convicts - normal | 无法自卫 | GlobalResolveEffectEffectModel
+Convicts - very hard | 无法自卫 | GlobalResolveEffectEffectModel
+DarkGateResolve - hard | 黑暗之门的存在 | GlobalResolveEffectEffectModel
+DarkGateResolve - impossible | 黑暗之门的存在 | GlobalResolveEffectEffectModel
+DarkGateResolve - normal | 黑暗之门的存在 | GlobalResolveEffectEffectModel
+DarkGateResolve - very hard | 黑暗之门的存在 | GlobalResolveEffectEffectModel
+Fear of the Wilds T1 - hard | 对荒野的恐惧 | GlobalResolveEffectEffectModel
+Fear of the Wilds T1 - impossible | 对荒野的恐惧 | GlobalResolveEffectEffectModel
+Fear of the Wilds T1 - normal | 对荒野的恐惧 | GlobalResolveEffectEffectModel
+Fear of the Wilds T1 - very hard | 对荒野的恐惧 | GlobalResolveEffectEffectModel
+Fear of the Wilds T2 - hard | 对荒野的恐惧 | GlobalResolveEffectEffectModel
+Fear of the Wilds T2 - impossible | 对荒野的恐惧 | GlobalResolveEffectEffectModel
+Fear of the Wilds T2 - normal | 对荒野的恐惧 | GlobalResolveEffectEffectModel
+Fear of the Wilds T2 - very hard | 对荒野的恐惧 | GlobalResolveEffectEffectModel
+Fishmen Resolve | 鬼鬼祟祟的渔民 | GlobalResolveEffectEffectModel
+Foul Taste | 味道差 | GlobalResolveEffectEffectModel
+Gargoyle Resolve Penalty | 血月 | GlobalResolveEffectEffectModel
+Opened Dang Glades reduces Resolve | 更大的威胁 | GlobalResolveEffectEffectModel
+SE Devastating Storms | 毁灭性风暴 | GlobalResolveEffectEffectModel
+SE Storm Clothes - Resolve Penalty Effect | 大暴雨 | GlobalResolveEffectEffectModel
+StormforgeResolve - hard | 不受束缚的灵魂 | GlobalResolveEffectEffectModel
+StormforgeResolve - impossible | 不受束缚的灵魂 | GlobalResolveEffectEffectModel
+StormforgeResolve - normal | 不受束缚的灵魂 | GlobalResolveEffectEffectModel
+StormforgeResolve - very hard | 不受束缚的灵魂 | GlobalResolveEffectEffectModel
+Termites Resolve - normal | 石牙蚁群 | GlobalResolveEffectEffectModel
+TEST Plague of Snakes | 毒蛇灾害 | GlobalResolveEffectEffectModel
+Worse Storms for Hostility Consequence Resolve | 滋生的黑暗 | GlobalResolveEffectEffectModel
+Worse Storms for Hostility Resolve | 滋生的黑暗 | GlobalResolveEffectEffectModel
+[Map Mod] Resolve Penalty | 被弃之神神殿 | GlobalResolveEffectEffectModel
+[PerkCrafter] Resolve | 实验性基石满意度 | GlobalResolveEffectEffectModel
+[WE] Feast Hall - Funeral - Global Resolve - 0 - normal | 纪念仪式 | GlobalResolveEffectEffectModel
+[WE] Feast Hall - Funeral - Global Resolve - 1 - hard | 纪念仪式 | GlobalResolveEffectEffectModel
+[WE] Feast Hall - Funeral - Global Resolve - 2 - very hard | 纪念仪式 | GlobalResolveEffectEffectModel
+[WE] Feast Hall - Funeral - Global Resolve - 3 - impossible | 纪念仪式 | GlobalResolveEffectEffectModel
+[BIOME] Storm Penalty | 即将到来的黑暗 | GlobalResolveEffectEffectModel
+[BIOME] Tut 1 Storm Penalty | 即将到来的黑暗 | GlobalResolveEffectEffectModel
+Ale 10 | 麦芽酒桶 | GoodsEffectModel
+Ale 15 | 麦芽酒桶 | GoodsEffectModel
+Ale 20 | 麦芽酒桶 | GoodsEffectModel
+Ale 30 | 麦芽酒桶 | GoodsEffectModel
+Ale 35 | 麦芽酒桶 | GoodsEffectModel
+Ale 40 | 麦芽酒桶 | GoodsEffectModel
+Ale 5 | 麦芽酒桶 | GoodsEffectModel
+Ale 50 | 麦芽酒桶 | GoodsEffectModel
+Algae 10 | 成捆的水藻 | GoodsEffectModel
+Algae 15 | 成捆的水藻 | GoodsEffectModel
+Algae 20 | 成捆的水藻 | GoodsEffectModel
+Algae 25 | 成捆的水藻 | GoodsEffectModel
+Algae 30 | 成捆的水藻 | GoodsEffectModel
+Algae 35 | 成捆的水藻 | GoodsEffectModel
+Algae 40 | 成捆的水藻 | GoodsEffectModel
+Algae 45 | 成捆的水藻 | GoodsEffectModel
+Algae 5 | 成捆的水藻 | GoodsEffectModel
+Algae 50 | 成捆的水藻 | GoodsEffectModel
+Algae 55 | 成捆的水藻 | GoodsEffectModel
+Amber 1 | 琥珀袋 | GoodsEffectModel
+Amber 10 | 琥珀袋 | GoodsEffectModel
+Amber 12 | 琥珀袋 | GoodsEffectModel
+Amber 15 | 琥珀袋 | GoodsEffectModel
+Amber 2 | 琥珀袋 | GoodsEffectModel
+Amber 20 | 琥珀袋 | GoodsEffectModel
+Amber 25 | 琥珀袋 | GoodsEffectModel
+Amber 3 | 琥珀袋 | GoodsEffectModel
+Amber 30 | 琥珀袋 | GoodsEffectModel
+Amber 35 | 琥珀袋 | GoodsEffectModel
+Amber 4 | 琥珀袋 | GoodsEffectModel
+Amber 40 | 琥珀袋 | GoodsEffectModel
+Amber 45 | 琥珀袋 | GoodsEffectModel
+Amber 5 | 琥珀袋 | GoodsEffectModel
+Amber 50 | 琥珀袋 | GoodsEffectModel
+Amber 55 | 琥珀袋 | GoodsEffectModel
+Amber 60 | 琥珀袋 | GoodsEffectModel
+Amber 7 | 琥珀袋 | GoodsEffectModel
+Amber 70 | 琥珀袋 | GoodsEffectModel
+Amber 8 | 琥珀袋 | GoodsEffectModel
+Amber 80 | 琥珀袋 | GoodsEffectModel
+Ancient Tablet 1 | 古代石碑箱 | GoodsEffectModel
+Ancient Tablet 10 | 古代石碑箱 | GoodsEffectModel
+Ancient Tablet 2 | 古代石碑箱 | GoodsEffectModel
+Ancient Tablet 3 | 古代石碑箱 | GoodsEffectModel
+Ancient Tablet 5 | 古代石碑箱 | GoodsEffectModel
+Ancient Tablet 8 | 古代石碑箱 | GoodsEffectModel
+Artifacts 1 | 文物 | GoodsEffectModel
+Artifacts 10 | 文物 | GoodsEffectModel
+Artifacts 2 | 文物 | GoodsEffectModel
+Artifacts 3 | 文物 | GoodsEffectModel
+Artifacts 4 | 文物 | GoodsEffectModel
+Artifacts 5 | 文物 | GoodsEffectModel
+Barrels 1 | 木桶 | GoodsEffectModel
+Barrels 15 | 木桶 | GoodsEffectModel
+Barrels 2 | 木桶 | GoodsEffectModel
+Barrels 20 | 木桶 | GoodsEffectModel
+Barrels 25 | 木桶 | GoodsEffectModel
+Barrels 3 | 木桶 | GoodsEffectModel
+Barrels 30 | 木桶 | GoodsEffectModel
+Barrels 35 | 木桶 | GoodsEffectModel
+Barrels 4 | 木桶 | GoodsEffectModel
+Barrels 40 | 木桶 | GoodsEffectModel
+Barrels 5 | 木桶 | GoodsEffectModel
+Barrels 50 | 木桶 | GoodsEffectModel
+Berries 10 | 成篮的浆果 | GoodsEffectModel
+Berries 20 | 成篮的浆果 | GoodsEffectModel
+Berries 25 | 成篮的浆果 | GoodsEffectModel
+Berries 30 | 成篮的浆果 | GoodsEffectModel
+Berries 40 | 成篮的浆果 | GoodsEffectModel
+Berries 50 | 成篮的浆果 | GoodsEffectModel
+Biscuits 10 | 成篮的饼干 | GoodsEffectModel
+Biscuits 15 | 成篮的饼干 | GoodsEffectModel
+Biscuits 20 | 成篮的饼干 | GoodsEffectModel
+Biscuits 25 | 成篮的饼干 | GoodsEffectModel
+Biscuits 30 | 成篮的饼干 | GoodsEffectModel
+Biscuits 40 | 成篮的饼干 | GoodsEffectModel
+Biscuits 50 | 成篮的饼干 | GoodsEffectModel
+Biscuits 60 | 成篮的饼干 | GoodsEffectModel
+Boots 10 | 成盒的靴子 | GoodsEffectModel
+Boots 15 | 成盒的靴子 | GoodsEffectModel
+Boots 20 | 成盒的靴子 | GoodsEffectModel
+Boots 25 | 成盒的靴子 | GoodsEffectModel
+Boots 30 | 成盒的靴子 | GoodsEffectModel
+Boots 35 | 成盒的靴子 | GoodsEffectModel
+Boots 40 | 成盒的靴子 | GoodsEffectModel
+Boots 45 | 成盒的靴子 | GoodsEffectModel
+Boots 5 | 成盒的靴子 | GoodsEffectModel
+Boots 50 | 成盒的靴子 | GoodsEffectModel
+Bricks 10 | 成箱的砖块 | GoodsEffectModel
+Bricks 15 | 成箱的砖块 | GoodsEffectModel
+Bricks 2 | 成箱的砖块 | GoodsEffectModel
+Bricks 20 | 成箱的砖块 | GoodsEffectModel
+Bricks 25 | 成箱的砖块 | GoodsEffectModel
+Bricks 30 | 成箱的砖块 | GoodsEffectModel
+Bricks 4 | 成箱的砖块 | GoodsEffectModel
+Bricks 5 | 成箱的砖块 | GoodsEffectModel
+Bricks 8 | 成箱的砖块 | GoodsEffectModel
+Clay 10 | 成箱的粘土 | GoodsEffectModel
+Clay 15 | 成箱的粘土 | GoodsEffectModel
+Clay 20 | 成箱的粘土 | GoodsEffectModel
+Clay 25 | 成箱的粘土 | GoodsEffectModel
+Clay 30 | 成箱的粘土 | GoodsEffectModel
+Clay 35 | 成箱的粘土 | GoodsEffectModel
+Clay 40 | 成箱的粘土 | GoodsEffectModel
+Clay 5 | 成箱的粘土 | GoodsEffectModel
+Clay 50 | 成箱的粘土 | GoodsEffectModel
+Clay 8 | 成箱的粘土 | GoodsEffectModel
+Clearance Water 5 | 晴朗季雨水 | GoodsEffectModel
+Coal 10 | 煤炭箱 | GoodsEffectModel
+Coal 15 | 煤炭箱 | GoodsEffectModel
+Coal 20 | 煤炭箱 | GoodsEffectModel
+Coal 25 | 煤炭箱 | GoodsEffectModel
+Coal 30 | 煤炭箱 | GoodsEffectModel
+Coal 40 | 煤炭箱 | GoodsEffectModel
+Coal 50 | 煤炭箱 | GoodsEffectModel
+Coats 10 | 成捆的外套 | GoodsEffectModel
+Coats 15 | 成捆的外套 | GoodsEffectModel
+Coats 20 | 成捆的外套 | GoodsEffectModel
+Coats 25 | 成捆的外套 | GoodsEffectModel
+Coats 30 | 成捆的外套 | GoodsEffectModel
+Coats 35 | 成捆的外套 | GoodsEffectModel
+Coats 40 | 成捆的外套 | GoodsEffectModel
+Coats 5 | 成捆的外套 | GoodsEffectModel
+Coats 50 - Harpy Passive | 成捆的外套 | GoodsEffectModel
+Coats 50 | 成捆的外套 | GoodsEffectModel
+Copper Bar 1 | 铜条 | GoodsEffectModel
+Copper Bar 10 | 铜条 | GoodsEffectModel
+Copper Bar 15 | 铜条 | GoodsEffectModel
+Copper Bar 20 | 铜条 | GoodsEffectModel
+Copper Bar 30 | 铜条 | GoodsEffectModel
+Copper Bar 40 | 铜条 | GoodsEffectModel
+Copper Ore 1 | 成箱的铜矿石 | GoodsEffectModel
+Copper Ore 10 | 成箱的铜矿石 | GoodsEffectModel
+Copper Ore 15 | 成箱的铜矿石 | GoodsEffectModel
+Copper Ore 20 | 成箱的铜矿石 | GoodsEffectModel
+Copper Ore 30 | 成箱的铜矿石 | GoodsEffectModel
+Copper Ore 40 | 成箱的铜矿石 | GoodsEffectModel
+Copper Ore 5 | 成箱的铜矿石 | GoodsEffectModel
+Copper Ore 50 | 成箱的铜矿石 | GoodsEffectModel
+Crystalized Dew 1 | 成箱的晶露 | GoodsEffectModel
+Crystalized Dew 10 | 成箱的晶露 | GoodsEffectModel
+Crystalized Dew 15 | 成箱的晶露 | GoodsEffectModel
+Crystalized Dew 2 | 成箱的晶露 | GoodsEffectModel
+Crystalized Dew 20 | 成箱的晶露 | GoodsEffectModel
+Crystalized Dew 25 | 成箱的晶露 | GoodsEffectModel
+Crystalized Dew 30 | 成箱的晶露 | GoodsEffectModel
+Crystalized Dew 4 | 成箱的晶露 | GoodsEffectModel
+Crystalized Dew 40 | 成箱的晶露 | GoodsEffectModel
+Crystalized Dew 5 | 成箱的晶露 | GoodsEffectModel
+Crystalized Dew 8 | 成箱的晶露 | GoodsEffectModel
+Eggs 20 | 成篮的蛋 | GoodsEffectModel
+Eggs 25 | 成篮的蛋 | GoodsEffectModel
+Eggs 30 | 成篮的蛋 | GoodsEffectModel
+Eggs 40 | 成篮的蛋 | GoodsEffectModel
+Eggs 5 | 成篮的蛋 | GoodsEffectModel
+Eggs 50 | 成篮的蛋 | GoodsEffectModel
+Fabric 10 | 成捆的织物 | GoodsEffectModel
+Fabric 15 | 成捆的织物 | GoodsEffectModel
+Fabric 2 | 成捆的织物 | GoodsEffectModel
+Fabric 20 | 成捆的织物 | GoodsEffectModel
+Fabric 30 | 成捆的织物 | GoodsEffectModel
+Fabric 4 | 成捆的织物 | GoodsEffectModel
+Fabric 40 | 成捆的织物 | GoodsEffectModel
+Fabric 5 | 成捆的织物 | GoodsEffectModel
+Fish 10 | 成篮的鱼 | GoodsEffectModel
+Fish 15 | 成篮的鱼 | GoodsEffectModel
+Fish 20 | 成篮的鱼 | GoodsEffectModel
+Fish 25 | 成篮的鱼 | GoodsEffectModel
+Fish 30 | 成篮的鱼 | GoodsEffectModel
+Fish 35 | 成篮的鱼 | GoodsEffectModel
+Fish 40 | 成篮的鱼 | GoodsEffectModel
+Fish 45 | 成篮的鱼 | GoodsEffectModel
+Fish 5 | 成篮的鱼 | GoodsEffectModel
+Fish 50 | 成篮的鱼 | GoodsEffectModel
+Flour 10 | 成袋的面粉 | GoodsEffectModel
+Flour 20 | 成袋的面粉 | GoodsEffectModel
+Flour 25 | 成袋的面粉 | GoodsEffectModel
+Flour 30 | 成袋的面粉 | GoodsEffectModel
+Flour 35 | 成袋的面粉 | GoodsEffectModel
+Flour 40 | 成袋的面粉 | GoodsEffectModel
+Flour 45 | 成袋的面粉 | GoodsEffectModel
+Flour 50 | 成袋的面粉 | GoodsEffectModel
+Food Stockpiles 1 | 食物储备 | GoodsEffectModel
+Food Stockpiles 10 | 食物储备 | GoodsEffectModel
+Food Stockpiles 2 | 食物储备 | GoodsEffectModel
+Food Stockpiles 3 | 食物储备 | GoodsEffectModel
+Food Stockpiles 4 | 食物储备 | GoodsEffectModel
+Food Stockpiles 5 | 食物储备 | GoodsEffectModel
+Glow Oil 10 | 油瓶 | GoodsEffectModel
+Glow Oil 15 | 油瓶 | GoodsEffectModel
+Glow Oil 20 | 油瓶 | GoodsEffectModel
+Glow Oil 3 | 油瓶 | GoodsEffectModel
+Glow Oil 30 | 油瓶 | GoodsEffectModel
+Glow Oil 40 | 油瓶 | GoodsEffectModel
+Grain 15 | 成箱的谷物 | GoodsEffectModel
+Grain 20 | 成箱的谷物 | GoodsEffectModel
+Grain 30 | 成箱的谷物 | GoodsEffectModel
+Grain 40 | 成箱的谷物 | GoodsEffectModel
+Grain 50 | 成箱的谷物 | GoodsEffectModel
+Grain 60 | 成箱的谷物 | GoodsEffectModel
+Hearth Parts 1 | 野火精华 | GoodsEffectModel
+Hearth Parts 2 | 野火精华 | GoodsEffectModel
+Hearth Parts 3 | 野火精华 | GoodsEffectModel
+Hearth Parts 4 | 野火精华 | GoodsEffectModel
+Hearth Parts 5 | 野火精华 | GoodsEffectModel
+Hearth Parts 6 | 野火精华 | GoodsEffectModel
+Herbs 10 | 成捆的香草 | GoodsEffectModel
+Herbs 15 | 成捆的香草 | GoodsEffectModel
+Herbs 30 | 成捆的香草 | GoodsEffectModel
+Herbs 40 | 成捆的香草 | GoodsEffectModel
+Herbs 5 | 成捆的香草 | GoodsEffectModel
+Herbs 50 | 成捆的香草 | GoodsEffectModel
+Herbs 60 | 成捆的香草 | GoodsEffectModel
+Herbs 70 | 成捆的香草 | GoodsEffectModel
+Incense 12 | 成皿的焚香 | GoodsEffectModel
+Incense 15 | 成皿的焚香 | GoodsEffectModel
+Incense 25 | 成皿的焚香 | GoodsEffectModel
+Incense 3 | 成皿的焚香 | GoodsEffectModel
+Incense 30 | 成皿的焚香 | GoodsEffectModel
+Incense 40 | 成皿的焚香 | GoodsEffectModel
+Incense 5 | 成皿的焚香 | GoodsEffectModel
+Incense 8 | 成皿的焚香 | GoodsEffectModel
+Ink 10 | 染料瓶 | GoodsEffectModel
+Ink 16 | 染料瓶 | GoodsEffectModel
+Ink 25 | 染料瓶 | GoodsEffectModel
+Ink 35 | 染料瓶 | GoodsEffectModel
+Ink 40 | 染料瓶 | GoodsEffectModel
+Ink 5 | 染料瓶 | GoodsEffectModel
+Insects 1 | 一只昆虫 | GoodsEffectModel
+Insects 10 | 一只昆虫 | GoodsEffectModel
+Insects 150 | 成篮的昆虫 | GoodsEffectModel
+Insects 2 | 一只昆虫 | GoodsEffectModel
+Insects 20 | 一只昆虫 | GoodsEffectModel
+Insects 3 | 一只昆虫 | GoodsEffectModel
+Insects 30 | 成篮的昆虫 | GoodsEffectModel
+Insects 40 | 成篮的昆虫 | GoodsEffectModel
+Insects 5 | 一只昆虫 | GoodsEffectModel
+Insects 50 | 成篮的昆虫 | GoodsEffectModel
+Jerky 10 - Accidental Jerky | 成篮的肉干 | GoodsEffectModel
+Jerky 10 | 成篮的肉干 | GoodsEffectModel
+Jerky 15 | 成篮的肉干 | GoodsEffectModel
+Jerky 20 - Cannibalism | 成篮的肉干 | GoodsEffectModel
+Jerky 20 | 成篮的肉干 | GoodsEffectModel
+Jerky 25 | 成篮的肉干 | GoodsEffectModel
+Jerky 30 | 成篮的肉干 | GoodsEffectModel
+Jerky 40 | 成篮的肉干 | GoodsEffectModel
+Jerky 5 | 成篮的肉干 | GoodsEffectModel
+Jerky 50 | 成篮的肉干 | GoodsEffectModel
+Leather 10 | 成捆的皮革 | GoodsEffectModel
+Leather 20 | 成捆的皮革 | GoodsEffectModel
+Leather 30 | 成捆的皮革 | GoodsEffectModel
+Leather 40 | 成捆的皮革 | GoodsEffectModel
+Leather 5 | 成捆的皮革 | GoodsEffectModel
+Machinery 1 | 机器 | GoodsEffectModel
+Machinery 10 | 机器 | GoodsEffectModel
+Machinery 2 | 机器 | GoodsEffectModel
+Machinery 3 | 机器 | GoodsEffectModel
+Machinery 4 | 机器 | GoodsEffectModel
+Machinery 5 | 机器 | GoodsEffectModel
+Metal Tools 10 - Lizard Passive | 成盒的工具 | GoodsEffectModel
+Metal Tools 10 | 成盒的工具 | GoodsEffectModel
+Metal Tools 12 | 成盒的工具 | GoodsEffectModel
+Metal Tools 15 | 成盒的工具 | GoodsEffectModel
+Metal Tools 20 | 成盒的工具 | GoodsEffectModel
+Metal Tools 24 | 成盒的工具 | GoodsEffectModel
+Metal Tools 3 | 成盒的工具 | GoodsEffectModel
+Metal Tools 30 | 成盒的工具 | GoodsEffectModel
+Metal Tools 34 | 成盒的工具 | GoodsEffectModel
+Metal Tools 4 | 成盒的工具 | GoodsEffectModel
+Metal Tools 40 | 成盒的工具 | GoodsEffectModel
+Metal Tools 5 | 成盒的工具 | GoodsEffectModel
+Metal Tools 6 | 成盒的工具 | GoodsEffectModel
+Metal Tools 7 | 成盒的工具 | GoodsEffectModel
+Metal Tools 8 | 成盒的工具 | GoodsEffectModel
+Metal Tools 9 | 成盒的工具 | GoodsEffectModel
+Milk-cap Mushroom 10 | 成包的蘑菇 | GoodsEffectModel
+Milk-cap Mushroom 15 | 成包的蘑菇 | GoodsEffectModel
+Milk-cap Mushroom 20 | 成包的蘑菇 | GoodsEffectModel
+Milk-cap Mushroom 3 | 成包的蘑菇 | GoodsEffectModel
+Milk-cap Mushroom 30 | 成包的蘑菇 | GoodsEffectModel
+Milk-cap Mushroom 40 | 成包的蘑菇 | GoodsEffectModel
+Milk-cap Mushroom 5 | 成包的蘑菇 | GoodsEffectModel
+Milk-cap Mushroom 50 | 成包的蘑菇 | GoodsEffectModel
+Milk-cap Mushroom 60 | 成包的蘑菇 | GoodsEffectModel
+Milk-cap Mushroom 8 | 成包的蘑菇 | GoodsEffectModel
+Moth Larvae Meat 10 | 成包的肉类 | GoodsEffectModel
+Moth Larvae Meat 15 | 成包的肉类 | GoodsEffectModel
+Moth Larvae Meat 20 | 成包的肉类 | GoodsEffectModel
+Moth Larvae Meat 25 | 成包的肉类 | GoodsEffectModel
+Moth Larvae Meat 30 | 成包的肉类 | GoodsEffectModel
+Moth Larvae Meat 40 | 成包的肉类 | GoodsEffectModel
+Moth Larvae Meat 5 | 成包的肉类 | GoodsEffectModel
+Moth Larvae Meat 50 | 成包的肉类 | GoodsEffectModel
+Moth Larvae Meat 6 | 成包的肉类 | GoodsEffectModel
+Moth Larvae Meat 60 | 成包的肉类 | GoodsEffectModel
+Oil 10 | 油瓶 | GoodsEffectModel
+Oil 15 | 油瓶 | GoodsEffectModel
+Oil 2 | 油瓶 | GoodsEffectModel
+Oil 20 | 油瓶 | GoodsEffectModel
+Oil 3 | 油瓶 | GoodsEffectModel
+Oil 30 | 油瓶 | GoodsEffectModel
+Oil 40 | 油瓶 | GoodsEffectModel
+Oil 5 | 油瓶 | GoodsEffectModel
+Oil 50 | 油瓶 | GoodsEffectModel
+Oil 6 | 油瓶 | GoodsEffectModel
+Pack of Building Materials 1 | 成包的建筑材料 | GoodsEffectModel
+Pack of Building Materials 10 | 成包的建筑材料 | GoodsEffectModel
+Pack of Building Materials 12 | 成包的建筑材料 | GoodsEffectModel
+Pack of Building Materials 15 | 成包的建筑材料 | GoodsEffectModel
+Pack of Building Materials 5 | 成包的建筑材料 | GoodsEffectModel
+Pack of Building Materials 8 | 成包的建筑材料 | GoodsEffectModel
+Pack of Crops 1 | 成包的庄稼 | GoodsEffectModel
+Pack of Crops 10 | 成包的庄稼 | GoodsEffectModel
+Pack of Crops 15 | 成包的庄稼 | GoodsEffectModel
+Pack of Crops 5 | 成包的庄稼 | GoodsEffectModel
+Pack of Provisions 1 | 成包的供给品 | GoodsEffectModel
+Pack of Provisions 10 | 成包的供给品 | GoodsEffectModel
+Pack of Provisions 15 | 成包的供给品 | GoodsEffectModel
+Pack of Provisions 2 | 成包的供给品 | GoodsEffectModel
+Pack of Provisions 3 | 成包的供给品 | GoodsEffectModel
+Pack of Provisions 5 | 成包的供给品 | GoodsEffectModel
+Pack of Provisions 6 | 成包的供给品 | GoodsEffectModel
+Pack of Trade Good 10 | 成包的贸易商品 | GoodsEffectModel
+Pack of Trade Good 15 | 成包的贸易商品 | GoodsEffectModel
+Pack of Trade Good 6 | 成包的贸易商品 | GoodsEffectModel
+Pack of Valuables 10 | 成包的奢侈品 | GoodsEffectModel
+Pack of Valuables 15 | 成包的奢侈品 | GoodsEffectModel
+Pack of Valuables 5 | 成包的奢侈品 | GoodsEffectModel
+Paper 10 | 成捆的卷轴 | GoodsEffectModel
+Paper 25 | 成捆的卷轴 | GoodsEffectModel
+Paper 30 | 成捆的卷轴 | GoodsEffectModel
+Paper 40 | 成捆的卷轴 | GoodsEffectModel
+Parts 1 | 零部件 | GoodsEffectModel
+Parts 10 | 零部件 | GoodsEffectModel
+Parts 12 | 零部件 | GoodsEffectModel
+Parts 14 | 零部件 | GoodsEffectModel
+Parts 15 | 零部件 | GoodsEffectModel
+Parts 2 | 零部件 | GoodsEffectModel
+Parts 20 | 零部件 | GoodsEffectModel
+Parts 3 | 零部件 | GoodsEffectModel
+Parts 4 | 零部件 | GoodsEffectModel
+Parts 5 | 零部件 | GoodsEffectModel
+Parts 8 | 零部件 | GoodsEffectModel
+Paste 10 | 碗装糊糊 | GoodsEffectModel
+Paste 15 | 碗装糊糊 | GoodsEffectModel
+Paste 20 | 碗装糊糊 | GoodsEffectModel
+Paste 25 | 碗装糊糊 | GoodsEffectModel
+Paste 30 | 碗装糊糊 | GoodsEffectModel
+Paste 35 | 碗装糊糊 | GoodsEffectModel
+Paste 40 | 碗装糊糊 | GoodsEffectModel
+Paste 45 | 碗装糊糊 | GoodsEffectModel
+Paste 50 | 碗装糊糊 | GoodsEffectModel
+Paste 55 | 碗装糊糊 | GoodsEffectModel
+Paste 60 | 碗装糊糊 | GoodsEffectModel
+Pickled Goods 15 | 腌制食品 | GoodsEffectModel
+Pickled Goods 20 | 腌制食品 | GoodsEffectModel
+Pickled Goods 30 | 腌制食品 | GoodsEffectModel
+Pickled Goods 40 | 腌制食品 | GoodsEffectModel
+Pickled Goods 50 | 腌制食品 | GoodsEffectModel
+Pickled Goods 60 | 腌制食品 | GoodsEffectModel
+Pie 20 | 成篮的馅饼 | GoodsEffectModel
+Pie 25 | 成篮的馅饼 | GoodsEffectModel
+Pie 30 | 成篮的馅饼 | GoodsEffectModel
+Pie 40 | 成篮的馅饼 | GoodsEffectModel
+Pie 50 | 成篮的馅饼 | GoodsEffectModel
+Pipes 10 | 管道 | GoodsEffectModel
+Pipes 15 | 管道 | GoodsEffectModel
+Pipes 20 | 管道 | GoodsEffectModel
+Pipes 25 | 管道 | GoodsEffectModel
+Pipes 4 | 管道 | GoodsEffectModel
+Pipes 5 | 管道 | GoodsEffectModel
+Pipes 8 | 管道 | GoodsEffectModel
+Planks 10 | 成箱的木板 | GoodsEffectModel
+Planks 15 | 成箱的木板 | GoodsEffectModel
+Planks 2 | 成箱的木板 | GoodsEffectModel
+Planks 20 | 成箱的木板 | GoodsEffectModel
+Planks 25 | 成箱的木板 | GoodsEffectModel
+Planks 3 | 成箱的木板 | GoodsEffectModel
+Planks 30 | 成箱的木板 | GoodsEffectModel
+Planks 5 | 成箱的木板 | GoodsEffectModel
+Plant Fiber 10 | 成捆的植物纤维 | GoodsEffectModel
+Plant Fiber 15 | 成捆的植物纤维 | GoodsEffectModel
+Plant Fiber 20 | 成捆的植物纤维 | GoodsEffectModel
+Plant Fiber 25 | 成捆的植物纤维 | GoodsEffectModel
+Plant Fiber 30 | 成捆的植物纤维 | GoodsEffectModel
+Plant Fiber 35 | 成捆的植物纤维 | GoodsEffectModel
+Plant Fiber 4 | 成捆的植物纤维 | GoodsEffectModel
+Plant Fiber 40 | 成捆的植物纤维 | GoodsEffectModel
+Plant Fiber 50 | 成捆的植物纤维 | GoodsEffectModel
+Porridge 10 | 成盒的粥 | GoodsEffectModel
+Porridge 15 | 成盒的粥 | GoodsEffectModel
+Porridge 20 | 成盒的粥 | GoodsEffectModel
+Porridge 25 | 成盒的粥 | GoodsEffectModel
+Porridge 30 | 成盒的粥 | GoodsEffectModel
+Porridge 40 | 成盒的粥 | GoodsEffectModel
+Porridge 50 | 成盒的粥 | GoodsEffectModel
+Porridge 60 | 成盒的粥 | GoodsEffectModel
+Pottery 10 | 成箱的陶器 | GoodsEffectModel
+Pottery 20 | 成箱的陶器 | GoodsEffectModel
+Pottery 3 | 成箱的陶器 | GoodsEffectModel
+Pottery 30 | 成箱的陶器 | GoodsEffectModel
+Pottery 35 | 成箱的陶器 | GoodsEffectModel
+Pottery 40 | 成箱的陶器 | GoodsEffectModel
+Pottery 5 | 成箱的陶器 | GoodsEffectModel
+Pottery 6 | 成箱的陶器 | GoodsEffectModel
+Queens Gift 10 | 净化之火 | GoodsEffectModel
+Queens Gift 15 | 净化之火 | GoodsEffectModel
+Queens Gift 5 | 净化之火 | GoodsEffectModel
+Reeds 10 | 成捆的芦苇 | GoodsEffectModel
+Reeds 15 | 成捆的芦苇 | GoodsEffectModel
+Reeds 20 | 成捆的芦苇 | GoodsEffectModel
+Reeds 25 | 成捆的芦苇 | GoodsEffectModel
+Reeds 30 | 成捆的芦苇 | GoodsEffectModel
+Reeds 35 | 成捆的芦苇 | GoodsEffectModel
+Reeds 40 | 成捆的芦苇 | GoodsEffectModel
+Reeds 5 | 成捆的芦苇 | GoodsEffectModel
+Reeds 50 | 成捆的芦苇 | GoodsEffectModel
+Reeds 8 | 成捆的芦苇 | GoodsEffectModel
+Resin 10 | 树脂 | GoodsEffectModel
+Resin 15 | 树脂 | GoodsEffectModel
+Resin 2 | 树脂 | GoodsEffectModel
+Resin 20 | 树脂 | GoodsEffectModel
+Resin 25 | 树脂 | GoodsEffectModel
+Resin 30 | 树脂 | GoodsEffectModel
+Resin 4 | 树脂 | GoodsEffectModel
+Resin 40 | 树脂 | GoodsEffectModel
+Resin 6 | 树脂 | GoodsEffectModel
+Roots 10 | 成包的根茎 | GoodsEffectModel
+Roots 15 | 成包的根茎 | GoodsEffectModel
+Roots 20 | 成包的根茎 | GoodsEffectModel
+Roots 30 | 成包的根茎 | GoodsEffectModel
+Roots 40 | 成包的根茎 | GoodsEffectModel
+Roots 50 | 成包的根茎 | GoodsEffectModel
+Salt 30 | 盐桶 | GoodsEffectModel
+Salt 35 | 盐桶 | GoodsEffectModel
+Salt 40 | 盐桶 | GoodsEffectModel
+Scales 10 | 成盒的鳞片 | GoodsEffectModel
+Scales 15 | 成盒的鳞片 | GoodsEffectModel
+Scales 20 | 成盒的鳞片 | GoodsEffectModel
+Scales 25 | 成盒的鳞片 | GoodsEffectModel
+Scales 30 | 成盒的鳞片 | GoodsEffectModel
+Scales 35 | 成盒的鳞片 | GoodsEffectModel
+Scales 40 | 成盒的鳞片 | GoodsEffectModel
+Scales 45 | 成盒的鳞片 | GoodsEffectModel
+Scales 5 | 成盒的鳞片 | GoodsEffectModel
+Scales 50 | 成盒的鳞片 | GoodsEffectModel
+SE Gift from the Woods | 来自森林的礼物 | GoodsEffectModel
+Sea Marrow 10 | 成箱的海洋精华 | GoodsEffectModel
+Sea Marrow 15 | 成箱的海洋精华 | GoodsEffectModel
+Sea Marrow 20 | 成箱的海洋精华 | GoodsEffectModel
+Sea Marrow 25 | 成箱的海洋精华 | GoodsEffectModel
+Sea Marrow 30 | 成箱的海洋精华 | GoodsEffectModel
+Sea Marrow 40 | 成箱的海洋精华 | GoodsEffectModel
+Sea Marrow 5 | 成箱的海洋精华 | GoodsEffectModel
+Sea Marrow 50 | 成箱的海洋精华 | GoodsEffectModel
+Skewers 10 - Accidental Skewers | 成包的肉串 | GoodsEffectModel
+Skewers 10 | 成包的肉串 | GoodsEffectModel
+Skewers 20 | 成包的肉串 | GoodsEffectModel
+Skewers 25 | 成包的肉串 | GoodsEffectModel
+Skewers 30 | 成包的肉串 | GoodsEffectModel
+Skewers 40 | 成包的肉串 | GoodsEffectModel
+Skewers 50 | 成包的肉串 | GoodsEffectModel
+Tea 10 | 成箱的茶 | GoodsEffectModel
+Tea 20 | 成箱的茶 | GoodsEffectModel
+Tea 25 | 成箱的茶 | GoodsEffectModel
+Tea 30 | 成箱的茶 | GoodsEffectModel
+Tea 40 | 成箱的茶 | GoodsEffectModel
+Training Gear 20 | 训练装备 | GoodsEffectModel
+Training Gear 30 | 训练装备 | GoodsEffectModel
+Training Gear 40 | 训练装备 | GoodsEffectModel
+Vegetables 30 | 成箱的蔬菜 | GoodsEffectModel
+Vegetables 40 | 成箱的蔬菜 | GoodsEffectModel
+Vegetables 50 | 成箱的蔬菜 | GoodsEffectModel
+Vegetables 60 | 成箱的蔬菜 | GoodsEffectModel
+Waterskins 10 | 成箱的革制水袋 | GoodsEffectModel
+Waterskins 15 | 成箱的革制水袋 | GoodsEffectModel
+Waterskins 20 | 成箱的革制水袋 | GoodsEffectModel
+Waterskins 30 | 成箱的革制水袋 | GoodsEffectModel
+Waterskins 40 | 成箱的革制水袋 | GoodsEffectModel
+Waterskins 5 | 成箱的革制水袋 | GoodsEffectModel
+Waterskins 50 | 成箱的革制水袋 | GoodsEffectModel
+Wetstone 10 | 成箱的石头 | GoodsEffectModel
+Wetstone 15 | 成箱的石头 | GoodsEffectModel
+Wetstone 20 | 成箱的石头 | GoodsEffectModel
+Wetstone 25 | 成箱的石头 | GoodsEffectModel
+Wetstone 30 | 成箱的石头 | GoodsEffectModel
+Wetstone 35 | 成箱的石头 | GoodsEffectModel
+Wetstone 40 | 成箱的石头 | GoodsEffectModel
+Wetstone 5 | 成箱的石头 | GoodsEffectModel
+Wetstone 50 | 成箱的石头 | GoodsEffectModel
+Wetstone 8 | 成箱的石头 | GoodsEffectModel
+Wine 10 | 成桶的葡萄酒 | GoodsEffectModel
+Wine 20 | 成桶的葡萄酒 | GoodsEffectModel
+Wine 3 - Accidental Wine | 成桶的葡萄酒 | GoodsEffectModel
+Wine 3 | 成桶的葡萄酒 | GoodsEffectModel
+Wine 30 | 成桶的葡萄酒 | GoodsEffectModel
+Wine 40 | 成桶的葡萄酒 | GoodsEffectModel
+Wood 10 | 成箱的木材 | GoodsEffectModel
+Wood 100 | 成箱的木材 | GoodsEffectModel
+Wood 15 | 成箱的木材 | GoodsEffectModel
+Wood 20 | 成箱的木材 | GoodsEffectModel
+Wood 30 | 成箱的木材 | GoodsEffectModel
+Wood 40 | 成箱的木材 | GoodsEffectModel
+Wood 5 | 成箱的木材 | GoodsEffectModel
+Wood 50 | 成箱的木材 | GoodsEffectModel
+Wood 60 | 成箱的木材 | GoodsEffectModel
+Wood 70 | 成箱的木材 | GoodsEffectModel
+[BT] Grain 40 | 成箱的谷物 | GoodsEffectModel
+[BT] Moth Larvae Meat 30 | 成包的肉类 | GoodsEffectModel
+[FA] Fish 35 | 鱼的礼物 | GoodsEffectModel
+[FA] Salt 35 | 盐的礼物 | GoodsEffectModel
+Ale 3pm | 麦芽酒输送线 | GoodsPerMinEffectModel
+Ale 5pm | 麦芽酒输送线 | GoodsPerMinEffectModel
+Amber 3pm Blight | 琥珀税 | GoodsPerMinEffectModel
+Amber 3pm | 琥珀税 | GoodsPerMinEffectModel
+Amber 5pm | 琥珀税 | GoodsPerMinEffectModel
+Barrels 3pm | 木桶输送线 | GoodsPerMinEffectModel
+Barrels 5pm | 木桶输送线 | GoodsPerMinEffectModel
+Berries 10pm | 浆果输送线 | GoodsPerMinEffectModel
+Berries 5pm | 浆果输送线 | GoodsPerMinEffectModel
+Biscuits 3pm | 饼干输送线 | GoodsPerMinEffectModel
+Biscuits 5pm | 饼干输送线 | GoodsPerMinEffectModel
+Boots 5pm | 靴子输送线 | GoodsPerMinEffectModel
+Clay 10pm | 粘土输送线 | GoodsPerMinEffectModel
+Clay 3pm | 粘土输送线 | GoodsPerMinEffectModel
+Clay 5pm | 粘土输送线 | GoodsPerMinEffectModel
+Coal 10pm | 煤炭输送线 | GoodsPerMinEffectModel
+Coal 3pm | 煤炭输送线 | GoodsPerMinEffectModel
+Coal 5pm | 煤炭输送线 | GoodsPerMinEffectModel
+Coats 10pm | 外衣输送线 | GoodsPerMinEffectModel
+Coats 3pm | 外衣输送线 | GoodsPerMinEffectModel
+Coats 5pm | 外衣输送线 | GoodsPerMinEffectModel
+Copper Bars 2pm | 金属输送线 | GoodsPerMinEffectModel
+Copper Bars 3pm | 金属输送线 | GoodsPerMinEffectModel
+Copper Bars 4pm | 金属输送线 | GoodsPerMinEffectModel
+Copper Bars 5pm | 金属输送线 | GoodsPerMinEffectModel
+Copper Ore 10pm | 矿石输送线 | GoodsPerMinEffectModel
+Copper Ore 3pm | 矿石输送线 | GoodsPerMinEffectModel
+Copper Ore 5pm | 矿石输送线 | GoodsPerMinEffectModel
+Eggs 10pm | 蛋输送线 | GoodsPerMinEffectModel
+Eggs 15pm | 蛋输送线 | GoodsPerMinEffectModel
+Eggs 3pm | 蛋输送线 | GoodsPerMinEffectModel
+Eggs 5pm Stormbird | 蛋巢 | GoodsPerMinEffectModel
+Fiber 10pm | 织物输送线 | GoodsPerMinEffectModel
+Fiber 15pm | 织物输送线 | GoodsPerMinEffectModel
+Fiber 3pm | 织物输送线 | GoodsPerMinEffectModel
+Fiber 5pm | 织物输送线 | GoodsPerMinEffectModel
+Fish 5pm | 鱼输送线 | GoodsPerMinEffectModel
+Flour 3pm | 面粉输送线 | GoodsPerMinEffectModel
+Flour 5pm | 面粉输送线 | GoodsPerMinEffectModel
+Grain 10pm | 谷物输送线 | GoodsPerMinEffectModel
+Grain 15pm | 谷物输送线 | GoodsPerMinEffectModel
+Grain 3pm | 谷物输送线 | GoodsPerMinEffectModel
+Grain 5pm | 谷物输送线 | GoodsPerMinEffectModel
+Herbs 10pm | 香草输送线 | GoodsPerMinEffectModel
+Herbs 2pm | 香草输送线 | GoodsPerMinEffectModel
+Herbs 5pm | 香草输送线 | GoodsPerMinEffectModel
+Incense 3pm | 焚香输送线 | GoodsPerMinEffectModel
+Incense 5pm | 焚香输送线 | GoodsPerMinEffectModel
+Insects 3pm | 白蚁巢 | GoodsPerMinEffectModel
+Insects 5pm - Termite Nest | 白蚁巢 | GoodsPerMinEffectModel
+Insects 5pm | 昆虫输送线 | GoodsPerMinEffectModel
+Jerky 3pm | 肉干输送线 | GoodsPerMinEffectModel
+Jerky 5pm | 肉干输送线 | GoodsPerMinEffectModel
+Leather 10pm | 皮革输送线 | GoodsPerMinEffectModel
+Leather 5pm | 皮革输送线 | GoodsPerMinEffectModel
+Manuscripts (paper) 3pm | 卷轴输送线 | GoodsPerMinEffectModel
+Manuscripts (paper) 5pm | 卷轴输送线 | GoodsPerMinEffectModel
+Meat 10pm | 肉类输送线 | GoodsPerMinEffectModel
+Meat 5pm | 肉类输送线 | GoodsPerMinEffectModel
+Mushrooms 10pm | 蘑菇输送线 | GoodsPerMinEffectModel
+Mushrooms 5pm | 蘑菇输送线 | GoodsPerMinEffectModel
+Oil 10pm | 油输送线 | GoodsPerMinEffectModel
+Oil 5pm | 油输送线 | GoodsPerMinEffectModel
+Pickled goods 3pm | 腌制食品输送线 | GoodsPerMinEffectModel
+Pickled goods 5pm | 腌制食品输送线 | GoodsPerMinEffectModel
+Pie 3pm | 馅饼输送线 | GoodsPerMinEffectModel
+Pie 5pm | 馅饼输送线 | GoodsPerMinEffectModel
+Pottery 5pm | 陶器输送线 | GoodsPerMinEffectModel
+Reeds 10pm | 芦苇输送线 | GoodsPerMinEffectModel
+Reeds 5pm | 芦苇输送线 | GoodsPerMinEffectModel
+Resin 3pm | 树脂输送线 | GoodsPerMinEffectModel
+Resin 5pm | 树脂输送线 | GoodsPerMinEffectModel
+Roots 10pm | 根茎输送线 | GoodsPerMinEffectModel
+Roots 3pm | 根茎输送线 | GoodsPerMinEffectModel
+Roots 5pm | 根茎输送线 | GoodsPerMinEffectModel
+Sea Marrow 3pm | 海洋精华输送线 | GoodsPerMinEffectModel
+Sea Marrow 5pm | 改建的渔民灯塔 | GoodsPerMinEffectModel
+Skewers 3pm | 烤肉串输送线 | GoodsPerMinEffectModel
+Skewers 5pm | 烤肉串输送线 | GoodsPerMinEffectModel
+Stone 10pm | 石头输送线 | GoodsPerMinEffectModel
+Stone 3pm | 石头输送线 | GoodsPerMinEffectModel
+Stone 5pm | 石头输送线 | GoodsPerMinEffectModel
+Tea 3pm | 茶输送线 | GoodsPerMinEffectModel
+Tea 5pm | 茶输送线 | GoodsPerMinEffectModel
+Tools 2pm | 工具输送线 | GoodsPerMinEffectModel
+Tools 4pm | 工具输送线 | GoodsPerMinEffectModel
+Training Gear 3pm | 训练装备输送线 | GoodsPerMinEffectModel
+Training Gear 5pm | 训练装备输送线 | GoodsPerMinEffectModel
+Vegetables 10pm | 蔬菜输送线 | GoodsPerMinEffectModel
+Vegetables 3pm | 蔬菜输送线 | GoodsPerMinEffectModel
+Vegetables 5pm | 蔬菜输送线 | GoodsPerMinEffectModel
+Waterskins 3pm | 革制水袋输送线 | GoodsPerMinEffectModel
+Waterskins 5pm | 革制水袋输送线 | GoodsPerMinEffectModel
+Wine 3pm | 葡萄酒输送线 | GoodsPerMinEffectModel
+Wine 5pm | 葡萄酒输送线 | GoodsPerMinEffectModel
+[T] Ale 5pm | 麦芽酒输送线 | GoodsPerMinEffectModel
+[T] Barrels 5pm | 木桶输送线 | GoodsPerMinEffectModel
+[T] Oil 5pm | 油输送线 | GoodsPerMinEffectModel
+Ale +1 | 更大的木桶 | GoodsRawProductionEffectModel
+Ale +2 | 更大的木桶 | GoodsRawProductionEffectModel
+Ale +3 | 更大的木桶 | GoodsRawProductionEffectModel
+Ale +5 | 更大的木桶 | GoodsRawProductionEffectModel
+Algae +1 | 微过滤网 | GoodsRawProductionEffectModel
+Bait +1 | >Missing key< | GoodsRawProductionEffectModel
+Barrels +1 | 高级制桶术 | GoodsRawProductionEffectModel
+Barrels +2 | 高级制桶术 | GoodsRawProductionEffectModel
+Barrels +3 | 高级制桶术 | GoodsRawProductionEffectModel
+Barrels +5 | 高级制桶术 | GoodsRawProductionEffectModel
+Berries +1 | 大浆果篮 | GoodsRawProductionEffectModel
+Berries +2 | 大浆果篮 | GoodsRawProductionEffectModel
+Berries +3 | 大浆果篮 | GoodsRawProductionEffectModel
+Berries +5 | 大浆果篮 | GoodsRawProductionEffectModel
+Biscuits +1 | 更大的平底锅 | GoodsRawProductionEffectModel
+Biscuits +2 | 更大的平底锅 | GoodsRawProductionEffectModel
+Biscuits +3 | 更大的平底锅 | GoodsRawProductionEffectModel
+Biscuits +5 | 更大的平底锅 | GoodsRawProductionEffectModel
+Blight Fuel +1 | 混合燃料 | GoodsRawProductionEffectModel
+Blight Fuel +2 | 混合燃料 | GoodsRawProductionEffectModel
+Blight Fuel +3 | 混合燃料 | GoodsRawProductionEffectModel
+Blight Fuel +5 | 混合燃料 | GoodsRawProductionEffectModel
+Boots +2 | 鞋子模具 | GoodsRawProductionEffectModel
+Boots +3 | 鞋子模具 | GoodsRawProductionEffectModel
+Boots +5 | 鞋子模具 | GoodsRawProductionEffectModel
+Bricks +1 | 强化砖模 | GoodsRawProductionEffectModel
+Bricks +2 | 强化砖模 | GoodsRawProductionEffectModel
+Bricks +3 | 强化砖模 | GoodsRawProductionEffectModel
+Bricks +5 | 强化砖模 | GoodsRawProductionEffectModel
+Clay +1 | 钢铲 | GoodsRawProductionEffectModel
+Clay +2 | 钢铲 | GoodsRawProductionEffectModel
+Clay +3 | 钢铲 | GoodsRawProductionEffectModel
+Clay +5 | 钢铲 | GoodsRawProductionEffectModel
+Coal +1 | 专业化采矿 | GoodsRawProductionEffectModel
+Coal +2 | 专业化采矿 | GoodsRawProductionEffectModel
+Coal +3 | 专业化采矿 | GoodsRawProductionEffectModel
+Coal +5 | 专业化采矿 | GoodsRawProductionEffectModel
+Coats +1 | 古老的缝纫技术 | GoodsRawProductionEffectModel
+Coats +2 | 古老的缝纫技术 | GoodsRawProductionEffectModel
+Coats +3 | 古老的缝纫技术 | GoodsRawProductionEffectModel
+Coats +5 | 古老的缝纫技术 | GoodsRawProductionEffectModel
+Copper Bar +1 | 先进冶炼 | GoodsRawProductionEffectModel
+Copper Bar +2 | 先进冶炼 | GoodsRawProductionEffectModel
+Copper Bar +3 | 先进冶炼 | GoodsRawProductionEffectModel
+Copper Bar +5 | 先进冶炼 | GoodsRawProductionEffectModel
+Copper Ore +1 | 钢钻 | GoodsRawProductionEffectModel
+Copper Ore +2 | 钢钻 | GoodsRawProductionEffectModel
+Copper Ore +3 | 钢钻 | GoodsRawProductionEffectModel
+Copper Ore +5 | 钢钻 | GoodsRawProductionEffectModel
+Copper Tools +1 - in hook | 先进锻造 | GoodsRawProductionEffectModel
+Copper Tools +1 | 先进锻造 | GoodsRawProductionEffectModel
+Copper Tools +2 | 先进锻造 | GoodsRawProductionEffectModel
+Copper Tools +3 | 先进锻造 | GoodsRawProductionEffectModel
+Copper Tools +5 | 先进锻造 | GoodsRawProductionEffectModel
+Crystalized Dew +1 | 晶体群 | GoodsRawProductionEffectModel
+Crystalized Dew +2 | 晶体群 | GoodsRawProductionEffectModel
+Crystalized Dew +3 | 晶体群 | GoodsRawProductionEffectModel
+Crystalized Dew +5 | 晶体群 | GoodsRawProductionEffectModel
+Crystalized Dew -1 | 晶体群 | GoodsRawProductionEffectModel
+Eggs +1 | 蛋盒 | GoodsRawProductionEffectModel
+Eggs +2 | 蛋盒 | GoodsRawProductionEffectModel
+Eggs +3 | 蛋盒 | GoodsRawProductionEffectModel
+Eggs +5 | 蛋盒 | GoodsRawProductionEffectModel
+Fabric +1 | 强化针 | GoodsRawProductionEffectModel
+Fabric +2 | 强化针 | GoodsRawProductionEffectModel
+Fabric +3 | 强化针 | GoodsRawProductionEffectModel
+Fabric +5 | 强化针 | GoodsRawProductionEffectModel
+Fish +1 | 鲑鱼桶 | GoodsRawProductionEffectModel
+Flour +1 | 沉重的磨石 | GoodsRawProductionEffectModel
+Flour +2 | 沉重的磨石 | GoodsRawProductionEffectModel
+Flour +3 | 沉重的磨石 | GoodsRawProductionEffectModel
+Flour +5 | 沉重的磨石 | GoodsRawProductionEffectModel
+Gargoyle Clearance Water +1 | 雨水冷凝器 | GoodsRawProductionEffectModel
+Gargoyle Drizzle Water +1 | 雨水冷凝器 | GoodsRawProductionEffectModel
+Gargoyle Storm Water +1 | 雨水冷凝器 | GoodsRawProductionEffectModel
+Grain +1 | 模具供应 | GoodsRawProductionEffectModel
+Grain +2 | 模具供应 | GoodsRawProductionEffectModel
+Grain +3 | 模具供应 | GoodsRawProductionEffectModel
+Grain +5 | 模具供应 | GoodsRawProductionEffectModel
+Herbs +1 | 锋利的镰刀 | GoodsRawProductionEffectModel
+Herbs +2 | 锋利的镰刀 | GoodsRawProductionEffectModel
+Herbs +3 | 锋利的镰刀 | GoodsRawProductionEffectModel
+Herbs +5 | 锋利的镰刀 | GoodsRawProductionEffectModel
+Incense +1 | 成皿的焚香 | GoodsRawProductionEffectModel
+Incense +2 | 成皿的焚香 | GoodsRawProductionEffectModel
+Incense +3 | 成皿的焚香 | GoodsRawProductionEffectModel
+Incense +5 | 成皿的焚香 | GoodsRawProductionEffectModel
+Ink +1 | 大药瓶 | GoodsRawProductionEffectModel
+Ink +2 | 大药瓶 | GoodsRawProductionEffectModel
+Ink +3 | 大药瓶 | GoodsRawProductionEffectModel
+Ink +5 | 大药瓶 | GoodsRawProductionEffectModel
+Insects +1 | 昆虫诱饵 | GoodsRawProductionEffectModel
+Insects +2 | 昆虫诱饵 | GoodsRawProductionEffectModel
+Insects +3 | 昆虫诱饵 | GoodsRawProductionEffectModel
+Insects +5 | 昆虫诱饵 | GoodsRawProductionEffectModel
+Jerky +1 | 腌制肉干 | GoodsRawProductionEffectModel
+Jerky +2 | 腌制肉干 | GoodsRawProductionEffectModel
+Jerky +3 | 腌制肉干 | GoodsRawProductionEffectModel
+Jerky +5 | 腌制肉干 | GoodsRawProductionEffectModel
+Leather +1 | 制革架 | GoodsRawProductionEffectModel
+Leather +2 | 制革架 | GoodsRawProductionEffectModel
+Leather +3 | 制革架 | GoodsRawProductionEffectModel
+Leather +5 | 制革架 | GoodsRawProductionEffectModel
+Meat +1 | 网 | GoodsRawProductionEffectModel
+Meat +2 | 网 | GoodsRawProductionEffectModel
+Meat +3 | 网 | GoodsRawProductionEffectModel
+Meat +5 | 网 | GoodsRawProductionEffectModel
+Mushroom +1 | 真菌群 | GoodsRawProductionEffectModel
+Mushroom +2 | 真菌群 | GoodsRawProductionEffectModel
+Mushroom +3 | 真菌群 | GoodsRawProductionEffectModel
+Mushroom +5 | 真菌群 | GoodsRawProductionEffectModel
+Oil +1 | 重型压平机 | GoodsRawProductionEffectModel
+Oil +2 | 重型压平机 | GoodsRawProductionEffectModel
+Oil +3 | 重型压平机 | GoodsRawProductionEffectModel
+Oil +5 | 重型压平机 | GoodsRawProductionEffectModel
+Pack of Building Materials +1 | >Missing key< | GoodsRawProductionEffectModel
+Pack of Building Materials +2 | 建筑材料 | GoodsRawProductionEffectModel
+Pack of Building Materials +3 | >Missing key< | GoodsRawProductionEffectModel
+Pack of Building Materials +4 | >Missing key< | GoodsRawProductionEffectModel
+Pack of Building Materials +5 | >Missing key< | GoodsRawProductionEffectModel
+Pack of Crops +1 | 工业化农耕 | GoodsRawProductionEffectModel
+Pack of Crops +2 | 工业化农耕 | GoodsRawProductionEffectModel
+Pack of Crops +3 | 工业化农耕 | GoodsRawProductionEffectModel
+Pack of Crops +4 | 工业化农耕 | GoodsRawProductionEffectModel
+Pack of Crops +5 | 工业化农耕 | GoodsRawProductionEffectModel
+Pack of Luxury +1 | >Missing key< | GoodsRawProductionEffectModel
+Pack of Luxury +2 | >Missing key< | GoodsRawProductionEffectModel
+Pack of Luxury +3 | >Missing key< | GoodsRawProductionEffectModel
+Pack of Luxury +5 | >Missing key< | GoodsRawProductionEffectModel
+Pack of Provisions +1 | >Missing key< | GoodsRawProductionEffectModel
+Pack of Provisions +2 | 杂货商工具包 | GoodsRawProductionEffectModel
+Pack of Provisions +3 | >Missing key< | GoodsRawProductionEffectModel
+Pack of Provisions +5 | >Missing key< | GoodsRawProductionEffectModel
+Pack of Trade Goods +1 | >Missing key< | GoodsRawProductionEffectModel
+Pack of Trade Goods +2 | >Missing key< | GoodsRawProductionEffectModel
+Pack of Trade Goods +3 | >Missing key< | GoodsRawProductionEffectModel
+Pack of Trade Goods +5 | >Missing key< | GoodsRawProductionEffectModel
+Paper +1 | 高级压平机 | GoodsRawProductionEffectModel
+Paper +2 | 高级压平机 | GoodsRawProductionEffectModel
+Paper +3 | 高级压平机 | GoodsRawProductionEffectModel
+Paper +5 | 高级压平机 | GoodsRawProductionEffectModel
+Paste +2 | 钢擦菜器 | GoodsRawProductionEffectModel
+Paste +3 | 钢擦菜器 | GoodsRawProductionEffectModel
+Paste +5 | 钢擦菜器 | GoodsRawProductionEffectModel
+Pickled Goods +1 | 泡菜罐 | GoodsRawProductionEffectModel
+Pickled Goods +2 | 泡菜罐 | GoodsRawProductionEffectModel
+Pickled Goods +3 | 泡菜罐 | GoodsRawProductionEffectModel
+Pickled Goods +5 | 泡菜罐 | GoodsRawProductionEffectModel
+Pie +1 | 更大的炉灶 | GoodsRawProductionEffectModel
+Pie +2 | 更大的炉灶 | GoodsRawProductionEffectModel
+Pie +3 | 更大的炉灶 | GoodsRawProductionEffectModel
+Pie +5 | 更大的炉灶 | GoodsRawProductionEffectModel
+Pipes +1 | 冲压模 | GoodsRawProductionEffectModel
+Planks +1 | 强化锯片 | GoodsRawProductionEffectModel
+Planks +2 | 强化锯片 | GoodsRawProductionEffectModel
+Planks +3 | 强化锯片 | GoodsRawProductionEffectModel
+Planks +5 | 强化锯片 | GoodsRawProductionEffectModel
+Plant Fibre +1 | 富含纤维 | GoodsRawProductionEffectModel
+Plant Fibre +2 | 富含纤维 | GoodsRawProductionEffectModel
+Plant Fibre +3 | 富含纤维 | GoodsRawProductionEffectModel
+Plant Fibre +5 | 富含纤维 | GoodsRawProductionEffectModel
+Porridge +1 | 膨化谷物 | GoodsRawProductionEffectModel
+Porridge +2 | 膨化谷物 | GoodsRawProductionEffectModel
+Porridge +3 | 膨化谷物 | GoodsRawProductionEffectModel
+Porridge +4 | 膨化谷物 | GoodsRawProductionEffectModel
+Porridge +5 | 膨化谷物 | GoodsRawProductionEffectModel
+Pottery +1 | 雨水驱动的陶轮 | GoodsRawProductionEffectModel
+Pottery +2 | 雨水驱动的陶轮 | GoodsRawProductionEffectModel
+Pottery +3 | 雨水驱动的陶轮 | GoodsRawProductionEffectModel
+Pottery +5 | 雨水驱动的陶轮 | GoodsRawProductionEffectModel
+Reed +1 | 皮手套 | GoodsRawProductionEffectModel
+Reed +2 | 皮手套 | GoodsRawProductionEffectModel
+Reed +3 | 皮手套 | GoodsRawProductionEffectModel
+Reed +5 | 皮手套 | GoodsRawProductionEffectModel
+Resin +1 | 树脂提取器 | GoodsRawProductionEffectModel
+Resin +2 | 树脂提取器 | GoodsRawProductionEffectModel
+Resin +3 | 树脂提取器 | GoodsRawProductionEffectModel
+Resin +5 | 树脂提取器 | GoodsRawProductionEffectModel
+Roots +1 | 钢折叠刀 | GoodsRawProductionEffectModel
+Roots +2 | 钢折叠刀 | GoodsRawProductionEffectModel
+Roots +3 | 钢折叠刀 | GoodsRawProductionEffectModel
+Roots +5 | 钢折叠刀 | GoodsRawProductionEffectModel
+Salt +1 | 盐镐 | GoodsRawProductionEffectModel
+Scales +1 | 刮鳞器 | GoodsRawProductionEffectModel
+SE Berries +3 | 浆果新年 | GoodsRawProductionEffectModel
+SE Drizzle Water +3 | 大雨 | GoodsRawProductionEffectModel
+SE Fish +3 | 鱼潮 | GoodsRawProductionEffectModel
+SE Leather +3 | 蜕皮季 | GoodsRawProductionEffectModel
+SE Meat +3 | 交配季 | GoodsRawProductionEffectModel
+SE Mushroom +3 | 雨后蘑菇 | GoodsRawProductionEffectModel
+SE Sparkdew +5 | 大雨 | GoodsRawProductionEffectModel
+Sea Marrow +1 | 化石沥滤 | GoodsRawProductionEffectModel
+Sea Marrow +2 | 化石沥滤 | GoodsRawProductionEffectModel
+Sea Marrow +3 | 化石沥滤 | GoodsRawProductionEffectModel
+Sea Marrow +5 | 化石沥滤 | GoodsRawProductionEffectModel
+Skewers +1 | 更大的烤架 | GoodsRawProductionEffectModel
+Skewers +2 | 更大的烤架 | GoodsRawProductionEffectModel
+Skewers +3 | 更大的烤架 | GoodsRawProductionEffectModel
+Skewers +5 | 更大的烤架 | GoodsRawProductionEffectModel
+Stone +1 | 钢镐 | GoodsRawProductionEffectModel
+Stone +2 | 钢镐 | GoodsRawProductionEffectModel
+Stone +3 | 钢镐 | GoodsRawProductionEffectModel
+Stone +5 | 钢镐 | GoodsRawProductionEffectModel
+Storm Water +1 | 雨水冷凝器 | GoodsRawProductionEffectModel
+Storm Water +2 | 雨水冷凝器 | GoodsRawProductionEffectModel
+Storm Water +3 | 雨水冷凝器 | GoodsRawProductionEffectModel
+Storm Water +4 | 雨水冷凝器 | GoodsRawProductionEffectModel
+Storm Water +5 | 雨水冷凝器 | GoodsRawProductionEffectModel
+Tea +1 | 泡茶器 | GoodsRawProductionEffectModel
+Tea +2 | 泡茶器 | GoodsRawProductionEffectModel
+Tea +3 | 泡茶器 | GoodsRawProductionEffectModel
+Tea +5 | 泡茶器 | GoodsRawProductionEffectModel
+Training Gear +1 | 木工工具 | GoodsRawProductionEffectModel
+Training Gear +2 | 木工工具 | GoodsRawProductionEffectModel
+Training Gear +3 | 木工工具 | GoodsRawProductionEffectModel
+Training Gear +5 | 木工工具 | GoodsRawProductionEffectModel
+Vegetables +1 | 巨大的蔬菜 | GoodsRawProductionEffectModel
+Vegetables +2 | 巨大的蔬菜 | GoodsRawProductionEffectModel
+Vegetables +3 | 巨大的蔬菜 | GoodsRawProductionEffectModel
+Vegetables +5 | 巨大的蔬菜 | GoodsRawProductionEffectModel
+Waterskins +1 | 高级皮革加工技术 | GoodsRawProductionEffectModel
+Waterskins +2 | 高级皮革加工技术 | GoodsRawProductionEffectModel
+Waterskins +3 | 高级皮革加工技术 | GoodsRawProductionEffectModel
+Waterskins +5 | 高级皮革加工技术 | GoodsRawProductionEffectModel
+Wine +1 | 先进过滤 | GoodsRawProductionEffectModel
+Wine +2 | 先进过滤 | GoodsRawProductionEffectModel
+Wine +3 | 先进过滤 | GoodsRawProductionEffectModel
+Wine +5 | 先进过滤 | GoodsRawProductionEffectModel
+Wood +1 | 钢斧 | GoodsRawProductionEffectModel
+Wood +2 | 钢斧 | GoodsRawProductionEffectModel
+Wood +3 | 钢斧 | GoodsRawProductionEffectModel
+[T] Jerky +5 | 腌制肉干 | GoodsRawProductionEffectModel
+[T] Meat +2 | 网 | GoodsRawProductionEffectModel
+Ghost Amber Tablets Lost | 鲜红的眼泪 | RemoveGoodsByCategoryEffectModel
+Ghost Complex Food Lost | 鲜红的眼泪 | RemoveGoodsByCategoryEffectModel
+Ghost Fuel Lost | 鲜红的眼泪 | RemoveGoodsByCategoryEffectModel
+Ghost Needs Lost | 鲜红的眼泪 | RemoveGoodsByCategoryEffectModel
+Ghost Parts Lost | 鲜红的眼泪 | RemoveGoodsByCategoryEffectModel
+Ghost Raw Food Lost | 鲜红的眼泪 | RemoveGoodsByCategoryEffectModel
+Ghost Tools Lost | 鲜红的眼泪 | RemoveGoodsByCategoryEffectModel
+Mistworm All Food Lost | 迷雾蠕虫入侵 | RemoveGoodsByCategoryEffectModel
+Remove Amber - Cornerstone | >Missing key< | RemoveGoodsByCategoryEffectModel
+Temple All Luxury Lost | 被迫献祭 | RemoveGoodsByCategoryEffectModel
+Termites Materials Lost | 躁动的白蚁群 | RemoveGoodsByCategoryEffectModel
+Toxic Slug Fish Lost | 毒性 | RemoveGoodsByCategoryEffectModel
+Tree Wood Lost | 石化木 | RemoveGoodsByCategoryEffectModel
+Water Lost | >Missing key< | RemoveGoodsByCategoryEffectModel
+Wildfire Fuel Lost | 燃烧 | RemoveGoodsByCategoryEffectModel
+Wood Removed | >Missing key< | RemoveGoodsByCategoryEffectModel
+Frog Add Grace Period | >Missing key< | GracePeriodEffectModel
+Extra Beaver Newcommers | 海狸友谊 | NewcomersRaceBonusEffectModel
+Extra Fox Newcommers | 狐狸友谊 | NewcomersRaceBonusEffectModel
+Extra Frog Newcommers | 蛙族友谊 | NewcomersRaceBonusEffectModel
+Extra Harpy Newcommers | 鸟身女怪友谊 | NewcomersRaceBonusEffectModel
+Extra Human Newcommers | 人类友谊 | NewcomersRaceBonusEffectModel
+Extra Lizard Newcommers | 蜥蜴友谊 | NewcomersRaceBonusEffectModel
+[Mod] Human Influx | 人类流入 | NewcomersRaceBonusEffectModel
+HarvestingRate +100 | 快速收割 | HarvestingRateEffectModel
+HarvestingRate +25 | 黑曜石镰刀 | HarvestingRateEffectModel
+HarvestingRate +30 | 黑曜石镰刀 | HarvestingRateEffectModel
+HarvestingRate +40 | 黑曜石镰刀 | HarvestingRateEffectModel
+HarvestingRate +5 | 黑曜石镰刀 | HarvestingRateEffectModel
+HarvestingRate +50 | 快速收割 | HarvestingRateEffectModel
+HarvestingRate -25 | 慢速收割 | HarvestingRateEffectModel
+HarvestingRate -50 | 慢速收割 | HarvestingRateEffectModel
+HarvestingRate -60 | 慢速收割 | HarvestingRateEffectModel
+HarvestingRate -70 | 慢速收割 | HarvestingRateEffectModel
+HarvestingRate -80 | 慢速收割 | HarvestingRateEffectModel
+[BIOME] HarvestingRate +10 | 林地的礼物 | HarvestingRateEffectModel
+Hearth Bonus HP +100 | 古老的稳定器 | HearthBonusHPEffectModel
+Hearth Bonus HP +150 | >Missing key< | HearthBonusHPEffectModel
+Hearth Bonus HP +250 | >Missing key< | HearthBonusHPEffectModel
+Hearth Bonus HP +300 | >Missing key< | HearthBonusHPEffectModel
+Hearth Bonus HP +50 | >Missing key< | HearthBonusHPEffectModel
+Hearth Bonus HP +500 | >Missing key< | HearthBonusHPEffectModel
+Hearth HP 500 - HP Bonus | 黑曜符文石 | HearthBonusHPEffectModel
+Hearth Less HP -100 | >Missing key< | HearthBonusHPEffectModel
+[BT] Hearth Bonus HP - child | 力量神迹 | HearthBonusHPEffectModel
+[FA] Hearth Bonus HP - child | 毅力祈祷 | HearthBonusHPEffectModel
+SE Weakend Ancient Hearth | 渗漏 | HearthBonusHPEffectModel
+Hearth Corruption Rate +30 | >Missing key< | HearthCorruptionRateEffectModel
+Hearth Corruption Rate +50 | 直指火塘 | HearthCorruptionRateEffectModel
+Hearth Corruption Rate -10 | 护火者盔甲 | HearthCorruptionRateEffectModel
+Institution Slower Sacrafice | >Missing key< | HearthSacraficeTimeEffectModel
+[Mod] Faster Fuel Sacrafice | 火塘的缺陷 | HearthSacraficeTimeEffectModel
+Algae Sacrifice Recipe | 深渊的礼物 | HearthSacrificeRecipeEffectModel
+1 Killed for Glade event | 献祭仪式 | HookedEffectModel
+Accidental Barrels | 过于勤劳的木工 | HookedEffectModel
+Accidental Bricks | 粘土再利用 | HookedEffectModel
+Accidental Crystalized Dew | 积存的露水 | HookedEffectModel
+Accidental Harpy | 是鸡还是蛋？ | HookedEffectModel
+Accidental Jerky | 萨希达的私密食谱 | HookedEffectModel
+Accidental Lizard | 惊喜宝宝 | HookedEffectModel
+Accidental Oil | 小型压平机 | HookedEffectModel
+Accidental Pigment | 染料提取器 | HookedEffectModel
+Accidental Provisions | 农民的补给 | HookedEffectModel
+Accidental Skewers | 佐格秘方 | HookedEffectModel
+Accidental Wine | 双重酿造工具 | HookedEffectModel
+Alarm Bells | 警钟 | HookedEffectModel
+All Camps Unlock - Slow Gathering - Holder | 不堪重负的采集者 | HookedEffectModel
+Altar of Decay Negative | 疫腐咒 | HookedEffectModel
+Amber For Archeology | 科学补助 | HookedEffectModel
+Amber for Newcomers | 风暴行者税 | HookedEffectModel
+Amber for Sea Marrow | 黄金精华 | HookedEffectModel
+Amber for Trade Packs | 皇家津贴 | HookedEffectModel
+Amber for Trade Routes | 财源 | HookedEffectModel
+Amber for Trader Visit | 床和早餐 | HookedEffectModel
+Amber for Water | 仿制琥珀 | HookedEffectModel
+Amber for Wood | 伐木税 | HookedEffectModel
+Amber Worth More For Relics | 受人尊敬的业务伙伴 | HookedEffectModel
+AmberForLuxury | 奢侈税 | HookedEffectModel
+Artifact for Dangerous Relic | 涅槃重生 | HookedEffectModel
+Back To Nature | 回归自然 | HookedEffectModel
+Bait for crafting | 鱼肉残渣 | HookedEffectModel
+Bat Resolve For Frog Death | 积怨难消 | HookedEffectModel
+Beaver Resolve For Harpies | 合作精神 | HookedEffectModel
+Beaver Resolve for Wine Prod | 葡萄园小镇 | HookedEffectModel
+Blight Rate for Resolve Reputation - No Rep From Resolve - Holder | 难以忍受的气味 | HookedEffectModel
+Blightrot over Time - Rainpunk Foundry - hard | 过载的雨朋克技术 | HookedEffectModel
+Blightrot over Time - Rainpunk Foundry - impossible | 过载的雨朋克技术 | HookedEffectModel
+Blightrot over Time - Rainpunk Foundry - normal | 过载的雨朋克技术 | HookedEffectModel
+Blightrot over Time - Rainpunk Foundry - very hard | 过载的雨朋克技术 | HookedEffectModel
+Building Materials for Planks | 木匠工具 | HookedEffectModel
+Cannibalism | 同类相食 | HookedEffectModel
+Charm Villagers - Keep | >Missing key< | CharmVillagersEffectModel
+Charm Villagers | 水妖的魅惑 | CharmVillagersEffectModel
+Coal for Cysts | 烧成脆皮 | HookedEffectModel
+Converted Altar of Decay | 被转化的腐朽祭坛 | HookedEffectModel
+Copper and Wood for Chests | 回收工具 | HookedEffectModel
+Copper for each tree | 铜提取器 | HookedEffectModel
+Crops for Grain | 剩下的庄稼 | HookedEffectModel
+Crystaline Water | 小蒸馏厂 | HookedEffectModel
+Cysts for Glades | >Missing key< | HookedEffectModel
+Cysts For Hostility | >Missing key< | HookedEffectModel
+EventsRewardsForBloodthirst | 探索训练 | HookedEffectModel
+Every Sec Global Resolve - hard | 恐怖的幻象 | HookedEffectModel
+Every Sec Global Resolve - impossible | 恐怖的幻象 | HookedEffectModel
+Every Sec Global Resolve - normal | 恐怖的幻象 | HookedEffectModel
+Every Sec Global Resolve - very hard | 恐怖的幻象 | HookedEffectModel
+Every Sec Hostility | 低语的坟墓 | HookedEffectModel
+Exploration Contract | 探索合约 | HookedEffectModel
+Exploring Expedition - Resolve Bonus Effect - Holder | 发现之喜 | HookedEffectModel
+Exploring Expedition - Slower Woodcutting - Holder | 发现之喜 | HookedEffectModel
+Exploring Expedition | 探险考察 | HookedEffectModel
+Extra Production For Corruption Points | 禁忌封印碎片 | HookedEffectModel
+Extra Production For Relics Resolved | 古代习俗 | HookedEffectModel
+Families Gratitude | 家人答谢 | HookedEffectModel
+Fiber for Vegetables | 随身小折刀 | HookedEffectModel
+Fishmen Soothsayer Curse BloodFlower | 暴雨巫术 | HookedEffectModel
+Fishmen Soothsayer Curse Hostility | 血腥巫术 | HookedEffectModel
+Fishmen's Traps | 渔民陷阱 | HookedEffectModel
+Food Production For Engines | 蒸汽烹饪 | HookedEffectModel
+Forbidden for Hostility NEW | 外围警戒 | HookedEffectModel
+Forbidden for Hostility | 外围警戒 | HookedEffectModel
+Friend or Foe | 是敌是友 | HookedEffectModel
+Frog Adding Grace Period | 透支时间 | HookedEffectModel
+Frog Adding Resilliance | 人多力量大 | HookedEffectModel
+Frog Blueprints For Upgrades | 过分热心的建筑师 | HookedEffectModel
+Frog For Upgrade | 奇迹城 | HookedEffectModel
+Gargoyle Hostility - bonus per religion | >Missing key< | HookedEffectModel
+Grain Specialization | 谷物袋 | HookedEffectModel
+Growth Medium (Cysts for Food) | 生长培养基 | HookedEffectModel
+Harpy Resolve for Tea Prod | 茶叶专业化 | HookedEffectModel
+Herb Production for Biscuits | 香料 | HookedEffectModel
+Hostility for Active Routes | 女王的水手 | HookedEffectModel
+Hostility for Caches | 悄无声息的洗劫 | HookedEffectModel
+Hostility for Cysts | >Missing key< | HookedEffectModel
+Hostility for Dangerous Relics | 让森林平静下来 | HookedEffectModel
+Hostility for Death | 小祭坛盒 | HookedEffectModel
+Hostility for Firekeeper - Lighthouse - Strong | 冷火 | HookedEffectModel
+Hostility for Firekeeper - Lighthouse - Weak | 小型冷火 | HookedEffectModel
+Hostility for Relics | 频繁出现的巡逻队 | HookedEffectModel
+Hostility for Removed Cysts | 火的洗礼 | HookedEffectModel
+Hostility for Sales | 受保护的贸易 | HookedEffectModel
+Hostility for Tablets | 破译 | HookedEffectModel
+Hostility for Trees - DarkGate - Hard | 滋扰死者 | HookedEffectModel
+Hostility for Trees - DarkGate - Impossible | 滋扰死者 | HookedEffectModel
+Hostility for Trees - DarkGate - Normal | 滋扰死者 | HookedEffectModel
+Hostility for Trees - DarkGate - Very Hard | 滋扰死者 | HookedEffectModel
+Hostility for Water | 宁静之水 | HookedEffectModel
+Hostility Penalty for Amber | 烈焰琥珀 | HookedEffectModel
+Hostility per Cyst Mole | 侵袭 | HookedEffectModel
+HostilityEachYear | >Missing key< | HookedEffectModel
+HP for Impatience | 女王的礼物 | HookedEffectModel
+Hubs for hostility | 安全港 | HookedEffectModel
+Hubs for newcomer goods | 慷慨的礼物 | HookedEffectModel
+Human Resolve for Incense Prod | 虔诚定居点 | HookedEffectModel
+Incense for Roots | 芳香的根茎 | HookedEffectModel
+Infected building production for hostility | 疫腐病提炼器 | HookedEffectModel
+Insect for tree - child | 啄木鸟技能 | HookedEffectModel
+Insect for tree | 啄木鸟技能 | HookedEffectModel
+Insect Traps | 昆虫陷阱 | HookedEffectModel
+Insects for bait | 鱼饵再利用 | HookedEffectModel
+Institution Resolve For Ruins | 王室编年史 | HookedEffectModel
+Institution Resolve For Sales | 行会福利 | HookedEffectModel
+Institution Temple Hostility for Sacrifice | 火焰圣礼 | HookedEffectModel
+Kelpie Charm | 水妖的魅惑 | HookedEffectModel
+Killed for GladeInfo | 古老的协议 | HookedEffectModel
+Killed for Water | 古老的协议 | HookedEffectModel
+Lizard Resolve for Training Gear Prod | 训练基地 | HookedEffectModel
+Local Taxes | 地方税 | HookedEffectModel
+Lower Hostility For Education | 神圣卷轴 | HookedEffectModel
+Lower Hostility For Religion | 火链仪式 | HookedEffectModel
+Meat and Grain for Events | 遗失的补给品 | HookedEffectModel
+Meat Specialization | 肉类专业化 | HookedEffectModel
+Mists Piercers | 刺雾器 | HookedEffectModel
+Mold Grain | 霉斑谷物种子 | HookedEffectModel
+More Trade Offers - Trader Block - Holder | 调整期 | HookedEffectModel
+Mushroom Specialization | 真菌指南 | HookedEffectModel
+Newcomer Rate for Trade Routes | 经济移民 | HookedEffectModel
+Night's Embrace | 暗夜之拥 | HookedEffectModel
+Noxious Machinery - Water Remove and Spawn Cyst - hard | 溢出 | HookedEffectModel
+Noxious Machinery - Water Remove and Spawn Cyst - impossible | 溢出 | HookedEffectModel
+Noxious Machinery - Water Remove and Spawn Cyst - normal | 溢出 | HookedEffectModel
+Noxious Machinery - Water Remove and Spawn Cyst - very hard | 溢出 | HookedEffectModel
+Overexploitation - cyst for node | >Missing key< | HookedEffectModel
+Parts for Trade | 免费样品 | HookedEffectModel
+Porridge Prod for water | 馅料盘 | HookedEffectModel
+Pottery for Glade | 考古工具 | HookedEffectModel
+Prayers | 祈祷者 | HookedEffectModel
+Prod Speed For Bat Specialization | 钢铁专注 | HookedEffectModel
+ProdSpeedForEducation | 安全工作指南 | HookedEffectModel
+Provisions for Glade | 采集工具 | HookedEffectModel
+Random Goods for Dearth | 遗产扣押 | HookedEffectModel
+Reputation from Trade | 贸易中心区 | HookedEffectModel
+ReputationForLuxury | 麦酒和伙伴 | HookedEffectModel
+Resolve for chests | 欣欣向荣的考古活动 | HookedEffectModel
+Resolve for complex food | 活力 | HookedEffectModel
+Resolve for Glade - Resolve Bonus Effect - Holder | 鼓舞人心的工作 | HookedEffectModel
+Resolve for Glade | 伐木工之歌 | HookedEffectModel
+Resolve for Impatience | 叛逆精神 | HookedEffectModel
+Resolve for Reputation | 女王万岁 | HookedEffectModel
+Resolve For Sales | 欣欣向荣的定居点 | HookedEffectModel
+Resolve for Services | 转化的和谐之灵祭坛 | HookedEffectModel
+Resolve for Standing | 友好的关系 | HookedEffectModel
+Resolve for started Route - impatience slower - Holder | 繁忙城镇 | HookedEffectModel
+Resolve for started Route | 频繁出现的商队 | HookedEffectModel
+Resolve for Trees - Fishmen - hard | 鬼鬼祟祟的渔民 | HookedEffectModel
+Resolve for Trees - Fishmen - impossible | 鬼鬼祟祟的渔民 | HookedEffectModel
+Resolve for Trees - Fishmen - normal | 鬼鬼祟祟的渔民 | HookedEffectModel
+Resolve for Trees - Fishmen - very hard | 鬼鬼祟祟的渔民 | HookedEffectModel
+Resolve Penalty for every 10 amber - hard | 被洗劫的亡者 | HookedEffectModel
+Resolve Penalty for every 10 amber - impossible | 被洗劫的亡者 | HookedEffectModel
+Resolve Penalty for every 10 amber - normal | 被洗劫的亡者 | HookedEffectModel
+Resolve Penalty for every 10 amber - very hard | 被洗劫的亡者 | HookedEffectModel
+Root for every glade | 除根工具 | HookedEffectModel
+Sacrifice Block during Corruption | 火的洗礼 | HookedEffectModel
+Sacrifice Cost for Impatience | 燃烧的怒火 | HookedEffectModel
+SE Amber for Trade | 皇家基金 | HookedEffectModel
+SE Clearance for Drizzle | 金色尘埃 | HookedEffectModel
+SE Creeping Shadows - Resolve Penalty Effect - Holder | 暗行身影 | HookedEffectModel
+SE Creeping Shadows | 缓缓移动的阴影 | HookedEffectModel
+SE Cricket Mating Grounds | 蟋蟀交配地 | HookedEffectModel
+SE Cysts generate Impatience in Storm | 蔓延的污染 | HookedEffectModel
+SE Dang Glades reduces resolve in Storm | 更大的威胁 | HookedEffectModel
+SE Death Blightrot | 疫腐病传染 | HookedEffectModel
+SE Gift for Reputation | 宽宏大量的女王 | HookedEffectModel
+SE Glades Resolve in Drizzle | 温柔的黎明 | HookedEffectModel
+SE Goods for Solved Relics | 森林的奉献 | HookedEffectModel
+SE Grass Around Removed Deposits | TODO NAME | HookedEffectModel
+SE Living Farmfield | 腐臭雨水 | HookedEffectModel
+SE Marrow Mine | 精华物 | HookedEffectModel
+SE More Water Consumption | 消失的雨水 | HookedEffectModel
+SE Resin For Wood | 流血的树木 | HookedEffectModel
+SE Resolve for Water | 酣畅淋漓的空气 | HookedEffectModel
+SE Slow Woodcutting For Meat | 坚韧的植物群落 | HookedEffectModel
+SE Spring Events | 和平的氛围 | HookedEffectModel
+SE Spring Routes | 谁捡到就是谁的 | HookedEffectModel
+SE Storm Clothes - Resolve Penalty Effect - Holder | 湿透的衣服 | HookedEffectModel
+SE Thunder | 雷声 | HookedEffectModel
+Sea Marrow for Copper | 沉没之骨 | HookedEffectModel
+Spider Tablets for Glades | 隐密 | HookedEffectModel
+Storm Water for Woodcutters | 自然之力 | HookedEffectModel
+Stormbird Egg - Additional Resolve in Storm | 风暴鸟之恸 | HookedEffectModel
+Tablets for Events | 隐藏奖励 | HookedEffectModel
+TEST Plague of Death | 死亡灾害 | HookedEffectModel
+Tools for death | 骨制工具 | HookedEffectModel
+Tools for glade - child - altar | >Missing key< | HookedEffectModel
+Tools for glade - child | >Missing key< | HookedEffectModel
+Tools for glade | 简易工具 | HookedEffectModel
+Tools for Hostility | 受禁工具 | HookedEffectModel
+Trade Route Speed for Packs | 满仓 | HookedEffectModel
+Trade routes for housing spots | 城市规划 | HookedEffectModel
+Villager for glade | 迷失荒野 | HookedEffectModel
+Voice of the Forest | 森林之声 | HookedEffectModel
+Water Crit For Fishing | 水之书 | HookedEffectModel
+Waterskins for Leather | Reward_WaterskinsForLeather_Name | HookedEffectModel
+Wildcard for Death | 科学协议 | HookedEffectModel
+Wood +2 for insects | 无质量控制 | HookedEffectModel
+Woodcutting speed for water | 强劲之水 | HookedEffectModel
+Workers carry more for Tablets | 古人力量 | HookedEffectModel
+Working Speed For Small Glade - Relic Working Speed - Holder | 侦察 | HookedEffectModel
+Working Speed For Small Glade | 远见 | HookedEffectModel
+Working time for firekeeper | 祈祷书 | HookedEffectModel
+Working Time for Tablets | 刻入古碑 | HookedEffectModel
+Worse Storms for Hostility - Permanent | 狂暴的黄昏 | HookedEffectModel
+Worse Storms for Hostility Working | 滋生的黑暗 | HookedEffectModel
+Worse Storms for Hostility | 滋生的黑暗 | HookedEffectModel
+Worse Storms Hook - Permanent | 狂暴的黄昏 | HookedEffectModel
+[Altar] Exploring Expedition - Resolve Bonus Effect - Holder | 发现之喜 | HookedEffectModel
+[Altar] Exploring Expedition | 探险考察 | HookedEffectModel
+[Altar] Food Production For Engines | 蒸汽烹饪 | HookedEffectModel
+[Altar] Insect for tree - child | 啄木鸟技能 | HookedEffectModel
+[Altar] Tools for glade | 简易工具 | HookedEffectModel
+[BIOME] AlgaeSacrifice | 深渊的礼物 | HookedEffectModel
+[BIOME] Carts For Using Ore | 皇家采矿业务 | HookedEffectModel
+[Biome] Farms Extra Production For Fertilizer | 农夫的骄傲 | HookedEffectModel
+[BIOME] Inspiring Pressure Holder | 鼓舞人心的压力 | HookedEffectModel
+[BIOME] Marshlands Camps Speed | 采集知识 | HookedEffectModel
+[BIOME] Shards for Relics 1 | 深藏不露的财富 | HookedEffectModel
+[BIOME] Shards for Relics 2 | 深藏不露的财富 | HookedEffectModel
+[BIOME] Shards for Relics 3 | 深藏不露的财富 | HookedEffectModel
+[BT] Global Production Rate | 迅捷之歌 | HookedEffectModel
+[BT] Hearth Bonus HP | 力量神迹 | HookedEffectModel
+[BT] Increased farm production | 农耕工具箱 | HookedEffectModel
+[BT] Lower Hostility | 和平神迹 | HookedEffectModel
+[BT] Relic Working TIme | 敏捷神迹 | HookedEffectModel
+[BT] Slower Leaving | 希望之歌 | HookedEffectModel
+[BT] Trade Routes Bonus | 繁荣之歌 | HookedEffectModel
+[FA] Gatherers Prod +100 | 采集物的礼物 | HookedEffectModel
+[FA] Hearth Bonus HP | 毅力祈祷 | HookedEffectModel
+[FA] Lower Hostility | 庇护祈祷 | HookedEffectModel
+[FA] Relic Working Time | 勇气祈祷 | HookedEffectModel
+[Map Mod] 4 Races - villagers each drizzle | 神圣林地 | HookedEffectModel
+[Map Mod] 4 Races - villagers times glades | >Missing key< | HookedEffectModel
+[Map Mod] Randomize Seasons Duration | 古老高塔 | HookedEffectModel
+[Mod] Amber Payment | 皇家税 | HookedEffectModel
+[Mod] Cysts Spawn | 疫腐病群落 | HookedEffectModel
+[Mod] Exploration Tax - small | 土地税 | HookedEffectModel
+[Mod] Exploration Tax | 土地税 | HookedEffectModel
+[Mod] Gathering Storm | 风云变幻 | HookedEffectModel
+[Mod] Guilds Disfavor | 行会的失宠 | HookedEffectModel
+[Mod] Ominous Presence | 不祥存在 | HookedEffectModel
+[Mod] Petrified Necropolis - Meat for Stone and Clay | >Missing key< | HookedEffectModel
+[Mod] Petrified Necropolis - Stone for Death | >Missing key< | HookedEffectModel
+[Need] Coats Storm Resolve | >Missing key< | HookedEffectModel
+[R] Bats Resolve For Deaths | 奉献 | HookedEffectModel
+[SE] Corruption Favoring Block | 顽固腐蚀 | HookedEffectModel
+[SE] Late Newcomers - child | 顽固腐蚀 | HookedEffectModel
+[SE] Late Newcomers - holder | 迷路的新来者 | HookedEffectModel
+[TEST] Hooked | >Missing key< | HookedEffectModel
+[U][BP] Global - Cyst Generation Rate - Parent | 专人值守 | HookedEffectModel
+[WE] Blightroted Viceroy Box | 紫檀箱子 | HookedEffectModel
+[WE] Cloaked Wanderer Vengeance | 穿披风的流浪者的复仇 | HookedEffectModel
+[WE] Cysts for Food Production | 疫腐病缠身的总督 | HookedEffectModel
+[WE] Desecrator | 亵渎者 | HookedEffectModel
+[U][B] Bats Houses Unique Bonus - child | >Missing key< | HookedEffectModel
+[U][B] Bats Houses Unique Bonus | 修理站 | HookedEffectModel
+[U][B] Beaver Houses Unique Bonus | 抄写台 | HookedEffectModel
+[U][B] Fox Houses Unique Bonus | 苔藓 | HookedEffectModel
+[U][B] Frog House Bonus - Building Mat Crit | 工作台 | HookedEffectModel
+[U][B] Frog House Bonus - Building Mat Speed | 制图桌 | HookedEffectModel
+[U][B] Frog House Bonus - More Resolve From Rainpunk | 输水管道 | HookedEffectModel
+[U][B] Frog House Bonus - Newcomer Bonus | 中庭 | HookedEffectModel
+[U][B] Frog House Bonus - Packs Each Year - Child | 储藏室 | HookedEffectModel
+[U][B] Frog House Bonus - Packs Each Year | 储藏室 | HookedEffectModel
+[U][B] Harpy Houses Unique Bonus | 顶罩 | HookedEffectModel
+[U][B] Human Houses Unique Bonus | 工具房 | HookedEffectModel
+[U][B] Lizard Houses Unique Bonus | 地窖 | HookedEffectModel
+Gargoyle Hostility - flat hostility | >Missing key< | HostilityEffectModel
+Hostility +1 | 丛林之怒 | HostilityEffectModel
+Hostility +10 - Fishmen | >Missing key< | HostilityEffectModel
+Hostility +10 | >Missing key< | HostilityEffectModel
+Hostility +100 | >Missing key< | HostilityEffectModel
+Hostility +110 | >Missing key< | HostilityEffectModel
+Hostility +15 | >Missing key< | HostilityEffectModel
+Hostility +2 | 高压 | HostilityEffectModel
+Hostility +20 | 渔民图腾 | HostilityEffectModel
+Hostility +30 | >Missing key< | HostilityEffectModel
+Hostility +5 | >Missing key< | HostilityEffectModel
+Hostility +50 - Fishmen | >Missing key< | HostilityEffectModel
+Hostility +50 - Glade Trader | 森林之敌 | HostilityEffectModel
+Hostility +50 | 至暗之影 | HostilityEffectModel
+Hostility -10 | >Missing key< | HostilityEffectModel
+Hostility -15 | >Missing key< | HostilityEffectModel
+Hostility -20 | >Missing key< | HostilityEffectModel
+Hostility -25 | >Missing key< | HostilityEffectModel
+Hostility -3 | >Missing key< | HostilityEffectModel
+Hostility -30 | >Missing key< | HostilityEffectModel
+Hostility -35 | >Missing key< | HostilityEffectModel
+Hostility -40 | >Missing key< | HostilityEffectModel
+Hostility -5 | >Missing key< | HostilityEffectModel
+Hostility -50 | >Missing key< | HostilityEffectModel
+Hostility 1 | >Missing key< | HostilityEffectModel
+Hostility 20 | >Missing key< | HostilityEffectModel
+Hostility Lower 50 | 森林之路 | HostilityEffectModel
+Hostility Lower 75 | 森林之路 | HostilityEffectModel
+Hostility Tree | 丛林之怒 | HostilityEffectModel
+Institution Lower Hostility | 绿啤酒 | HostilityEffectModel
+Rain Totem Lower Hostility | 转化的雨图腾 | HostilityEffectModel
+War Beast Hostility | 无拘无束的野兽 | HostilityEffectModel
+[BT] Lower Hostility - child | 和平神迹 | HostilityEffectModel
+[FA] Lower Hostility - child | 庇护祈祷 | HostilityEffectModel
+[Hearth] Algae Hostility Reduction | 献祭水藻 | HostilityEffectModel
+[Hearth] High Hostility Reduction | 献祭煤炭 | HostilityEffectModel
+[Hearth] Low Hostility Reduction | 献祭木材 | HostilityEffectModel
+[Map Mod] Initial Hostility | 古战场 | HostilityEffectModel
+[Mod] Memory of the Forest | 森林的记忆 | HostilityEffectModel
+[TW] Hostility | 遥远长啸 | HostilityEffectModel
+[WE] Feast Hall - Funeral - Hostility | 游行队伍 | HostilityEffectModel
+Forbidden for Hostility - Lower Glades - Dangerous | >Missing key< | HostilitySourceChangeEffectModel
+Forbidden for Hostility - Lower Glades - Small | >Missing key< | HostilitySourceChangeEffectModel
+Higher Hostility Glades - Dangerous | 黑暗迷雾 | HostilitySourceChangeEffectModel
+Higher New Year | >Missing key< | HostilitySourceChangeEffectModel
+LessHostilityPerWoodcutter 8 | 火焰护身符 | HostilitySourceChangeEffectModel
+LessHostilityPerWoodcutter | 火焰护身符 | HostilitySourceChangeEffectModel
+Lower Glades - Dangerous | >Missing key< | HostilitySourceChangeEffectModel
+Lower Glades Fox - Dangerous | >Missing key< | HostilitySourceChangeEffectModel
+Lower Glades Fox - Forbidden | >Missing key< | HostilitySourceChangeEffectModel
+Lower Glades Fox - Small | >Missing key< | HostilitySourceChangeEffectModel
+Lower Glades | >Missing key< | HostilitySourceChangeEffectModel
+Lower Hostility for people | >Missing key< | HostilitySourceChangeEffectModel
+MoreHostilityPerHearth | 冷火 | HostilitySourceChangeEffectModel
+MoreHostilityPerHearth_Weak | 冷火 | HostilitySourceChangeEffectModel
+TEST Plague of the Forest | 黑暗森林灾害 | HostilitySourceChangeEffectModel
+[Map Mod] More Hostility People | >Missing key< | HostilitySourceChangeEffectModel
+[Map Mod] More Hostility Yearly | >Missing key< | HostilitySourceChangeEffectModel
+[Map Mod] No Hostility Year | >Missing key< | HostilitySourceChangeEffectModel
+[Mod] Calm Lands - Dangerous Glades | 平静的土地 | HostilitySourceChangeEffectModel
+[Mod] Calm Lands - Regular Glades | 平静的土地 | HostilitySourceChangeEffectModel
+Houses Global Capacity +1 | 拥挤的房子 | HousesGlobalBonusCapacityEffectModel
+Petrified Tree - Houses Global Capacity -1 | 降解 | HousesGlobalBonusCapacityEffectModel
+Hunger Multiplier - Toxic Slug - normal and hard | 传染 | HungerMultiplierEffectModel
+Hunger Multiplier - Toxic Slug - very hard and impossible | 传染 | HungerMultiplierEffectModel
+SE Hunger Storm | 饥饿风暴 | HungerMultiplierEffectModel
+[Diff] Hunger Multiplier | 饥荒爆发 | HungerMultiplierEffectModel
+[Map Mod] Leaving Block | >Missing key< | LeavingBlockEffectModel
+Institution Slower Leaving | 定期沐浴 | LeavingRateEffectModel
+[BT] Slower Leaving - child | 希望之歌 | LeavingRateEffectModel
+[Mod] Faster Leaving | 更高的标准 | LeavingRateEffectModel
+[TW] Slower Leaving | 振奋人心的演讲 | LeavingRateEffectModel
+Racial Locate Grass | 显示沃土 | LocateGrassEffectModel
+Locate Chest | 勘测设备 | LocateRelicByTagEffectModel
+Racial Locate Ruin | 显示一处废墟 | LocateRelicByTagEffectModel
+Locate Springs | 显示一处间歇泉 | LocateSpringEffectModel
+Lock Blightpost | >Missing key< | LockBuildingEffectModel
+Lock Crude Workstation | >Missing key< | LockBuildingEffectModel
+Lock Hydrant | >Missing key< | LockBuildingEffectModel
+Lock Trading Post | >Missing key< | LockBuildingEffectModel
+Lock Unlocked Essentials - Tutorial I | >Missing key< | LockUnlockedEssentialBuildingsEffectModel
+Lock Unlocked Essentials - Tutorial II | >Missing key< | LockUnlockedEssentialBuildingsEffectModel
+Lock Unlocked Essentials - Tutorial III | >Missing key< | LockUnlockedEssentialBuildingsEffectModel
+Lock Unlocked Essentials - Tutorial IV | >Missing key< | LockUnlockedEssentialBuildingsEffectModel
+City Score - 30 | 坏名声 | MerchantsReproachEffectModel
+City Score - 50 | 坏名声 | MerchantsReproachEffectModel
+City Score - 70 | 坏名声 | MerchantsReproachEffectModel
+[Map Mod] Move | 悬浮的纪念碑 | MovingAllBuildingsEnabledEffectModel
+NeedPerk Ale Resolve | 加香料的麦芽酒 | NeedPerkEffectModel
+NeedPerk Biscuit Farmers | 饼干饮食 | NeedPerkEffectModel
+NeedPerk Coats Breaks | 干衣板 | NeedPerkEffectModel
+NeedPerk Education Production | 明智而努力地工作 | NeedPerkEffectModel
+NeedPerk Housing Resolve - Frogs | 家具 | NeedPerkEffectModel
+NeedPerk Housing Resolve | 家具 | NeedPerkEffectModel
+NeedPerk Leisure Production | 充分休息的工人 | NeedPerkEffectModel
+Royal Guard Training - NeedPerk | >Missing key< | NeedPerkEffectModel
+VillagerFoodEffect Poisoned Food | 有毒的食物 | VillagersFoodPerkEffectModel
+Upgrade Random Cornerstone - Stormforge | 雷铸制造 | UpgradeRandomCornerstoneEffectModel
+NewRandomVillagers 10 | 村民 | NewRandomVillagersEffectModel
+NewRandomVillagers 2 | 村民 | NewRandomVillagersEffectModel
+NewRandomVillagers 3 | 村民 | NewRandomVillagersEffectModel
+NewRandomVillagers 4 | 村民 | NewRandomVillagersEffectModel
+NewRandomVillagers 5 | 村民 | NewRandomVillagersEffectModel
+NewRandomVillagers 6 | 村民 | NewRandomVillagersEffectModel
+NewRandomVillagers | >Missing key< | NewRandomVillagersEffectModel
+Bat 1 | 蝙蝠 | NewVillagersEffectModel
+Bat 2 | 蝙蝠群 | NewVillagersEffectModel
+Bat 3 | 蝙蝠群 | NewVillagersEffectModel
+Bat 4 | 蝙蝠群 | NewVillagersEffectModel
+Bat 5 | 蝙蝠群 | NewVillagersEffectModel
+Beaver 1 | 海狸 | NewVillagersEffectModel
+Beaver 2 | 一群海狸 | NewVillagersEffectModel
+Beaver 3 | 一群海狸 | NewVillagersEffectModel
+Beaver 4 | 一群海狸 | NewVillagersEffectModel
+Beaver 5 | 一群海狸 | NewVillagersEffectModel
+Foxes 1 | 狐狸 | NewVillagersEffectModel
+Foxes 2 | 一群狐狸 | NewVillagersEffectModel
+Foxes 3 | 一群狐狸 | NewVillagersEffectModel
+Foxes 4 | 一群狐狸 | NewVillagersEffectModel
+Foxes 5 | 一群狐狸 | NewVillagersEffectModel
+Frog 1 | 蛙 | NewVillagersEffectModel
+Frog 2 | 一群蛙 | NewVillagersEffectModel
+Frog 3 | 一群蛙 | NewVillagersEffectModel
+Frog 4 | 一群蛙 | NewVillagersEffectModel
+Frog 5 | 一群蛙 | NewVillagersEffectModel
+Harpy 1 | 鸟身女怪 | NewVillagersEffectModel
+Harpy 2 | 一群鸟身女怪 | NewVillagersEffectModel
+Harpy 3 | 一群鸟身女怪 | NewVillagersEffectModel
+Harpy 4 | 一群鸟身女怪 | NewVillagersEffectModel
+Harpy 5 | 一群鸟身女怪 | NewVillagersEffectModel
+Human 1 | 人类 | NewVillagersEffectModel
+Human 2 | 一群人类 | NewVillagersEffectModel
+Human 3 | 一群人类 | NewVillagersEffectModel
+Human 4 | 一群人类 | NewVillagersEffectModel
+Human 5 | 一群人类 | NewVillagersEffectModel
+Lizard 1 | 蜥蜴 | NewVillagersEffectModel
+Lizard 2 | 一群蜥蜴 | NewVillagersEffectModel
+Lizard 3 | 一群蜥蜴 | NewVillagersEffectModel
+Lizard 4 | 一群蜥蜴 | NewVillagersEffectModel
+Lizard 5 | 一群蜥蜴 | NewVillagersEffectModel
+[Trader] Bat 3 | 蝙蝠群 | NewVillagersEffectModel
+[Trader] Beaver 3 | 一群海狸 | NewVillagersEffectModel
+[Trader] Foxes 3 | 一群狐狸 | NewVillagersEffectModel
+[Trader] Frog 3 | 一群蛙 | NewVillagersEffectModel
+[Trader] Harpy 3 | 一群鸟身女怪 | NewVillagersEffectModel
+[Trader] Human 3 | 一群人类 | NewVillagersEffectModel
+[Trader] Lizard 3 | 一群蜥蜴 | NewVillagersEffectModel
+Newcomer Goods +10 | >Missing key< | NewcommersGoodsRateEffectModel
+Newcomer Goods +20 | >Missing key< | NewcommersGoodsRateEffectModel
+Newcomer Goods +25 | >Missing key< | NewcommersGoodsRateEffectModel
+Newcomer Goods +40 | >Missing key< | NewcommersGoodsRateEffectModel
+Newcomer Goods +50 | >Missing key< | NewcommersGoodsRateEffectModel
+Newcomer Goods +75 | >Missing key< | NewcommersGoodsRateEffectModel
+LessNewNewcomers_Random | 猎场 | NewcomersBonusEffectModel
+NewNewcomersBonus_Random 1 | >Missing key< | NewcomersBonusEffectModel
+NewNewcomersBonus_Random 3 | >Missing key< | NewcomersBonusEffectModel
+NewNewcomersBonus_Random | 拥挤的商队 | NewcomersBonusEffectModel
+Frog Newcomer Bonus | 两栖领袖 | NewcomersIntervalRateEffectModel
+Newcomers Faster 15 | >Missing key< | NewcomersIntervalRateEffectModel
+Newcomers Faster 20 | >Missing key< | NewcomersIntervalRateEffectModel
+Newcomers Slower 33 | 变换之路 | NewcomersIntervalRateEffectModel
+[Map Mod] No Geysers | 旱地 | NoSpringsEffectModel
+[Map Mod] No Orders | 渔民的仪式地点 | OrdersBlockEffectModel
+[Mod] Orders Block | 破坏 | OrdersBlockEffectModel
+[Map Mod] 3 Order Picks | 皇家哨所 | OrdersBonusOptionsEffectModel
+[Mod] 3 Order Picks | 慷慨的特使 | OrdersBonusOptionsEffectModel
+[Mod] No Order Picks | 在女王的注视下 | OrdersBonusOptionsEffectModel
+[Map Mod] Bonus Timed Orders | 被弃之神神殿 | OrdersBonusTimedAmountEffectModel
+[Map Mod] Small Map - Override Map Data | 河间地 | OverrideMapDataEffectModel
+[Biome] Same Size Glades | >Missing key< | OverrideMapGenerationEffectModel
+[Map Mod] Dangerous Lands | 危险的土地 | OverrideMapGenerationEffectModel
+[Map Mod] Forbidden Lands | 禁区 | OverrideMapGenerationEffectModel
+[Map Mod] Small Map - Override Map Generation | >Missing key< | OverrideMapGenerationEffectModel
+[Map Mod] Untamed Wilds | 原始荒原 | OverrideMapGenerationEffectModel
+Pause Block | 破碎的方尖碑 | PauseBlockEffectModel
+Amber Payment - Payment | 皇家税 | PaymentEffectModel
+Borrowed Time - Payment | 透支时间 | PaymentEffectModel
+SE Destroy Nodes | 非自然侵蚀 | PaymentEffectModel
+SE Late Newcomers | 变换之路 | PaymentEffectModel
+SE Lightning | 毁灭 | PaymentEffectModel
+SE Overheating - Sparkdew Payment | 腐臭蒸汽 | PaymentEffectModel
+SE Storm Clothes | 大暴雨 | PaymentEffectModel
+SE Vassal Tax - Amber Payment | 封臣税 | PaymentEffectModel
+SE Wood for Villagers - Payment | 圣火仪式 | PaymentEffectModel
+[Mod] Exploration Tax - Amber Payment - small | 土地税（小型森林空地） | PaymentEffectModel
+[WE] Bankrupt Trader Payment - big | 破产商人 | PaymentEffectModel
+[WE] Bankrupt Trader Payment - small | 破产商人 | PaymentEffectModel
+[WE] Black Amber Syndicate Payment | 黑琥珀协议 | PaymentEffectModel
+[WE] Brass Order Engineers Payment | 坠毁的飞艇 | PaymentEffectModel
+[WE] Exploration Tax - Amber Payment | 土地税（大型森林空地） | PaymentEffectModel
+[Biome] Black Market - Amber Payment - 2 | 放债 | PaymentEffectModel
+[Biome] Black Market - Amber Payment - 3 | 放债 | PaymentEffectModel
+[Biome] Black Market - Amber Payment - 4 | 放债 | PaymentEffectModel
+[Biome] Black Market - Amber Payment - 5 | 放债 | PaymentEffectModel
+[Biome] Black Market - Amber Payment - 6 | 放债 | PaymentEffectModel
+Biome Perk Crafter Charge 1 | >Missing key< | PerkCrafterChargeEffectModel
+[PerkCrafter] Expensive Favoring | >Missing key< | ResolveEffectBonusResolveEffectModel
+[PerkCrafter] Fewer Housing Spots - child - Big Shelter | >Missing key< | BuildingPerkEffectModel
+[PerkCrafter] Fewer Housing Spots - child - Shelter | >Missing key< | BuildingPerkEffectModel
+[PerkCrafter] Fewer Housing Spots | >Missing key< | CompositeEffectModel
+[PerkCrafter] Fuel Consumption | >Missing key< | FuelRateEffectModel
+[PerkCrafter] Hearth HP | >Missing key< | HearthBonusHPEffectModel
+[PerkCrafter] Higher Food Consumption | >Missing key< | ChanceForExtraConsumptionEffectModel
+[PerkCrafter] Higher Services Consumption | >Missing key< | ChanceForExtraConsumptionEffectModel
+[PerkCrafter] Impatience Rate | >Missing key< | ReputationPenaltyRateEffectModel
+[PerkCrafter] Impatience | >Missing key< | ReputationPenaltyEffectModel
+[PerkCrafter] Killed Villagers | >Missing key< | VillagersDeathEffectModel
+[PerkCrafter] Less Newcomer Goods | >Missing key< | NewcommersGoodsRateEffectModel
+[PerkCrafter] Less Resolve From Shelter | >Missing key< | ResolveEffectBonusResolveEffectModel
+[PerkCrafter] Longer Cyst Burning | >Missing key< | CystsBonusBurningTimeEffectModel
+[PerkCrafter] Longer Storm | >Missing key< | SeasonLengthEffectModel
+[PerkCrafter] More Hostility For Glades | >Missing key< | HostilitySourceChangeEffectModel
+[PerkCrafter] Negative Seasonal Effects Sooner | >Missing key< | SeasonalEffectsMinHostilityChangeEffectModel
+[PerkCrafter] Pickled Goods -2 | >Missing key< | GoodsRawProductionEffectModel
+[PerkCrafter] Remove Deposit | >Missing key< | RemoveVisibleDepositsEffectModel
+[PerkCrafter] Sacrifice Cost | >Missing key< | HearthSacraficeTimeEffectModel
+[PerkCrafter] Sacrifice Stacks | >Missing key< | BonusSacrificeStacksEffectModel
+[PerkCrafter] Tea -2 | >Missing key< | GoodsRawProductionEffectModel
+[PerkCrafter] Totem On Death | >Missing key< | SpawnBuildingOnDeathEffectModel
+[PerkCrafter] Trade Route Fuel | >Missing key< | TradeRoutesBonusFuelEffectModel
+[PerkCrafter] Trader Merch More Expensive | >Missing key< | TraderMerchandisePriceReductionEffectModel
+[PerkCrafter] Cyst Generation Rate 10 | >Missing key< | EnginesBlightRateEffectModel
+[PerkCrafter] Cyst Generation Rate 15 | >Missing key< | EnginesBlightRateEffectModel
+[PerkCrafter] Cyst Generation Rate 5 | >Missing key< | EnginesBlightRateEffectModel
+[PerkCrafter] More Resolve from Biscuits 1 | >Missing key< | ResolveEffectBonusResolveEffectModel
+[PerkCrafter] More Resolve from Biscuits 2 | >Missing key< | ResolveEffectBonusResolveEffectModel
+[PerkCrafter] More Resolve from Biscuits and Pie 2 | >Missing key< | CompositeEffectModel
+[PerkCrafter] More Resolve from Biscutis and Pie 2 - child (pie) | >Missing key< | ResolveEffectBonusResolveEffectModel
+[PerkCrafter] More Resolve from Religion 1 - Composite | >Missing key< | CompositeEffectModel
+[PerkCrafter] More Resolve from Religion 1 - Hearth | >Missing key< | ResolveEffectBonusResolveEffectModel
+[PerkCrafter] More Resolve from Religion 1 - Institution | >Missing key< | ResolveEffectBonusResolveEffectModel
+[PerkCrafter] More Resolve from Religion 2 - Composite | >Missing key< | CompositeEffectModel
+[PerkCrafter] More Resolve from Religion 2 - Hearth Religion | >Missing key< | ResolveEffectBonusResolveEffectModel
+[PerkCrafter] More Resolve from Religion 2 - Hearth Treatment | >Missing key< | ResolveEffectBonusResolveEffectModel
+[PerkCrafter] More Resolve from Religion 2 - Institution Religion | >Missing key< | ResolveEffectBonusResolveEffectModel
+[PerkCrafter] More Resolve from Religion 2 - Institution Treatment | >Missing key< | ResolveEffectBonusResolveEffectModel
+[PerkCrafter] More Resolve from Religion And Treatment 2 - Composite | >Missing key< | CompositeEffectModel
+[PerkCrafter] Break Interval 10 | 休息间隔 | VillagersPerkEffectModel
+[PerkCrafter] Break Interval 12 | 休息间隔 | VillagersPerkEffectModel
+[PerkCrafter] Break Interval 4 | 休息间隔 | VillagersPerkEffectModel
+[PerkCrafter] Break Interval 7 | 休息间隔 | VillagersPerkEffectModel
+[PerkCrafter] Building Mat Extra Prod Chance 12 | >Missing key< | RecipesTagExtraProductionChanceEffectModel
+[PerkCrafter] Building Mat Extra Prod Chance 4 | >Missing key< | RecipesTagExtraProductionChanceEffectModel
+[PerkCrafter] Building Mat Extra Prod Chance 5 | >Missing key< | RecipesTagExtraProductionChanceEffectModel
+[PerkCrafter] Building Mat Extra Prod Chance 7 | >Missing key< | RecipesTagExtraProductionChanceEffectModel
+[PerkCrafter] Building Mat Extra Prod Chance 8 | >Missing key< | RecipesTagExtraProductionChanceEffectModel
+[PerkCrafter] Double Prod Chance 10 | >Missing key< | GlobalExtraProductionChanceEffectModel
+[PerkCrafter] Double Prod Chance 3 | >Missing key< | GlobalExtraProductionChanceEffectModel
+[PerkCrafter] Double Prod Chance 4 | >Missing key< | GlobalExtraProductionChanceEffectModel
+[PerkCrafter] Double Prod Chance 6 | >Missing key< | GlobalExtraProductionChanceEffectModel
+[PerkCrafter] Double Prod Chance 7 | >Missing key< | GlobalExtraProductionChanceEffectModel
+[PerkCrafter] Farms Extra Prod Chance 10 | >Missing key< | RecipesTagExtraProductionChanceEffectModel
+[PerkCrafter] Farms Extra Prod Chance 12 | >Missing key< | RecipesTagExtraProductionChanceEffectModel
+[PerkCrafter] Farms Extra Prod Chance 4 | >Missing key< | RecipesTagExtraProductionChanceEffectModel
+[PerkCrafter] Farms Extra Prod Chance 5 | 农夫的骄傲 | RecipesTagExtraProductionChanceEffectModel
+[PerkCrafter] Farms Extra Prod Chance 7 | >Missing key< | RecipesTagExtraProductionChanceEffectModel
+[PerkCrafter] Farms Extra Prod Chance 8 | >Missing key< | RecipesTagExtraProductionChanceEffectModel
+[PerkCrafter] Metal Extra Prod Chance 12 | >Missing key< | RecipesTagExtraProductionChanceEffectModel
+[PerkCrafter] Metal Extra Prod Chance 4 | >Missing key< | RecipesTagExtraProductionChanceEffectModel
+[PerkCrafter] Metal Extra Prod Chance 5 | >Missing key< | RecipesTagExtraProductionChanceEffectModel
+[PerkCrafter] Metal Extra Prod Chance 7 | >Missing key< | RecipesTagExtraProductionChanceEffectModel
+[PerkCrafter] Metal Extra Prod Chance 8 | >Missing key< | RecipesTagExtraProductionChanceEffectModel
+[PerkCrafter] Global Capacity 1 | >Missing key< | GlobalCapacityEffectModel
+[PerkCrafter] Global Capacity 2 | >Missing key< | GlobalCapacityEffectModel
+[PerkCrafter] Global Capacity 3 | >Missing key< | GlobalCapacityEffectModel
+[PerkCrafter] Global Production Faster 10 | >Missing key< | GlobalProductionRateEffectModel
+[PerkCrafter] Global Production Faster 15 | >Missing key< | GlobalProductionRateEffectModel
+[PerkCrafter] Global Production Faster 5 | >Missing key< | GlobalProductionRateEffectModel
+[PerkCrafter] Amber 10 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Amber 12 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Amber 15 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Amber 4 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Amber 5 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Amber 6 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Amber 7 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Amber 8 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Barrels 15 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Barrels 25 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Barrels 35 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Biscuits 15 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Biscuits 25 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Biscuits 35 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Coal 15 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Coal 25 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Coal 35 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Copper Ore 10 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Copper Ore 15 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Copper Ore 20 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Copper Ore 25 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Copper Ore 35 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Grain 15 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Grain 25 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Grain 35 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Incense 15 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Incense 25 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Incense 35 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Oil 15 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Oil 25 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Oil 35 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Parts 2 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Parts 3 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Parts 4 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Parts 5 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Pie 15 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Pie 25 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Pie 35 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Provisions 10 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Provisions 12 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Provisions 4 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Provisions 7 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Purging Fire 10 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Purging Fire 12 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Purging Fire 15 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Purging Fire 4 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Purging Fire 5 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Purging Fire 6 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Purging Fire 7 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Random Complex Food 15 | >Missing key< | RandomGoodsEffectModel
+[PerkCrafter] Random Complex Food 20 | >Missing key< | RandomGoodsEffectModel
+[PerkCrafter] Random Complex Food 25 | >Missing key< | RandomGoodsEffectModel
+[PerkCrafter] Random Complex Food 35 | >Missing key< | RandomGoodsEffectModel
+[PerkCrafter] Random Raw Food 15 | >Missing key< | RandomGoodsEffectModel
+[PerkCrafter] Random Raw Food 20 | >Missing key< | RandomGoodsEffectModel
+[PerkCrafter] Random Raw Food 25 | >Missing key< | RandomGoodsEffectModel
+[PerkCrafter] Random Raw Food 30 | >Missing key< | RandomGoodsEffectModel
+[PerkCrafter] Random Raw Food 35 | >Missing key< | RandomGoodsEffectModel
+[PerkCrafter] Random Raw Food 40 | >Missing key< | RandomGoodsEffectModel
+[PerkCrafter] Random Raw Resorces 15 | >Missing key< | RandomGoodsEffectModel
+[PerkCrafter] Random Raw Resorces 20 | >Missing key< | RandomGoodsEffectModel
+[PerkCrafter] Random Raw Resorces 25 | >Missing key< | RandomGoodsEffectModel
+[PerkCrafter] Random Raw Resorces 30 | >Missing key< | RandomGoodsEffectModel
+[PerkCrafter] Random Raw Resorces 35 | >Missing key< | RandomGoodsEffectModel
+[PerkCrafter] Random Raw Resorces 40 | >Missing key< | RandomGoodsEffectModel
+[PerkCrafter] Random Service Goods 15 | >Missing key< | RandomGoodsEffectModel
+[PerkCrafter] Random Service Goods 25 | >Missing key< | RandomGoodsEffectModel
+[PerkCrafter] Random Service Goods 35 | >Missing key< | RandomGoodsEffectModel
+[PerkCrafter] Resin 20 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Resin 30 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Resin 40 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Sea Marrow 15 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Sea Marrow 20 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Sea Marrow 25 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Sea Marrow 30 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Sea Marrow 35 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Tablet 1 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Tablet 2 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Tablet 3 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Tablet 4 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Tools 10 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Tools 12 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Tools 2 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Tools 3 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Tools 4 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Tools 5 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Tools 7 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Tools 8 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Training Gear 15 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Training Gear 25 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Training Gear 35 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Wildfire Essence 1 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Wildfire Essence 2 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Wildfire Essence 3 | >Missing key< | GoodsEffectModel
+[PerkCrafter] Hostility -10 | >Missing key< | HostilityEffectModel
+[PerkCrafter] Hostility -15 | >Missing key< | HostilityEffectModel
+[PerkCrafter] Hostility -20 | >Missing key< | HostilityEffectModel
+[PerkCrafter] Hostility -5 | >Missing key< | HostilityEffectModel
+[PerkCrafter] Newcomer Arrival Rate 5 | >Missing key< | NewcomersIntervalRateEffectModel
+[PerkCrafter] Gatherers Speed - child - Forager - 10 | >Missing key< | ProfessionSpeedEffectModel
+[PerkCrafter] Gatherers Speed - child - Forager - 15 | >Missing key< | ProfessionSpeedEffectModel
+[PerkCrafter] Gatherers Speed - child - Forager - 5 | >Missing key< | ProfessionSpeedEffectModel
+[PerkCrafter] Gatherers Speed - child - Harvester - 10 | >Missing key< | ProfessionSpeedEffectModel
+[PerkCrafter] Gatherers Speed - child - Harvester - 15 | >Missing key< | ProfessionSpeedEffectModel
+[PerkCrafter] Gatherers Speed - child - Harvester - 5 | >Missing key< | ProfessionSpeedEffectModel
+[PerkCrafter] Gatherers Speed - child - Herbalist - 10 | >Missing key< | ProfessionSpeedEffectModel
+[PerkCrafter] Gatherers Speed - child - Herbalist - 15 | >Missing key< | ProfessionSpeedEffectModel
+[PerkCrafter] Gatherers Speed - child - Herbalist - 5 | >Missing key< | ProfessionSpeedEffectModel
+[PerkCrafter] Gatherers Speed - child - Stonecutter - 10 | >Missing key< | ProfessionSpeedEffectModel
+[PerkCrafter] Gatherers Speed - child - Stonecutter - 15 | >Missing key< | ProfessionSpeedEffectModel
+[PerkCrafter] Gatherers Speed - child - Stonecutter - 5 | >Missing key< | ProfessionSpeedEffectModel
+[PerkCrafter] Gatherers Speed - child - Trapper - 10 | >Missing key< | ProfessionSpeedEffectModel
+[PerkCrafter] Gatherers Speed - child - Trapper - 15 | >Missing key< | ProfessionSpeedEffectModel
+[PerkCrafter] Gatherers Speed - child - Trapper - 5 | >Missing key< | ProfessionSpeedEffectModel
+[PerkCrafter] Gatherers Speed 10 | >Missing key< | CompositeEffectModel
+[PerkCrafter] Gatherers Speed 15 | >Missing key< | CompositeEffectModel
+[PerkCrafter] Gatherers Speed 5 | >Missing key< | CompositeEffectModel
+[PerkCrafter] Node Charges 10 | >Missing key< | RawDepositsChargesEffectModel
+[PerkCrafter] Node Charges 4 | >Missing key< | RawDepositsChargesEffectModel
+[PerkCrafter] Node Charges 6 | >Missing key< | RawDepositsChargesEffectModel
+[PerkCrafter] Node Charges 7 | >Missing key< | RawDepositsChargesEffectModel
+[PerkCrafter] Complex Food Prod Speed 10 | >Missing key< | RecipesTagProductionRateEffectModel
+[PerkCrafter] Complex Food Prod Speed 15 | >Missing key< | RecipesTagProductionRateEffectModel
+[PerkCrafter] Complex Food Prod Speed 5 | >Missing key< | RecipesTagProductionRateEffectModel
+[PerkCrafter] Planting and Harvesting Speed - child (Harvesting 10) | >Missing key< | HarvestingRateEffectModel
+[PerkCrafter] Planting and Harvesting Speed - child (Harvesting 15) | >Missing key< | HarvestingRateEffectModel
+[PerkCrafter] Planting and Harvesting Speed - child (Harvesting 5) | >Missing key< | HarvestingRateEffectModel
+[PerkCrafter] Planting and Harvesting Speed - child (Planting 10) | >Missing key< | PlantingRateEffectModel
+[PerkCrafter] Planting and Harvesting Speed - child (Planting 15) | >Missing key< | PlantingRateEffectModel
+[PerkCrafter] Planting and Harvesting Speed - child (Planting 5) | >Missing key< | PlantingRateEffectModel
+[PerkCrafter] Planting and Harvesting Speed 10 | >Missing key< | CompositeEffectModel
+[PerkCrafter] Planting and Harvesting Speed 15 | >Missing key< | CompositeEffectModel
+[PerkCrafter] Planting and Harvesting Speed 5 | >Missing key< | CompositeEffectModel
+[PerkCrafter] Boots +1 | >Missing key< | GoodsRawProductionEffectModel
+[PerkCrafter] Boots +2 | >Missing key< | GoodsRawProductionEffectModel
+[PerkCrafter] Boots and Coats +2 - child (coats) | >Missing key< | GoodsRawProductionEffectModel
+[PerkCrafter] Boots and Coats +2 | >Missing key< | CompositeEffectModel
+[PerkCrafter] Jerky +1 | 更大的木桶 | GoodsRawProductionEffectModel
+[PerkCrafter] Jerky +2 | 更大的木桶 | GoodsRawProductionEffectModel
+[PerkCrafter] Jerky and Skewers +2 - child (skewers) | 更大的木桶 | GoodsRawProductionEffectModel
+[PerkCrafter] Jerky and Skewers +2 | >Missing key< | CompositeEffectModel
+[PerkCrafter] Porridge +1 | 更大的木桶 | GoodsRawProductionEffectModel
+[PerkCrafter] Porridge +2 | 更大的木桶 | GoodsRawProductionEffectModel
+[PerkCrafter] Porridge and Paste +2 - child (porridge) | 更大的木桶 | GoodsRawProductionEffectModel
+[PerkCrafter] Porridge and Paste +2 | >Missing key< | CompositeEffectModel
+[PerkCrafter] Scrolls +1 | >Missing key< | GoodsRawProductionEffectModel
+[PerkCrafter] Scrolls +2 | >Missing key< | GoodsRawProductionEffectModel
+[PerkCrafter] Scrolls and Incense +2 - child (incense) | >Missing key< | GoodsRawProductionEffectModel
+[PerkCrafter] Scrolls and Incense +2 | >Missing key< | CompositeEffectModel
+[PerkCrafter] Wine +1 | 更大的木桶 | GoodsRawProductionEffectModel
+[PerkCrafter] Wine +2 | 更大的木桶 | GoodsRawProductionEffectModel
+[PerkCrafter] Wine and Ale +2 - child (ale) | 更大的木桶 | GoodsRawProductionEffectModel
+[PerkCrafter] Wine and Ale +2 | >Missing key< | CompositeEffectModel
+[PerkCrafter] Relics Chance for Extra Reward 10 | >Missing key< | RelicsExtraRewardsChanceEffectModel
+[PerkCrafter] Relics Chance for Extra Reward 15 | >Missing key< | RelicsExtraRewardsChanceEffectModel
+[PerkCrafter] Relics Chance for Extra Reward 5 | >Missing key< | RelicsExtraRewardsChanceEffectModel
+[PerkCrafter] Beaver Resolve +1 | >Missing key< | RaceResolveEffectEffectModel
+[PerkCrafter] Beaver Resolve +2 | >Missing key< | RaceResolveEffectEffectModel
+[PerkCrafter] Beaver Resolve +3 | >Missing key< | RaceResolveEffectEffectModel
+[PerkCrafter] Fox Resolve +1 | >Missing key< | RaceResolveEffectEffectModel
+[PerkCrafter] Fox Resolve +2 | >Missing key< | RaceResolveEffectEffectModel
+[PerkCrafter] Fox Resolve +3 | >Missing key< | RaceResolveEffectEffectModel
+[PerkCrafter] Frog Resolve +1 | >Missing key< | RaceResolveEffectEffectModel
+[PerkCrafter] Frog Resolve +2 | >Missing key< | RaceResolveEffectEffectModel
+[PerkCrafter] Frog Resolve +3 | >Missing key< | RaceResolveEffectEffectModel
+[PerkCrafter] Harpy Resolve +1 | >Missing key< | RaceResolveEffectEffectModel
+[PerkCrafter] Harpy Resolve +2 | >Missing key< | RaceResolveEffectEffectModel
+[PerkCrafter] Harpy Resolve +3 | >Missing key< | RaceResolveEffectEffectModel
+[PerkCrafter] Human Resolve +1 | >Missing key< | RaceResolveEffectEffectModel
+[PerkCrafter] Human Resolve +2 | >Missing key< | RaceResolveEffectEffectModel
+[PerkCrafter] Human Resolve +3 | >Missing key< | RaceResolveEffectEffectModel
+[PerkCrafter] Lizard Resolve +1 | >Missing key< | RaceResolveEffectEffectModel
+[PerkCrafter] Lizard Resolve +2 | >Missing key< | RaceResolveEffectEffectModel
+[PerkCrafter] Lizard Resolve +3 | >Missing key< | RaceResolveEffectEffectModel
+[PerkCrafter] Trade Route Speed 10 | >Missing key< | TradeRoutesSpeedEffectModel
+[PerkCrafter] Trade Route Speed 15 | >Missing key< | TradeRoutesSpeedEffectModel
+[PerkCrafter] Trade Route Speed 20 | >Missing key< | TradeRoutesSpeedEffectModel
+[PerkCrafter] Trade Route Speed 5 | >Missing key< | TradeRoutesSpeedEffectModel
+[PerkCrafter] Scout Working Speed 10 | >Missing key< | RelicsWorkingTimeRateEffectModel
+[PerkCrafter] Scout Working Speed 12 | >Missing key< | RelicsWorkingTimeRateEffectModel
+[PerkCrafter] Scout Working Speed 4 | >Missing key< | RelicsWorkingTimeRateEffectModel
+[PerkCrafter] Scout Working Speed 7 | >Missing key< | RelicsWorkingTimeRateEffectModel
+PlantingRate +10 | 种子袋 | PlantingRateEffectModel
+PlantingRate +100 | 肥料 | PlantingRateEffectModel
+PlantingRate +25 | 种子袋 | PlantingRateEffectModel
+PlantingRate +30 | 肥料 | PlantingRateEffectModel
+PlantingRate +40 | 肥料 | PlantingRateEffectModel
+PlantingRate +5 | 种子袋 | PlantingRateEffectModel
+PlantingRate +50 | 快速种植 | PlantingRateEffectModel
+PlantingRate +75 | 肥料 | PlantingRateEffectModel
+PlantingRate -25 | 慢速种植 | PlantingRateEffectModel
+PlantingRate -50 | 慢速种植 | PlantingRateEffectModel
+PlantingRate -60 | 慢速种植 | PlantingRateEffectModel
+PlantingRate -70 | 慢速种植 | PlantingRateEffectModel
+PlantingRate -80 | 慢速种植 | PlantingRateEffectModel
+Bakery Speed +50 | 面包铲 | ProductionRateEffectModel
+Blight Post Speed +50 | >Missing key< | ProductionRateEffectModel
+Brewery Speed +50 | 雨泵 | ProductionRateEffectModel
+Brewery Speed Haunted +50 | 雨泵 | ProductionRateEffectModel
+Cookhouse Speed +50 | >Missing key< | ProductionRateEffectModel
+Crude Workstation Speed +50 | 木匠工具 | ProductionRateEffectModel
+Fishing Hut Primitive Speed +25 | 宽网 | ProductionRateEffectModel
+Fishing Hut Speed +25 | 宽网 | ProductionRateEffectModel
+Lumber Speed +10 | 强劲之水 | ProductionRateEffectModel
+Lumber Speed +15 | 强化斧 | ProductionRateEffectModel
+Lumber Speed +30 | 强化斧 | ProductionRateEffectModel
+Lumber Speed +50 | 强化斧 | ProductionRateEffectModel
+Lumber Speed -50 | >Missing key< | ProductionRateEffectModel
+Mine Speed +100 | >Missing key< | ProductionRateEffectModel
+SEC Lumber Speed +50 | 腐烂的树木 | ProductionRateEffectModel
+Smithy Speed +50 | >Missing key< | ProductionRateEffectModel
+Smokehouse Speed +50 | 增味剂 | ProductionRateEffectModel
+Builder +1 | 建筑工套装 | ProfessionCapacityEffectModel
+Builder +10 | 建筑工套装 | ProfessionCapacityEffectModel
+Builder +15 | 建筑工套装 | ProfessionCapacityEffectModel
+Builder +5 | 建筑工套装 | ProfessionCapacityEffectModel
+Farmer +10 | 农夫套装 | ProfessionCapacityEffectModel
+Farmer +15 | 农夫套装 | ProfessionCapacityEffectModel
+Farmer +5 | 农夫套装 | ProfessionCapacityEffectModel
+Hauler +5 | 安全绳 | ProfessionCapacityEffectModel
+Hauler Break Interval - Carry Capacity +5 - child | >Missing key< | ProfessionCapacityEffectModel
+Scout +10 | 侦察员套装 | ProfessionCapacityEffectModel
+Scout +15 | 侦察员套装 | ProfessionCapacityEffectModel
+Scout +3 | 侦察员套装 | ProfessionCapacityEffectModel
+Scout +5 | 侦察员套装 | ProfessionCapacityEffectModel
+Scout Speed +5 | >Missing key< | ProfessionSpeedEffectModel
+SE Woodcuters +10 | 轻质木材 | ProfessionCapacityEffectModel
+Woodcuters +10 | 轻木材 | ProfessionCapacityEffectModel
+Woodcuters +15 | 轻木材 | ProfessionCapacityEffectModel
+Woodcuters +5 | 轻木材 | ProfessionCapacityEffectModel
+[U][B] Frog House Bonus - Builder Carry Capacity | >Missing key< | ProfessionCapacityEffectModel
+Bat Faction Support | 蝙蝠氏族支持 | RaceResolveEffectEffectModel
+Bat Resolve For Frog Death - child | 积怨难消 | RaceResolveEffectEffectModel
+Bats Dedication | 奉献 | RaceResolveEffectEffectModel
+Beaver Faction Support | 海狸氏族支持 | RaceResolveEffectEffectModel
+Beaver Resolve For Harpies - child | 合作精神 | RaceResolveEffectEffectModel
+Fox Faction Support | 狐狸氏族支持 | RaceResolveEffectEffectModel
+Frog Faction Support | 蛙氏族支持 | RaceResolveEffectEffectModel
+Harpy Faction Support | 鸟身女怪氏族支持 | RaceResolveEffectEffectModel
+Harpy Stormbird Resolve | 独特的联盟 | RaceResolveEffectEffectModel
+Human Faction Support | 人类氏族支持 | RaceResolveEffectEffectModel
+Lizard Faction Support | 蜥蜴氏族支持 | RaceResolveEffectEffectModel
+Resolve for Incense Humans | 香味 | RaceResolveEffectEffectModel
+Resolve for Tea Harpies | 健康药茶 | RaceResolveEffectEffectModel
+Resolve for Training Gear Lizards | 武装到牙齿 | RaceResolveEffectEffectModel
+Resolve for Wine Beavers | 葡萄园小镇 | RaceResolveEffectEffectModel
+Battleground Bat - hard | 倒下的蝙蝠 | RaceResolveEffectEffectModel
+Battleground Bat - impossible | 倒下的蝙蝠 | RaceResolveEffectEffectModel
+Battleground Bat - normal | 倒下的蝙蝠 | RaceResolveEffectEffectModel
+Battleground Bat - very hard | 倒下的蝙蝠 | RaceResolveEffectEffectModel
+Battleground Beaver - hard | 倒下的海狸 | RaceResolveEffectEffectModel
+Battleground Beaver - impossible | 倒下的海狸 | RaceResolveEffectEffectModel
+Battleground Beaver - normal | 倒下的海狸 | RaceResolveEffectEffectModel
+Battleground Beaver - very hard | 倒下的海狸 | RaceResolveEffectEffectModel
+Battleground Fox - hard | 倒下的狐狸 | RaceResolveEffectEffectModel
+Battleground Fox - impossible | 倒下的狐狸 | RaceResolveEffectEffectModel
+Battleground Fox - normal | 倒下的狐狸 | RaceResolveEffectEffectModel
+Battleground Fox - very hard | 倒下的狐狸 | RaceResolveEffectEffectModel
+Battleground Frog - hard | 倒下的蛙 | RaceResolveEffectEffectModel
+Battleground Frog - impossible | 倒下的蛙 | RaceResolveEffectEffectModel
+Battleground Frog - normal | 倒下的蛙 | RaceResolveEffectEffectModel
+Battleground Frog - very hard | 倒下的蛙 | RaceResolveEffectEffectModel
+Battleground Harpy - hard | 倒下的鸟身女怪科学家 | RaceResolveEffectEffectModel
+Battleground Harpy - impossible | 倒下的鸟身女怪科学家 | RaceResolveEffectEffectModel
+Battleground Harpy - normal | 倒下的鸟身女怪科学家 | RaceResolveEffectEffectModel
+Battleground Harpy - very hard | 倒下的鸟身女怪科学家 | RaceResolveEffectEffectModel
+Battleground Human - hard | 倒下的人类 | RaceResolveEffectEffectModel
+Battleground Human - impossible | 倒下的人类 | RaceResolveEffectEffectModel
+Battleground Human - normal | 倒下的人类 | RaceResolveEffectEffectModel
+Battleground Human - very hard | 倒下的人类 | RaceResolveEffectEffectModel
+Battleground Lizard - hard | 倒下的蜥蜴 | RaceResolveEffectEffectModel
+Battleground Lizard - impossible | 倒下的蜥蜴 | RaceResolveEffectEffectModel
+Battleground Lizard - normal | 倒下的蜥蜴 | RaceResolveEffectEffectModel
+Battleground Lizard - very hard | 倒下的蜥蜴 | RaceResolveEffectEffectModel
+Rainpunk Rods Activation | Effect_BiomeEffect_RainpunkRodsActivation_Name | RainpunkRodsActivationModel
+Random Blueprint Reward | 过分热心的建筑师 | RandomBlueprintEffectModel
+20 Random Goods | >Missing key< | RandomGoodsEffectModel
+30 Random Raw Food | >Missing key< | RandomGoodsEffectModel
+5 Random Packs | 谁捡到就是谁的 | RandomGoodsEffectModel
+[Map Mod] Randomize Seasons Duration - child | 古老高塔 | RandomizeSeasonsDurationEffectModel
+Raw Deposit Charges -15 | >Missing key< | RawDepositsChargesEffectModel
+Raw Deposit Charges -5 | >Missing key< | RawDepositsChargesEffectModel
+RawDepositsCharges_10 | 富饶的森林空地 | RawDepositsChargesEffectModel
+RawDepositsCharges_20 | >Missing key< | RawDepositsChargesEffectModel
+RawDepositsCharges_Altar | >Missing key< | RawDepositsChargesEffectModel
+SE RawDepositsCharges | 狂野生长 | RawDepositsChargesEffectModel
+[Mod] RawDepositsCharges_10 | 富饶的荒野 | RawDepositsChargesEffectModel
+Barrels in Lumber Mill | 木桶示意图 | RecipeEffectModel
+Barrels in Smithy | 木桶示意图 | RecipeEffectModel
+Biscuits in Kiln | 饼干配方 | RecipeEffectModel
+Biscuits in Rain Mill Haunted | 饼干配方 | RecipeEffectModel
+Biscuits in Rain Mill | 饼干配方 | RecipeEffectModel
+Mushrooms in Brineworks - Altar | 季节性作物 | RecipeEffectModel
+Mushrooms in Brineworks | 季节性作物 | RecipeEffectModel
+Mushrooms in Grove - Altar | 季节性作物 | RecipeEffectModel
+Mushrooms in Grove | 季节性作物 | RecipeEffectModel
+Mushrooms in Herb Garden - Altar | 季节性作物 | RecipeEffectModel
+Mushrooms in Herb Garden Haunted - Altar | 季节性作物 | RecipeEffectModel
+Mushrooms in Herb Garden Haunted | 季节性作物 | RecipeEffectModel
+Mushrooms in Herb Garden | 季节性作物 | RecipeEffectModel
+Mushrooms in Plantation - Altar | 季节性作物 | RecipeEffectModel
+Mushrooms in Plantation | 季节性作物 | RecipeEffectModel
+Mushrooms in SmallFarm - Altar | 季节性作物 | RecipeEffectModel
+Mushrooms in SmallFarm Haunted - Altar | 季节性作物 | RecipeEffectModel
+Mushrooms in SmallFarm Haunted | 季节性作物 | RecipeEffectModel
+Mushrooms in SmallFarm | 季节性作物 | RecipeEffectModel
+Parts in Crude Workshop | 锻造之锤 | RecipeEffectModel
+Parts in Smithy | 锻造之锤 | RecipeEffectModel
+SE Grain in Harvester | 柔软根茎 | RecipeEffectModel
+Stone in Clay Pit | 钢镐 | RecipeEffectModel
+Trade Pack in Brickyard | 成包贸易说明 | RecipeEffectModel
+Trade Pack in Clothier | 成包贸易说明 | RecipeEffectModel
+Trade Pack in Makeshift Post | 包装改良 | RecipeEffectModel
+Vegetables in Greenhouse | 苔藓椰菜种子 | RecipeEffectModel
+[WE] Fuel Core in Temporary Engineering Station | >Missing key< | RecipeEffectModel
+[WE] Fuel Rod in Temporary Engineering Station | >Missing key< | RecipeEffectModel
+Building Mat Crit +3 | >Missing key< | RecipesTagExtraProductionChanceEffectModel
+Mine Crit +3 | >Missing key< | RecipesTagExtraProductionChanceEffectModel
+Water Recipes Crit +3 | >Missing key< | RecipesTagExtraProductionChanceEffectModel
+Gatherers Prod +50 | 古老传统 | RecipesTagProductionEffectModel
+More Fuel Produced | >Missing key< | RecipesTagProductionEffectModel
+More Packs Produced 100 | >Missing key< | RecipesTagProductionEffectModel
+More Packs Produced | >Missing key< | RecipesTagProductionEffectModel
+SE Building Materials Prod Penalty | 酸雨 | RecipesTagProductionEffectModel
+SE Gatherers Prod +100 | 丰富的分支 | RecipesTagProductionEffectModel
+SE Metal Prod Penalty | 腐蚀雨幕 | RecipesTagProductionEffectModel
+Temple Building Production Yield | “自愿”献祭 | RecipesTagProductionEffectModel
+Temple Packs Production Yield | “自愿”献祭 | RecipesTagProductionEffectModel
+[FA] Gatherers Prod +100 - child | 采集物的礼物 | RecipesTagProductionEffectModel
+All Camps Unlock - Slow Fishing | 大师蓝图 | RecipesTagProductionRateEffectModel
+All Camps Unlock - Slow Gathering | 大师蓝图 | RecipesTagProductionRateEffectModel
+Building Mat Speed +3 | >Missing key< | RecipesTagProductionRateEffectModel
+Fabric or Coat Speed +5 | >Missing key< | RecipesTagProductionRateEffectModel
+Food prod speed +10 | 蒸汽烹饪 | RecipesTagProductionRateEffectModel
+Food prod speed +40 | 蒸汽烹饪 | RecipesTagProductionRateEffectModel
+Food Production Speed +20 | 总督的生存指南 | RecipesTagProductionRateEffectModel
+Food Production Speed +33 | 总督的生存指南 | RecipesTagProductionRateEffectModel
+Food Production Speed +50 | 总督的生存指南 | RecipesTagProductionRateEffectModel
+Food Production Speed -60 | 遭污染的食物 | RecipesTagProductionRateEffectModel
+Food Production Speed -70 | 遭污染的食物 | RecipesTagProductionRateEffectModel
+Food Production Speed -80 | 遭污染的食物 | RecipesTagProductionRateEffectModel
+Food Production Speed -90 | 遭污染的食物 | RecipesTagProductionRateEffectModel
+Fuel Recipes Rate 33 | 高级燃料 | RecipesTagProductionRateEffectModel
+Fuel Recipes Rate 50 | 高级燃料 | RecipesTagProductionRateEffectModel
+Fuel Recipes Rate 66 | 高级燃料 | RecipesTagProductionRateEffectModel
+Gathering Speed +30 | >Missing key< | RecipesTagProductionRateEffectModel
+Gathering Speed +5 | >Missing key< | RecipesTagProductionRateEffectModel
+Gathering Speed +50 | >Missing key< | RecipesTagProductionRateEffectModel
+Metal Production Speed Boost 33 | >Missing key< | RecipesTagProductionRateEffectModel
+Metal Production Speed Boost 66 | 冶金效率 | RecipesTagProductionRateEffectModel
+Ore Production Speed Boost 33 | >Missing key< | RecipesTagProductionRateEffectModel
+Ore Production Speed Boost 66 | 冶金效率 | RecipesTagProductionRateEffectModel
+Packs Production Speed Boost 33 | 快速交付 | RecipesTagProductionRateEffectModel
+Packs Production Speed Boost 50 | >Missing key< | RecipesTagProductionRateEffectModel
+Packs Production Speed Boost 66 | 快速交付 | RecipesTagProductionRateEffectModel
+SE Fast Food | 带咸味的风 | RecipesTagProductionRateEffectModel
+SE Food Production Speed -15 | 从天而降的腐烂 | RecipesTagProductionRateEffectModel
+SE Gatherer Production Speed +50 | 硕果累累的季节 | RecipesTagProductionRateEffectModel
+SE Gatherer Production Speed -50 | 颤抖的沼泽 | RecipesTagProductionRateEffectModel
+[Biome] Gatherer Production Speed | Camps Speed | RecipesTagProductionRateEffectModel
+[Mod] Low Food Production Speed | 没有烹饪用具 | RecipesTagProductionRateEffectModel
+[Mod] Metal Production Speed 100 | 冶金专家 | RecipesTagProductionRateEffectModel
+Fedora Hat | 旧费多拉帽 | RelicsExtraRewardsChanceEffectModel
+Relics Chance for Extra Reward 100 | >Missing key< | RelicsExtraRewardsChanceEffectModel
+Relics Chance for Extra Reward 20 | >Missing key< | RelicsExtraRewardsChanceEffectModel
+[SE] More event goods | 拾荒季 | RelicsExtraRewardsChanceEffectModel
+Chest Working Time -30 | 侦察员的工具箱 | RelicsWorkingTimeRateEffectModel
+Dangerous Relic Working TIme +50 | >Missing key< | RelicsWorkingTimeRateEffectModel
+Dangerous Relic Working TIme -50 | >Missing key< | RelicsWorkingTimeRateEffectModel
+Event Time Reduction 10 | 幸运护身符 | RelicsWorkingTimeRateEffectModel
+Lighthouse Scouts Curse | 魅惑的灯光 | RelicsWorkingTimeRateEffectModel
+Relic Working TIme +10 | >Missing key< | RelicsWorkingTimeRateEffectModel
+Relic Working TIme -10 | >Missing key< | RelicsWorkingTimeRateEffectModel
+Relic Working TIme -2 | >Missing key< | RelicsWorkingTimeRateEffectModel
+Relic Working TIme -20 | >Missing key< | RelicsWorkingTimeRateEffectModel
+Relic Working TIme -25 | >Missing key< | RelicsWorkingTimeRateEffectModel
+Relic Working TIme -7 | >Missing key< | RelicsWorkingTimeRateEffectModel
+Working Speed For Small Glade - Relic Working Speed | 远见 | RelicsWorkingTimeRateEffectModel
+[BT] Relic Working TIme - child | 敏捷神迹 | RelicsWorkingTimeRateEffectModel
+[FA] Relic Working Time - child | 勇气祈祷 | RelicsWorkingTimeRateEffectModel
+[Hearth] Relic Working Time -20 | 献祭海洋精华 | RelicsWorkingTimeRateEffectModel
+[Mod] Longer Relics Working Time | 拖延 | RelicsWorkingTimeRateEffectModel
+[TW] Longer Relics Working Time | 邪怖颂歌 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 0 - archaeology | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 0 - camp | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 0 - chest | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 0 - city ruin | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 0 - drill | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 0 - monolith | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 0 - ruin | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 0 - threat | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 1 - archaeology | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 1 - camp | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 1 - chest | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 1 - city ruin | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 1 - drill | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 1 - monolith | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 1 - ruin | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 1 - threat | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 2 - archaeology | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 2 - camp | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 2 - chest | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 2 - city ruin | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 2 - drill | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 2 - monolith | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 2 - ruin | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 2 - threat | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 3 - archaeology | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 3 - camp | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 3 - chest | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 3 - city ruin | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 3 - drill | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 3 - monolith | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 3 - ruin | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - 3 - threat | 反思时间 | RelicsWorkingTimeRateEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - composite - 0 - normal | 反思时间 | CompositeEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - composite - 1 - hard | 反思时间 | CompositeEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - composite - 2 - very hard | 反思时间 | CompositeEffectModel
+[WE] Feast Hall - Funeral - Slower Relic Working Speed - composite - 3 - impossible | 反思时间 | CompositeEffectModel
+Remove Amber and Wine | 被掩埋的财富 | RemoveGoodsByCategoryEffectModel
+Remove Amber | >Missing key< | RemoveGoodsByCategoryEffectModel
+[WE] Remove All Food | 风暴蚁队 | RemoveGoodsByCategoryEffectModel
+[WE] Remove Fuel | 燃料捐赠 | RemoveGoodsByCategoryEffectModel
+Blightrot_RemoveFoodOverTime - hard | 腐烂的食物 | RemoveGoodsInTimeEffectModel
+Blightrot_RemoveFoodOverTime - impossible | 腐烂的食物 | RemoveGoodsInTimeEffectModel
+Blightrot_RemoveFoodOverTime - normal | 腐烂的食物 | RemoveGoodsInTimeEffectModel
+Blightrot_RemoveFoodOverTime - very hard | 腐烂的食物 | RemoveGoodsInTimeEffectModel
+Mistworm_RemoveFoodOverTime_Hard | 饥饿的迷雾蠕虫 | RemoveGoodsInTimeEffectModel
+Mistworm_RemoveFoodOverTime_Impossible | 饥饿的迷雾蠕虫 | RemoveGoodsInTimeEffectModel
+Mistworm_RemoveFoodOverTime_Normal | 饥饿的迷雾蠕虫 | RemoveGoodsInTimeEffectModel
+Mistworm_RemoveFoodOverTime_VeryHard | 饥饿的迷雾蠕虫 | RemoveGoodsInTimeEffectModel
+NoxiousMachinery_RemoveWaterOverTime - hard | >Missing key< | RemoveGoodsInTimeEffectModel
+NoxiousMachinery_RemoveWaterOverTime - impossible | >Missing key< | RemoveGoodsInTimeEffectModel
+NoxiousMachinery_RemoveWaterOverTime - normal | >Missing key< | RemoveGoodsInTimeEffectModel
+NoxiousMachinery_RemoveWaterOverTime - very hard | >Missing key< | RemoveGoodsInTimeEffectModel
+Outpost_RemoveFoodOverTime - hard | 偷东西的渔夫 | RemoveGoodsInTimeEffectModel
+Outpost_RemoveFoodOverTime - impossible | 偷东西的渔夫 | RemoveGoodsInTimeEffectModel
+Outpost_RemoveFoodOverTime - normal | 偷东西的渔夫 | RemoveGoodsInTimeEffectModel
+Outpost_RemoveFoodOverTime - very hard | 偷东西的渔夫 | RemoveGoodsInTimeEffectModel
+TEST Plague of Fire | 烈焰灾害 | RemoveGoodsInTimeEffectModel
+TEST Plague of Rats - Food | 老鼠灾害 | RemoveGoodsInTimeEffectModel
+Wildfire_RemoveFuelOverTime - hard | 野火化身 | RemoveGoodsInTimeEffectModel
+Wildfire_RemoveFuelOverTime - impossible | 野火化身 | RemoveGoodsInTimeEffectModel
+Wildfire_RemoveFuelOverTime - normal | 野火化身 | RemoveGoodsInTimeEffectModel
+Wildfire_RemoveFuelOverTime - very hard | 野火化身 | RemoveGoodsInTimeEffectModel
+[TW] RemoveFoodOverTime | 毒风 | RemoveGoodsInTimeEffectModel
+Remove Hunger Stack | 紧急口粮 | RemoveHungerStacksEffectModel
+CaptainCurse | 船长的诅咒 | RemoveRandomCornerstonesEffectModel
+Remove one cornerstone Stag | 鹿鸣 | RemoveRandomCornerstonesEffectModel
+Remove Chests From Glades | 掠夺 | RemoveRelicsByTagEffectModel
+Ghost Remove Self | 消失 | RemoveSelfEffectModel
+Treasure Stag Remove Self | 逃离 | RemoveSelfEffectModel
+SE Remove Nodes - child | 水洞 | RemoveVisibleDepositsEffectModel
+TEST Plague of Locusts | 蝗虫灾害 | RemoveVisibleDepositsEffectModel
+Replace Blightrot | 衰减 | ReplaceBuildingEffectModel
+Replace Building Academy | 学院 | ReplaceBuildingEffectModel
+Replace Building Advanced Rain Catcher | 高级集雨器 | ReplaceBuildingEffectModel
+Replace Building Alchemist | 炼金术士的小屋 | ReplaceBuildingEffectModel
+Replace Building Apotchecary | 药剂师 | ReplaceBuildingEffectModel
+Replace Building Artisan | 工匠 | ReplaceBuildingEffectModel
+Replace Building Bakery | 面包店 | ReplaceBuildingEffectModel
+Replace Building Bat House | 蝙蝠屋 | ReplaceBuildingEffectModel
+Replace Building Bath House | 澡堂 | ReplaceBuildingEffectModel
+Replace Building Beanery | 小吃店 | ReplaceBuildingEffectModel
+Replace Building Beaver House | 海狸屋 | ReplaceBuildingEffectModel
+Replace Building Big Shelter | 大庇护所 | ReplaceBuildingEffectModel
+Replace Building Brewery | 啤酒厂 | ReplaceBuildingEffectModel
+Replace Building Brick Oven | 砖炉 | ReplaceBuildingEffectModel
+Replace Building Brickyard | 砖厂 | ReplaceBuildingEffectModel
+Replace Building Brineworks | 卤水作坊 | ReplaceBuildingEffectModel
+Replace Building Butcher | 肉店 | ReplaceBuildingEffectModel
+Replace Building Cannery | 罐装厂 | ReplaceBuildingEffectModel
+Replace Building Carpenter | 木工 | ReplaceBuildingEffectModel
+Replace Building Cellar | 地窖 | ReplaceBuildingEffectModel
+Replace Building Clan Hall | 氏族议事厅 | ReplaceBuildingEffectModel
+Replace Building Clay Pit | 粘土坑 | ReplaceBuildingEffectModel
+Replace Building Cobbler | 鞋匠 | ReplaceBuildingEffectModel
+Replace Building Cookhouse | 厨房 | ReplaceBuildingEffectModel
+Replace Building Cooperage | 制桶工场 | ReplaceBuildingEffectModel
+Replace Building Crude Workstation | 初加工工作站 | ReplaceBuildingEffectModel
+Replace Building Distillery | 蒸馏厂 | ReplaceBuildingEffectModel
+Replace Building Druid | 德鲁伊的小屋 | ReplaceBuildingEffectModel
+Replace Building Explorers Lodge | 探险者小屋 | ReplaceBuildingEffectModel
+Replace Building Farm | 自耕农场 | ReplaceBuildingEffectModel
+Replace Building Feast Hall - Funeral Part 2 | 葬礼宴会 - 第 2 部分 | ReplaceBuildingEffectModel
+Replace Building Feast Hall - Funeral Part 3 | 葬礼宴会 - 第 3 部分 | ReplaceBuildingEffectModel
+Replace Building Feast Hall | 宴会大厅 | ReplaceBuildingEffectModel
+Replace Building Field Kitchen | 野外厨房 | ReplaceBuildingEffectModel
+Replace Building Finesmith | 金银工坊 | ReplaceBuildingEffectModel
+Replace Building Fishing Hut Primitive | 捕鱼小屋 | ReplaceBuildingEffectModel
+Replace Building Fishing Hut | 捕鱼小屋 | ReplaceBuildingEffectModel
+Replace Building Foragers Camp Primitive | 小型觅食者营地 | ReplaceBuildingEffectModel
+Replace Building Foragers Camp | 觅食者营地 | ReplaceBuildingEffectModel
+Replace Building Forum | 论坛 | ReplaceBuildingEffectModel
+Replace Building Fox House | 狐狸屋 | ReplaceBuildingEffectModel
+Replace Building Frog House | 蛙族屋 | ReplaceBuildingEffectModel
+Replace Building Furnace | 熔炉 | ReplaceBuildingEffectModel
+Replace Building Granary | 谷仓 | ReplaceBuildingEffectModel
+Replace Building Greenhouse | 温室 | ReplaceBuildingEffectModel
+Replace Building Grill | 烤架 | ReplaceBuildingEffectModel
+Replace Building Grove | 护林人的小屋 | ReplaceBuildingEffectModel
+Replace Building Guild House | 行业工会 | ReplaceBuildingEffectModel
+Replace Building Harpy House | 鸟身女怪屋 | ReplaceBuildingEffectModel
+Replace Building Harvester Camp | 收割者营地 | ReplaceBuildingEffectModel
+Replace Building Haunted Bat House | 净化的蝙蝠屋 | ReplaceBuildingEffectModel
+Replace Building Haunted Beaver House | 净化的海狸屋 | ReplaceBuildingEffectModel
+Replace Building Haunted Brewery | 无瑕啤酒厂 | ReplaceBuildingEffectModel
+Replace Building Haunted Cellar | 无瑕地窖 | ReplaceBuildingEffectModel
+Replace Building Haunted Cooperage | 无瑕制桶工场 | ReplaceBuildingEffectModel
+Replace Building Haunted Druid | 无瑕德鲁伊的小屋 | ReplaceBuildingEffectModel
+Replace Building Haunted Fox House | 净化的狐狸屋 | ReplaceBuildingEffectModel
+Replace Building Haunted Frog House | 净化的蛙族屋 | ReplaceBuildingEffectModel
+Replace Building Haunted Guild House | 圣洁行业工会 | ReplaceBuildingEffectModel
+Replace Building Haunted Harpy House | 净化的鸟身女怪屋 | ReplaceBuildingEffectModel
+Replace Building Haunted Herb Garden | 神圣的香草园 | ReplaceBuildingEffectModel
+Replace Building Haunted Human House | 净化的人类住宅 | ReplaceBuildingEffectModel
+Replace Building Haunted Leatherworks | 无瑕制革工坊 | ReplaceBuildingEffectModel
+Replace Building Haunted Lizard House | 净化的蜥蜴屋 | ReplaceBuildingEffectModel
+Replace Building Haunted Market | 圣洁市场 | ReplaceBuildingEffectModel
+Replace Building Haunted Rainmill | 无瑕雨水磨坊 | ReplaceBuildingEffectModel
+Replace Building Haunted SmallFarm | 神圣的小农场 | ReplaceBuildingEffectModel
+Replace Building Haunted Smelter | 无瑕冶炼厂 | ReplaceBuildingEffectModel
+Replace Building Haunted Temple | 圣洁神殿 | ReplaceBuildingEffectModel
+Replace Building Hearth | 古老火塘 | ReplaceBuildingEffectModel
+Replace Building Herb Garden | 香草园 | ReplaceBuildingEffectModel
+Replace Building Herbalist Camp Primitive | 小型草药医生营地 | ReplaceBuildingEffectModel
+Replace Building Herbalist Camp | 草药医生的营地 | ReplaceBuildingEffectModel
+Replace Building Human House | 人类住宅 | ReplaceBuildingEffectModel
+Replace Building Kiln | 窑炉 | ReplaceBuildingEffectModel
+Replace Building Leatherworks | 制革工坊 | ReplaceBuildingEffectModel
+Replace Building Library | 图书馆 | ReplaceBuildingEffectModel
+Replace Building Lizard House | 蜥蜴屋 | ReplaceBuildingEffectModel
+Replace Building Lumbermill | 锯木场 | ReplaceBuildingEffectModel
+Replace Building Makeshift Post | 临时工作站 | ReplaceBuildingEffectModel
+Replace Building Manufactory | 工厂 | ReplaceBuildingEffectModel
+Replace Building Market | 市场 | ReplaceBuildingEffectModel
+Replace Building Mine | 矿井 | ReplaceBuildingEffectModel
+Replace Building Monastery | 修道院 | ReplaceBuildingEffectModel
+Replace Building Pantry | 食品室 | ReplaceBuildingEffectModel
+Replace Building Plantation | 种植园 | ReplaceBuildingEffectModel
+Replace Building Press | 压榨工坊 | ReplaceBuildingEffectModel
+Replace Building Provisioner | 杂货商 | ReplaceBuildingEffectModel
+Replace Building Rain Catcher | 集雨器 | ReplaceBuildingEffectModel
+Replace Building Rainmill | 雨水磨坊 | ReplaceBuildingEffectModel
+Replace Building Rainpunk Foundry | 雨朋克铸造厂 | ReplaceBuildingEffectModel
+Replace Building Ranch | 牧场 | ReplaceBuildingEffectModel
+Replace Building Scribe | 抄写室 | ReplaceBuildingEffectModel
+Replace Building Sewer | 裁缝 | ReplaceBuildingEffectModel
+Replace Building Shelter | 庇护所 | ReplaceBuildingEffectModel
+Replace Building SmallFarm | 小农场 | ReplaceBuildingEffectModel
+Replace Building Smelter | 冶炼厂 | ReplaceBuildingEffectModel
+Replace Building Smithy | 铁匠铺 | ReplaceBuildingEffectModel
+Replace Building Smokehouse | 熏制室 | ReplaceBuildingEffectModel
+Replace Building Stamping Mill | 冲压厂 | ReplaceBuildingEffectModel
+Replace Building Stonecutters Camp | 石匠营地 | ReplaceBuildingEffectModel
+Replace Building Storage | 小型仓库 | ReplaceBuildingEffectModel
+Replace Building Supplier | 供应商 | ReplaceBuildingEffectModel
+Replace Building Tavern | 酒馆 | ReplaceBuildingEffectModel
+Replace Building Tea Doctor | 茶疗室 | ReplaceBuildingEffectModel
+Replace Building Tea House | 茶室 | ReplaceBuildingEffectModel
+Replace Building Temple | 神殿 | ReplaceBuildingEffectModel
+Replace Building Temporary Engineering Station | 野外工程站 | ReplaceBuildingEffectModel
+Replace Building Tinctury | 炼金屋 | ReplaceBuildingEffectModel
+Replace Building Tinkerer | 修补匠屋 | ReplaceBuildingEffectModel
+Replace Building Toolshop | 工具车间 | ReplaceBuildingEffectModel
+Replace Building TradingPost | 商栈 | ReplaceBuildingEffectModel
+Replace Building Trappers Camp Primitive | 小型设阱捕兽者营地 | ReplaceBuildingEffectModel
+Replace Building Trappers Camp | 设阱捕兽者营地 | ReplaceBuildingEffectModel
+Replace Building Weaver | 编织工 | ReplaceBuildingEffectModel
+Replace Building Woodcutters Camp | 伐木工营地 | ReplaceBuildingEffectModel
+Replace Building Workshop | 车间 | ReplaceBuildingEffectModel
+Replace Decay Altar | 被转化的腐朽祭坛 | ReplaceBuildingEffectModel
+Replace Fishmen Lighthouse | 白蚁巢 | ReplaceBuildingEffectModel
+Replace Fuming Machinery | 临时提取器 | ReplaceBuildingEffectModel
+Replace Gargoyle | 休眠的石像鬼 | ReplaceBuildingEffectModel
+Replace Harmony Altar | 转化的和谐之灵祭坛 | ReplaceBuildingEffectModel
+Replace Monolith | 方尖碑 | ReplaceBuildingEffectModel
+Replace Rain Totem | 转化的雨图腾 | ReplaceBuildingEffectModel
+Replace Sacrifice Totem | 转化的否认图腾 | ReplaceBuildingEffectModel
+Replace Stormbird | 被驯服的风暴鸟 | ReplaceBuildingEffectModel
+Replace Termite Burrow | 白蚁巢 | ReplaceBuildingEffectModel
+Replace Angry Ghost Chest | 幽灵宝箱 | ReplaceBuildingEffectModel
+Replace Calm Ghost Chest | 衰减 | ReplaceBuildingEffectModel
+Replace With Scorpion 2 | 挖掘 | ReplaceBuildingEffectModel
+Replace With Scorpion 3 | 保护 | ReplaceBuildingEffectModel
+Replace With Scorpion Positive | 修复 | ReplaceBuildingEffectModel
+Replace With Snake 2 | 挖掘 | ReplaceBuildingEffectModel
+Replace With Snake 3 | 保护 | ReplaceBuildingEffectModel
+Replace With Snake Positive | 修复 | ReplaceBuildingEffectModel
+Replace With Spider 2 | 挖掘 | ReplaceBuildingEffectModel
+Replace With Spider 3 | 保护 | ReplaceBuildingEffectModel
+Replace With Spider Positive | 修复 | ReplaceBuildingEffectModel
+[Biome] Replace Initial Glade - Forge | 基石熔炉 | ReplaceInitialGladeEffectModel
+[Biome] Replace Initial Glade - Poro | 巨型羽喙兽 | ReplaceInitialGladeEffectModel
+[Biome] Replace Initial Glade - Port | 水黾港 | ReplaceInitialGladeEffectModel
+[Mod] Replace Initial Glade - Ruins | 废弃的定居点 | ReplaceInitialGladeEffectModel
+Replace Rainpunk Engine - Extra Prod Chance - Cathode | >Missing key< | ReplaceRainpunkEngineEffectModel
+Replace Rainpunk Engine - Extra Prod Chance - Rods | >Missing key< | ReplaceRainpunkEngineEffectModel
+Replace Rainpunk Engine - Prod Rate 1 - Cathode | >Missing key< | ReplaceRainpunkEngineEffectModel
+Replace Rainpunk Engine - Prod Rate 1 - Rods | >Missing key< | ReplaceRainpunkEngineEffectModel
+Replace Rainpunk Engine - Prod Rate 2 - Cathode | >Missing key< | ReplaceRainpunkEngineEffectModel
+Replace Rainpunk Engine - Prod Rate 2 - Rods | >Missing key< | ReplaceRainpunkEngineEffectModel
+[Altar] Replace Rainpunk Engine - Extra Prod Chance - Cathode | >Missing key< | ReplaceRainpunkEngineEffectModel
+[Altar] Replace Rainpunk Engine - Prod Rate 1 - Cathode | >Missing key< | ReplaceRainpunkEngineEffectModel
+[Altar] Replace Rainpunk Engine - Prod Rate 2 - Cathode | >Missing key< | ReplaceRainpunkEngineEffectModel
+0_5 Reputation Donation | 慷慨的捐赠 | ReputationEffectModel
+0_5 Reputation Exploration - Seasonal Effect | 女王的恩典 | ReputationEffectModel
+0_5 Reputation Exploration | 女王的恩典 | ReputationEffectModel
+0_5 Reputation Funeral | 女王的恩典 | ReputationEffectModel
+0_75 Reputation Donation | 慷慨的捐赠 | ReputationEffectModel
+0_75 Reputation Exploration | 女王的恩典 | ReputationEffectModel
+1 Reputation Exploration - Stormbird | 女王的恩典 | ReputationEffectModel
+1 Reputation Exploration | 女王的恩典 | ReputationEffectModel
+1 Reputation Funeral | 女王的恩典 | ReputationEffectModel
+1 Reputation Order | 女王的恩典 | ReputationEffectModel
+1 Reputation Port | Reward_1ReputationPort_Name | ReputationEffectModel
+1 Reputation Trade | 女王的恩典 | ReputationEffectModel
+3 Reputation Exploration | 女王的尊重 | ReputationEffectModel
+0_2 Reputation Penalty | >Missing key< | ReputationPenaltyEffectModel
+0_5 Reputation Penalty - Corrupted Caravan | 下作把戏 | ReputationPenaltyEffectModel
+0_5 Reputation Penalty - Ghost | 失望 | ReputationPenaltyEffectModel
+0_5 Reputation Penalty - Merchant Ship Wreck | 胆怯 | ReputationPenaltyEffectModel
+0_5 Reputation Penalty - Minus | >Missing key< | ReputationPenaltyEffectModel
+0_5 Reputation Penalty | >Missing key< | ReputationPenaltyEffectModel
+1 Reputation Penalty - Caravan | 清理职责 | ReputationPenaltyEffectModel
+1 Reputation Penalty - Convicts | 清理职责 | ReputationPenaltyEffectModel
+1 Reputation Penalty - Corupted Caravan | 清理职责 | ReputationPenaltyEffectModel
+1 Reputation Penalty - Decay Altar | 清理职责 | ReputationPenaltyEffectModel
+1 Reputation Penalty - Fishmen Cave | 清理职责 | ReputationPenaltyEffectModel
+1 Reputation Penalty - Fishmen Lighthouse | 清理职责 | ReputationPenaltyEffectModel
+1 Reputation Penalty - Fishmen Soothsyer | 清理职责 | ReputationPenaltyEffectModel
+1 Reputation Penalty - Forsaken Crypt | 清理职责 | ReputationPenaltyEffectModel
+1 Reputation Penalty - Harmony Spirit Altar | 清理职责 | ReputationPenaltyEffectModel
+1 Reputation Penalty - Sealed Tomb | 不负责任的考古 | ReputationPenaltyEffectModel
+1 Reputation Penalty - Stormbird | 清理职责 | ReputationPenaltyEffectModel
+1 Reputation Penalty - Totem | 清理职责 | ReputationPenaltyEffectModel
+1 Reputation Penalty - Toxic Slug | 清理职责 | ReputationPenaltyEffectModel
+1 Reputation Penalty - Trader Cementary | 清理职责 | ReputationPenaltyEffectModel
+1 Reputation Penalty - Vassal Tax | 女王的愤怒（封臣税） | ReputationPenaltyEffectModel
+1 Reputation Penalty Decision | 恶名昭著 | ReputationPenaltyEffectModel
+1 Reputation Penalty | >Missing key< | ReputationPenaltyEffectModel
+2 Reputation Penalty Decision | 女王的愤怒 | ReputationPenaltyEffectModel
+2 Reputation Penalty | 女王的愤怒 | ReputationPenaltyEffectModel
+3 Reputation Penalty - Borrowed Time | 皇家债务 | ReputationPenaltyEffectModel
+3 Reputation Penalty | 女王的愤怒 | ReputationPenaltyEffectModel
+Remove 1 Impatience | >Missing key< | ReputationPenaltyEffectModel
+Villager Death Reputation Penalty | >Missing key< | ReputationPenaltyEffectModel
+[Map Mod] Initial Impatience | 火花露水晶 | ReputationPenaltyEffectModel
+[Mod] Disgrace | 耻辱 | ReputationPenaltyEffectModel
+Land of Greed - ReputationPenaltyRateMinus20 | >Missing key< | ReputationPenaltyRateEffectModel
+Land of Greed - ReputationPenaltyRatePlus50 | >Missing key< | ReputationPenaltyRateEffectModel
+ReputationPenaltyRate 15 | >Missing key< | ReputationPenaltyRateEffectModel
+ReputationPenaltyRate 4 | >Missing key< | ReputationPenaltyRateEffectModel
+ReputationPenaltyRate 5 | >Missing key< | ReputationPenaltyRateEffectModel
+ReputationPenaltyRate Vault 100 | 不负责任的考古 | ReputationPenaltyRateEffectModel
+ReputationPenaltyRate Vault 125 | 不负责任的考古 | ReputationPenaltyRateEffectModel
+ReputationPenaltyRate Vault 150 | 不负责任的考古 | ReputationPenaltyRateEffectModel
+ReputationPenaltyRate Vault 175 | 不负责任的考古 | ReputationPenaltyRateEffectModel
+ReputationPenaltyRate_HearthEffect_Human | 灯塔 | ReputationPenaltyRateEffectModel
+Resolve for started Route - impatience slower | 频繁出现的商队 | ReputationPenaltyRateEffectModel
+SE ReputationPenaltyRate 100 | 封臣税 | ReputationPenaltyRateEffectModel
+SE ReputationPenaltyRate 25 | 重要事项 | ReputationPenaltyRateEffectModel
+[TW] ReputationPenaltyRate | Effect_TW_ImpatienceRate_Name | ReputationPenaltyRateEffectModel
+[WE] ReputationPenaltyRate 30 | 十赌九输 | ReputationPenaltyRateEffectModel
+[WE] ReputationPenaltyRate 50 | 狂赌 | ReputationPenaltyRateEffectModel
+[Mod] Fewer Blueprints Options | 少即是多 | ReputationRewardsBonusOptionsEffectModel
+[Mod] Stingy Archivist | 吝啬的档案管理员 | ReputationRewardsBonusOptionsEffectModel
+[Mod] Higher Blueprints Reroll Cost | 昂贵的抽奖 | ReputationRewardsRerollCostEffectModel
+[WE] Lower Blueprints Reroll Cost | 隐士之道 | ReputationRewardsRerollCostEffectModel
+Higher Resolve Penalty For Favoring | >Missing key< | ResolveEffectBonusResolveEffectModel
+Less Resolve from Biscuits | >Missing key< | ResolveEffectBonusResolveEffectModel
+Less Resolve from Jerky | >Missing key< | ResolveEffectBonusResolveEffectModel
+Less Resolve from Paste | >Missing key< | ResolveEffectBonusResolveEffectModel
+Less Resolve from Pickled Goods | >Missing key< | ResolveEffectBonusResolveEffectModel
+Less Resolve from Pie | >Missing key< | ResolveEffectBonusResolveEffectModel
+Less Resolve from Porridge | >Missing key< | ResolveEffectBonusResolveEffectModel
+Less Resolve from Skewers | >Missing key< | ResolveEffectBonusResolveEffectModel
+More Resolve for Comfortable | 长期合约 | ResolveEffectBonusResolveEffectModel
+More Resolve for Rainpunk | 输水管道 | ResolveEffectBonusResolveEffectModel
+More Resolve from Brawling - Hearth | >Missing key< | ResolveEffectBonusResolveEffectModel
+More Resolve from Brawling - Institution | >Missing key< | ResolveEffectBonusResolveEffectModel
+More Resolve from Coats | >Missing key< | ResolveEffectBonusResolveEffectModel
+More Resolve from Jerky | >Missing key< | ResolveEffectBonusResolveEffectModel
+More Resolve from Paste | >Missing key< | ResolveEffectBonusResolveEffectModel
+More Resolve from Pie | >Missing key< | ResolveEffectBonusResolveEffectModel
+More Resolve from Skewers | >Missing key< | ResolveEffectBonusResolveEffectModel
+Spiced Ale - Bonus Resolve - Hearth | 加香料的麦芽酒 | ResolveEffectBonusResolveEffectModel
+Spiced Ale - Bonus Resolve - Service | 加香料的麦芽酒 | ResolveEffectBonusResolveEffectModel
+[Altar] More Resolve from Brawling - Hearth | >Missing key< | ResolveEffectBonusResolveEffectModel
+[Altar] More Resolve from Brawling - Institution | >Missing key< | ResolveEffectBonusResolveEffectModel
+More Resolve from Housing - Bats | 节庆氛围 | ResolveEffectBonusResolveEffectModel
+More Resolve from Housing - Beavers | 节庆氛围 | ResolveEffectBonusResolveEffectModel
+More Resolve from Housing - Foxes | 节庆氛围 | ResolveEffectBonusResolveEffectModel
+More Resolve from Housing - Frogs | 节庆氛围 | ResolveEffectBonusResolveEffectModel
+More Resolve from Housing - Harpy | 节庆氛围 | ResolveEffectBonusResolveEffectModel
+More Resolve from Housing - Humans | 节庆氛围 | ResolveEffectBonusResolveEffectModel
+More Resolve from Housing - Lizards | 节庆氛围 | ResolveEffectBonusResolveEffectModel
+Bat Resolve For Frog Death - Faster Resolve Drop | >Missing key< | ResolveNegativeChangeRateEffectModel
+Higher Villagers Resilience 2 | >Missing key< | ResolveNegativeChangeRateEffectModel
+Higher Villagers Resilience 30 | >Missing key< | ResolveNegativeChangeRateEffectModel
+Resilience Resolve Drops Faster | 敏感 | ResolveNegativeChangeRateEffectModel
+SE Resolve Fast Drop in Storm | 恐惧的氛围 | ResolveNegativeChangeRateEffectModel
+[WE] Resilience Resolve Drops Faster | 民众的复仇 | ResolveNegativeChangeRateEffectModel
+Blight Rate for Resolve Reputation - No Rep From Resolve | 疫腐病过滤器 | ResolveToReputationRateEffectModel
+Resolve To Reputation +20 | >Missing key< | ResolveToReputationRateEffectModel
+Resolve To Reputation +5 | >Missing key< | ResolveToReputationRateEffectModel
+Resolve To Reputation +50 | >Missing key< | ResolveToReputationRateEffectModel
+Resolve To Reputation -50 | >Missing key< | ResolveToReputationRateEffectModel
+Resolve To Reputation -75 | >Missing key< | ResolveToReputationRateEffectModel
+Resolve To Reputation -80 | >Missing key< | ResolveToReputationRateEffectModel
+SE Resolve To Reputation +100 [Warm Welcome] | 热烈欢迎 | ResolveToReputationRateEffectModel
+[Map Mod] No Reputation from Resolve | >Missing key< | ResolveToReputationRateEffectModel
+Black Stag Reward Chase | 深入迷雾 | RewardChaseEffectModel
+Ghost Stag Reward Chase | 幽灵宝鹿 | RewardChaseEffectModel
+Gold Stag Reward Chase | 深入迷雾 | RewardChaseEffectModel
+White Stag Reward Chase | 深入迷雾 | RewardChaseEffectModel
+Blightroted Viceroy Box Rewards Pack | 紫檀箱子 | RewardsPackEffectModel
+Rewards Pack Port - Epic | 史诗沉没宝藏 | RewardsPackEffectModel
+Rewards Pack Port - Legendary | 传奇沉没宝藏 | RewardsPackEffectModel
+Rewards Pack Port - Rare | 稀有沉没宝藏 | RewardsPackEffectModel
+Rewards Pack Port - Uncommon | 罕见沉没宝藏 | RewardsPackEffectModel
+Rewards Pack Big 1 | 大型神秘宝盒 | RewardsPackEffectModel
+Rewards Pack Big | 大型神秘宝盒 | RewardsPackEffectModel
+Rewards Pack Medium 1 | 中型神秘宝盒 | RewardsPackEffectModel
+Rewards Pack Medium | 中型神秘宝盒 | RewardsPackEffectModel
+Rewards Pack Small 1 | 小型神秘宝盒 | RewardsPackEffectModel
+Rewards Pack Small | 小型神秘宝盒 | RewardsPackEffectModel
+Rewards Pack Big - WE | 大型神秘宝盒 | RewardsPackEffectModel
+Rewards Pack Big 1 - WE | 大型神秘宝盒 | RewardsPackEffectModel
+Rewards Pack Medium - WE | 中型神秘宝盒 | RewardsPackEffectModel
+Rewards Pack Medium 1 - WE | 中型神秘宝盒 | RewardsPackEffectModel
+Rewards Pack Small - WE | 小型神秘宝盒 | RewardsPackEffectModel
+Rewards Pack Small 1 - WE | 小型神秘宝盒 | RewardsPackEffectModel
+Black Stag Reward Catch | 被诅咒的宝藏 | RewardsPackEffectModel
+Black Stag Reward Release | 感激之礼 | RewardsPackEffectModel
+Ghost Stag Reward Catch | 被诅咒的宝藏 | RewardsPackEffectModel
+Ghost Stag Reward Release | 感激之礼 | RewardsPackEffectModel
+Gold Stag Reward Catch | 被诅咒的宝藏 | RewardsPackEffectModel
+Gold Stag Reward Release | 感激之礼 | RewardsPackEffectModel
+White Stag Reward Catch | 被诅咒的宝藏 | RewardsPackEffectModel
+White Stag Reward Release | 感激之礼 | RewardsPackEffectModel
+Sacrifice Cost 100 Longer | >Missing key< | HearthSacraficeTimeEffectModel
+Sacrifice Cost 20 Shorter | >Missing key< | HearthSacraficeTimeEffectModel
+Sacrifice Cost 25 Longer | >Missing key< | HearthSacraficeTimeEffectModel
+Sacrifice Cost 25 Shorter | >Missing key< | HearthSacraficeTimeEffectModel
+Sacrifice Cost 3 Longer | 燃烧的怒火 | HearthSacraficeTimeEffectModel
+Sacrifice Cost 30 Longer | >Missing key< | HearthSacraficeTimeEffectModel
+Sacrifice Cost 33 Longer | >Missing key< | HearthSacraficeTimeEffectModel
+Sacrifice Cost 5 Longer | 燃烧的怒火 | HearthSacraficeTimeEffectModel
+Sacrifice Cost 50 Longer | >Missing key< | HearthSacraficeTimeEffectModel
+SE Sacrifice more in Storm | 微弱的火焰 | HearthSacraficeTimeEffectModel
+SaveVillagersForAncientTablets | 逃离阴影 | SaveVillagerForGoodsEffectModel
+New Season Change Effect Model | >Missing key< | SeasonChangeEffectModel
+New Season Change Block Effect Model | 风暴鸟之怒 | SeasonChangeBlockEffectModel
+Season Change Block - Stormforge | 暴戾的暴风雨 | SeasonChangeBlockEffectModel
+Longer Clearance +25 | 晴朗图腾 | SeasonLengthEffectModel
+Longer Drizzle +25 | 细雨图腾 | SeasonLengthEffectModel
+Longer Storm +10 | >Missing key< | SeasonLengthEffectModel
+Longer Storm +100 | >Missing key< | SeasonLengthEffectModel
+Longer Storm +25 | >Missing key< | SeasonLengthEffectModel
+Longer Storm +40 | >Missing key< | SeasonLengthEffectModel
+ModifierEffect_LongStorm | 异常天气 | SeasonLengthEffectModel
+Rain Totem Longer Storm | >Missing key< | SeasonLengthEffectModel
+Rain Totem Shorter Clearance | >Missing key< | SeasonLengthEffectModel
+Rain Totem Shorter Drizzle | >Missing key< | SeasonLengthEffectModel
+Shorter Storm -15 | 风暴盾 | SeasonLengthEffectModel
+Shorter Storm 25 | >Missing key< | SeasonLengthEffectModel
+Shorter Storm 33 | >Missing key< | SeasonLengthEffectModel
+Shorter Storm 50 | >Missing key< | SeasonLengthEffectModel
+[Map Mod] Longer Storm 5 | >Missing key< | SeasonLengthEffectModel
+[Mod] Longer Storm | 破碎的封印 | SeasonLengthEffectModel
+Fishmen Higher Negative Mysteries | 唤醒者 | SeasonalEffectsMinHostilityChangeEffectModel
+Fishmen Lower Negative Mysteries | 御气师 | SeasonalEffectsMinHostilityChangeEffectModel
+Stormforge Higher Negative Mysteries | 灵魂风暴 | SeasonalEffectsMinHostilityChangeEffectModel
+TEST Plague of Mysteries | 神秘灾害 | SeasonalEffectsMinHostilityChangeEffectModel
+[Map Mod] One Perk | 祖先的雕像 | SeasonalRewardsBonusOptionsEffectModel
+[Mod] Fewer Cornerstones Options | 限制 | SeasonalRewardsBonusOptionsEffectModel
+[Mod] The Other Settlement | 另一个定居点 | SeasonalRewardsBonusOptionsEffectModel
+Spawn Blood Flower Near Hearth | >Missing key< | SpawnBuildingAroundHearth
+Spawn Small Cache Near Hearth | >Missing key< | SpawnBuildingAroundHearth
+Start with Blood Flower | 血之花（克隆） | SpawnBuildingAroundHearth
+TEST Plague of Fishmen | 渔民灾害 | SpawnBuildingAroundHearth
+Spawn 3 Fishmen Totems - Fishmen Cave | 渔民巫术 | SpawnBuildingNearbyEffectModel
+Spawn Blightrot Around - Battleground | 衰减 | SpawnBuildingNearbyEffectModel
+Spawn Blightrot Around - Burial Site | 来自地底的生命 | SpawnBuildingNearbyEffectModel
+Spawn Blightrot Around - Fishmen | 衰减 | SpawnBuildingNearbyEffectModel
+Spawn Blightrot Around - Rainpunk Foundry | >Missing key< | SpawnBuildingNearbyEffectModel
+Spawn Blightrot Around - War Beast | 衰减 | SpawnBuildingNearbyEffectModel
+Spawn Fishmen Totem - Fishmen Cave | 渔民图腾 | SpawnBuildingNearbyEffectModel
+Spawn Farmfield | >Missing key< | SpawnBuildingOnEffectModel
+SE Spawn Blightrot on Death | 死亡并腐烂 | SpawnBuildingOnDeathEffectModel
+Spawn Living Matter On Farmfield | >Missing key< | SpawnBuildingOnFarmfieldEffectModel
+SE Overheating - Spawn Cysts | 瘟疫 | SpawnCystsEffectModel
+SE Spawn Cysts 2 - Villagers | >Missing key< | SpawnCystsEffectModel
+SE Spawn Cysts 2 | 疫从天降 | SpawnCystsEffectModel
+Spawn Cysts - Blightroted Viceroy | >Missing key< | SpawnCystsEffectModel
+Spawn Cysts 1 - hostility | >Missing key< | SpawnCystsEffectModel
+Spawn Cysts 1 - overexploitation | >Missing key< | SpawnCystsEffectModel
+Spawn Cysts 1 - Tree | >Missing key< | SpawnCystsEffectModel
+Spawn Cysts 10 - mole | >Missing key< | SpawnCystsEffectModel
+Spawn Cysts 12 - Blight Bomb | 爆炸余波 | SpawnCystsEffectModel
+Spawn Cysts 2 - cauldron | >Missing key< | SpawnCystsEffectModel
+Spawn Cysts 2 - machinery | >Missing key< | SpawnCystsEffectModel
+Spawn Cysts 5 - machinery | >Missing key< | SpawnCystsEffectModel
+Spawn Cysts 5 - mod | >Missing key< | SpawnCystsEffectModel
+[Biome] Fuel Rods Spawn Cysts | >Missing key< | SpawnCystsEffectModel
+[Mod] Petrified Necropolis - Spawn Deposit On Death | >Missing key< | SpawnDepositOnDeathEffectModel
+SE Fertile Nodes | 土壤改良 | HookedEffectModel
+Spawn Patch Haunted Ruins | >Missing key< | SpawnFertileSoilAroundEffectModel
+Spawn Patch Homestead Ruin | >Missing key< | SpawnFertileSoilAroundEffectModel
+Spawn Patch Ruins | >Missing key< | SpawnFertileSoilAroundEffectModel
+Spawn Small Patch | >Missing key< | SpawnFertileSoilAroundEffectModel
+Spawn Fertile Soil On | >Missing key< | SpawnFertileSoilOnEffectModel
+[WE] Spawn Tree Grazer | 树食者 | SpawnForestEaterEffectModel
+Spawn Lake | 净化池塘 | SpawnLakeEffectModel
+[WE] Spawn Cat NPC | >Missing key< | SpawnNewNpcEffectModel
+Rainpuink Drill - Spawn Ore Around - Coal | 地质调查 | SpawnOreAroundEffectModel
+Rainpuink Drill - Spawn Ore Around - Copper | 地质调查 | SpawnOreAroundEffectModel
+Rainpuink Drill - Spawn Ore Around - Salt | 地质调查 | SpawnOreAroundEffectModel
+Spawn Random Spring | 净化之泉 | SpawnSpringEffectModel
+Spawn Storage Automaton | >Missing key< | SpawnStorageAutomatonEffectModel
+[Biome] Poro Fertilizer Production | 肥料 | StatusEffectModel
+[WE] World Event Failed | 履行义务失败 | StatusEffectModel
+[Biome] Bay Blueprints | Reward_BiomeEffect_Blueprints_Name | CompositeEffectModel
+[Biome] Bay Port | 水黾港 | CompositeEffectModel
+[Biome] Fuel Rod Negative | 不稳定性 | CompositeEffectModel
+[Biome] Ghosts in Cursed Woodlands | 躁动的亡灵 | CompositeEffectModel
+[Biome] Shards for Relics 4 | 深藏不露的财富 | CompositeEffectModel
+[Biome] Wood in Woodlands | 林地的礼物 | CompositeEffectModel
+[Mod] Blightrot Medium | 凶险的疫腐病 | CompositeEffectModel
+[Mod] Hard Orders Only | 艰难时期 | CompositeEffectModel
+[Mod] No Positive Seasonal Effects | 不利天气 | CompositeEffectModel
+[Mod] Reputation Changes | 高调探险 | CompositeEffectModel
+Cornerstone Reroll - Trader | 幸运符 | CornerstonesRerollsEffectModel
+Impatience For Glade - child | >Missing key< | HookedEffectModel
+Impatience For Glade | 勇气徽章 | HookedEffectModel
+Makeshift Extractor - Tank Capacity | >Missing key< | BonusWaterTanksCapacityEffectModel
+Sacrifice Stack +1 | >Missing key< | BonusSacrificeStacksEffectModel
+Sacrifice Stack for Route | 护火者信件 | HookedEffectModel
+Tank Capacity - Child | 临时水槽 | BonusWaterTanksCapacityEffectModel
+Tank Capacity - Frog | 雨水仓库 | BonusWaterTanksCapacityEffectModel
+Tank Capacity - Trader | 临时水槽 | BonusWaterTanksCapacityEffectModel
+Effect_CaravanTradeBlock | 不友好的地区 | TradeBlockEffectModel
+Effect_DesertedCaravans | 废弃的商队 | TradeBlockEffectModel
+ModifierEffect_TradeBlock | 强盗营地 | TradeBlockEffectModel
+ModifierEffect_TradeBlock_Composite | 强盗营地 | CompositeEffectModel
+More Trade Offers - Trader Block | 市场转变计划 | TradeBlockEffectModel
+TradeRoutePlus1 | >Missing key< | TradeRoutesAmountEffectModel
+TradeRoutePlus2 | >Missing key< | TradeRoutesAmountEffectModel
+SE Trade Routes Costs More in Storm | 被淹没的道路 | TradeRoutesBonusFuelEffectModel
+Trade Routes Bonus Fuel | 勒紧裤腰带 | TradeRoutesBonusFuelEffectModel
+Trade Routes More Expensive | >Missing key< | TradeRoutesBonusFuelEffectModel
+More Amber from Routes | 贸易谈判 | TradeRoutesBonusRewardsEffectModel
+Route Less Travel Time 33 | >Missing key< | TradeRoutesSpeedEffectModel
+Route Less Travel Time 5 | 风暴行者的训练 | TradeRoutesSpeedEffectModel
+Route Less Travel Time | 风暴行者的训练 | TradeRoutesSpeedEffectModel
+SE Trade Routes Cost More Time in Storm | 被淹没的道路 | TradeRoutesSpeedEffectModel
+[Biome] Trade Routes Faster | 风暴行者的训练 | TradeRoutesSpeedEffectModel
+[BT] Trade Routes Bonus - child | 繁荣之歌 | TradeRoutesSpeedEffectModel
+Institution Trader Interval +50 | 行业工会 | TraderIntervalEffectModel
+SE Trader Interval +300 [Clear Skies] | 晴空万里 | TraderIntervalEffectModel
+Trader Interval +15 | 有利的协议 | TraderIntervalEffectModel
+Trader Interval +25 | 贸易合约 | TraderIntervalEffectModel
+Trader Interval +33 | >Missing key< | TraderIntervalEffectModel
+Trader Interval -50 | 声名狼藉的总督 | TraderIntervalEffectModel
+Tut III Faster Traders | >Missing key< | TraderIntervalEffectModel
+[Biome] Trader Faster | >Missing key< | TraderIntervalEffectModel
+[Map Mod] Trader Attack | 武器库废墟 | TraderAttackPenaltiesBlockEffectModel
+Royal Guard Attack Unlock | >Missing key< | TraderAttackUnlockEffectModel
+Trader Prices Lower -5 | >Missing key< | TraderGlobalSellPriceEffectModel
+Traders Prices +50 | 以牙还牙 | TraderGlobalSellPriceEffectModel
+[Mod] Higher Traders Prices | 是商人行会，还是窃贼行会？ | TraderGlobalSellPriceEffectModel
+Amber Curse | 琥珀的诅咒 | TraderGoodSellPriceEffectModel
+Amber Worth 5 More | >Missing key< | TraderGoodSellPriceEffectModel
+Amber Worth Bit More | >Missing key< | TraderGoodSellPriceEffectModel
+Amber Worth More | 浓缩琥珀 | TraderGoodSellPriceEffectModel
+Merchandise Price Reduction Effect Model | >Missing key< | TraderMerchandisePriceReductionEffectModel
+Pack of Building Worth More 33 | >Missing key< | TraderGoodSellPriceEffectModel
+Pack of Building Worth More | >Missing key< | TraderGoodSellPriceEffectModel
+Pack of Crops Worth More 1 | >Missing key< | TraderGoodSellPriceEffectModel
+Pack of Crops Worth More 33 | >Missing key< | TraderGoodSellPriceEffectModel
+Pack of Crops Worth More | 紧密包装 | TraderGoodSellPriceEffectModel
+Pack of Luxury Worth More 33 | >Missing key< | TraderGoodSellPriceEffectModel
+Pack of Luxury Worth More | >Missing key< | TraderGoodSellPriceEffectModel
+Pack of Provisions Worth More 33 | >Missing key< | TraderGoodSellPriceEffectModel
+Pack of Provisions Worth More | >Missing key< | TraderGoodSellPriceEffectModel
+Pack of Trade Goods Worth More 33 | >Missing key< | TraderGoodSellPriceEffectModel
+Pack of Trade Goods Worth More | 增值税 | TraderGoodSellPriceEffectModel
+[Altar] Pack of Building Materials Worth More | 增值税 | TraderGoodSellPriceEffectModel
+[Altar] Pack of Crops Worth More | 增值税 | TraderGoodSellPriceEffectModel
+[Altar] Pack of Luxury Goods Worth More | 增值税 | TraderGoodSellPriceEffectModel
+[Altar] Pack of Provisions Worth More | 增值税 | TraderGoodSellPriceEffectModel
+[Altar] Pack of Trade Goods Worth More | 增值税 | TraderGoodSellPriceEffectModel
+[WE] Override Trader Merchandise | 杜拉汗的遗产 | TradersMerchandiseOfferOverrideEffectModel
+ModifierEffect_TreeCuttingTime | 石化病感染 | ProductionRateEffectModel
+Petrified Tree Cutting Speed - normal | 石化 | ProductionRateEffectModel
+SE TreeCutting -90 | >Missing key< | ProductionRateEffectModel
+TreeCutting -25 | 探险考察 | ProductionRateEffectModel
+TreeCutting -33 | 探险考察 | ProductionRateEffectModel
+TreeCutting 200 | >Missing key< | ProductionRateEffectModel
+Upgrade Random Cornerstone | >Missing key< | UpgradeRandomCornerstoneEffectModel
+Hidden From The Queen - Impatience | >Missing key< | ReputationPenaltyRateEffectModel
+Hidden From The Queen | 不让女王看见 | HookedEffectModel
+VillagerDeathEffectBlock | 不让女王看见 | VillagerDeathEffectBlockEffectModel
+[Mod] VillagerDeathEffectBlock | 黑暗秘密 | VillagerDeathEffectBlockEffectModel
+Gargoyle Killed 2 Villagers | 恶魔之饥 | VillagersDeathEffectModel
+Gargoyle Killed Villager | 恶魔之饥 | VillagersDeathEffectModel
+Killed Scout | >Missing key< | VillagersDeathEffectModel
+Random Killed 10 | 死从天降 | VillagersDeathEffectModel
+Relic Ritual 1 | 禁忌仪式 | VillagersDeathEffectModel
+Relic Ritual 2 | 禁忌仪式 | VillagersDeathEffectModel
+Sacrificed 1 Noxious Machinery | >Missing key< | VillagersDeathEffectModel
+Sacrificed 1 | >Missing key< | VillagersDeathEffectModel
+Sacrificed 3 - Plague of Death | >Missing key< | VillagersDeathEffectModel
+[WE] Desecrator Villager Death | >Missing key< | VillagersDeathEffectModel
+Bat Banished | 流放 | VillagersLeavingEffectModel
+Beaver Banished | 流放 | VillagersLeavingEffectModel
+Fox Banished | 流放 | VillagersLeavingEffectModel
+Frog Banished | 流放 | VillagersLeavingEffectModel
+Harpy Banished | 流放 | VillagersLeavingEffectModel
+Human Banished | 流放 | VillagersLeavingEffectModel
+Lizard Banished | 流放 | VillagersLeavingEffectModel
+Beavers Killed 3 - Missiles | 血债血偿 | VillagersDeathMissileEffectModel
+Foxes Killed 3 - Missiles | 血债血偿 | VillagersDeathMissileEffectModel
+Harpies Killed 3 - Missiles | 血债血偿 | VillagersDeathMissileEffectModel
+Humans Killed 3 - Missiles | 血债血偿 | VillagersDeathMissileEffectModel
+Lizards Killed 3 - Missiles | 血债血偿 | VillagersDeathMissileEffectModel
+Random Killed 2 - Blood Missiles | >Missing key< | VillagersDeathMissileEffectModel
+Random Killed 2 - Kelpie Missiles | 流波之墓 | VillagersDeathMissileEffectModel
+Random Killed 2 - Missiles | >Missing key< | VillagersDeathMissileEffectModel
+Random Killed 3 - Corruption | 被被封印者之声 | VillagersDeathMissileEffectModel
+Random Killed 3 - Missiles | 先祖的诅咒 | VillagersDeathMissileEffectModel
+Random Killed 5 - Missiles | 先祖的诅咒 | VillagersDeathMissileEffectModel
+[WE] Random Killed - Cloaked Wanderer | 穿披风的流浪者的复仇 | VillagersDeathMissileEffectModel
+Tutorial Death Missile | 先祖的诅咒 | TutorialDeathMissileEffectModel
+Amber Payment - Villagers Leaving | 召回（皇家税） | VillagersLeavingEffectModel
+Exploration Tax - Villagers Leaving | 召回（土地税） | VillagersLeavingEffectModel
+SE Wood Payment - Villagers Leaving | 消失 | VillagersLeavingEffectModel
+[Biome] Black Market Payment - Villagers Leaving - 2 | 放债 | VillagersLeavingEffectModel
+[Biome] Black Market Payment - Villagers Leaving - 3 | 放债 | VillagersLeavingEffectModel
+[Biome] Black Market Payment - Villagers Leaving - 4 | 放债 | VillagersLeavingEffectModel
+[Biome] Black Market Payment - Villagers Leaving - 5 | 放债 | VillagersLeavingEffectModel
+[Biome] Black Market Payment - Villagers Leaving - 6 | 放债 | VillagersLeavingEffectModel
+Global Chance of Death | 加班 | VillagersPerkEffectModel
+Houses +1 - break time | >Missing key< | VillagersPerkEffectModel
+SE Longer Break Interval | 鼓舞人心的景色 | VillagersPerkEffectModel
+Toxic Slug - Shorter Break Interval - hard | 睡意 | VillagersPerkEffectModel
+Toxic Slug - Shorter Break Interval - impossible | 睡意 | VillagersPerkEffectModel
+Toxic Slug - Shorter Break Interval - normal | 睡意 | VillagersPerkEffectModel
+Toxic Slug - Shorter Break Interval - very hard | 睡意 | VillagersPerkEffectModel
+0_10 On Roads | 铲 | VillagersSpeedEffectModel
+0_25 On Roads | >Missing key< | VillagersSpeedEffectModel
+Rain Totem Slow | 虚弱诅咒 | VillagersSpeedEffectModel
+SE M0_60 Off Roads [Muddy Ground] | 泥泞的地面 | VillagersSpeedEffectModel
+VillagerSpeed10 | 定居点地图 | VillagersSpeedEffectModel
+VillagerSpeed15 | 定居点地图 | VillagersSpeedEffectModel
+VillagerSpeed25 | >Missing key< | VillagersSpeedEffectModel
+VillagerSpeed30 | 定居点地图 | VillagersSpeedEffectModel
+VillagersSlow20 | 虚弱诅咒 | VillagersSpeedEffectModel
+VillagersSlow30 Plague | 盲目灾害 | VillagersSpeedEffectModel
+Clearence water 50 pm | >Missing key< | WaterPerMinEffectModel
+Drizzle water 50 pm | >Missing key< | WaterPerMinEffectModel
+Makeshift Extractor - Clearance Water per minute | 抽取地下水 | WaterPerMinEffectModel
+Storm water 50 pm | >Missing key< | WaterPerMinEffectModel
+[SE] Drizzle Water per minute | 细雨季异象 | WaterPerMinEffectModel
+Wildcard Pick Cornerstone | 走私犯的到来 | WildcardPickEffectModel
+Wildcard Pick Cursed | 应召走私犯 | WildcardPickEffectModel
+Wildcard Pick Trader | 违禁品 | WildcardPickEffectModel
+Blight Fighter Speed | 掷焰者 | WorkplacePerkEffectModel
+Extreme Noise in Crude Workstation | >Missing key< | WorkplacePerkEffectModel
+Faster Woodcutters | 轻质斧子 | WorkplacePerkEffectModel
+Forced Improvisation | >Missing key< | WorkplacePerkEffectModel
+Hauler Break Interval - main storage | 旅行配给 | WorkplacePerkEffectModel
+Hauler Break Interval - small storage | 旅行配给 | WorkplacePerkEffectModel
+Hauler Speed - main storage | 专用工作服 | WorkplacePerkEffectModel
+Hauler Speed - small storage | 专用工作服 | WorkplacePerkEffectModel
+LessHostilityPerMiner- Proficiency 1 | 火焰护身符 | WorkplacePerkEffectModel
+LessHostilityPerWoodcutter - Proficiency | 火焰护身符 | WorkplacePerkEffectModel
+Rotting Wood Workplace | 腐烂的树木 | WorkplacePerkEffectModel
+SE Hot Springs | 温泉 | WorkplacePerkEffectModel
+SE Mine in Storm | 来自地底的恐惧 | WorkplacePerkEffectModel
+Mole_FisherResolvePenalty_Hard | >Missing key< | WorkplacePerkEffectModel
+Mole_FisherResolvePenalty_Impossible | >Missing key< | WorkplacePerkEffectModel
+Mole_FisherResolvePenalty_Normal | >Missing key< | WorkplacePerkEffectModel
+Mole_FisherResolvePenalty_VeryHard | >Missing key< | WorkplacePerkEffectModel
+Mole_ForagersResolvePenalty_Hard | >Missing key< | WorkplacePerkEffectModel
+Mole_ForagersResolvePenalty_Impossible | >Missing key< | WorkplacePerkEffectModel
+Mole_ForagersResolvePenalty_Normal | >Missing key< | WorkplacePerkEffectModel
+Mole_ForagersResolvePenalty_VeryHard | >Missing key< | WorkplacePerkEffectModel
+Mole_HarvesterResolvePenalty_Hard | >Missing key< | WorkplacePerkEffectModel
+Mole_HarvesterResolvePenalty_Impossible | >Missing key< | WorkplacePerkEffectModel
+Mole_HarvesterResolvePenalty_Normal | >Missing key< | WorkplacePerkEffectModel
+Mole_HarvesterResolvePenalty_VeryHard | >Missing key< | WorkplacePerkEffectModel
+Mole_HerablistResolvePenalty_Hard | >Missing key< | WorkplacePerkEffectModel
+Mole_HerablistResolvePenalty_Impossible | >Missing key< | WorkplacePerkEffectModel
+Mole_HerablistResolvePenalty_Normal | >Missing key< | WorkplacePerkEffectModel
+Mole_HerablistResolvePenalty_VeryHard | >Missing key< | WorkplacePerkEffectModel
+Mole_PimitiveTrapperPenalty_VeryHard | >Missing key< | WorkplacePerkEffectModel
+Mole_PimitiveTrapperResolvePenalty_Hard | >Missing key< | WorkplacePerkEffectModel
+Mole_PimitiveTrapperResolvePenalty_Impossible | >Missing key< | WorkplacePerkEffectModel
+Mole_PimitiveTrapperResolvePenalty_Normal | >Missing key< | WorkplacePerkEffectModel
+Mole_PrimitiveFisherResolvePenalty_Hard | >Missing key< | WorkplacePerkEffectModel
+Mole_PrimitiveFisherResolvePenalty_Impossible | >Missing key< | WorkplacePerkEffectModel
+Mole_PrimitiveFisherResolvePenalty_Normal | >Missing key< | WorkplacePerkEffectModel
+Mole_PrimitiveFisherResolvePenalty_VeryHard | >Missing key< | WorkplacePerkEffectModel
+Mole_PrimitiveForagerResolvePenalty_Hard | >Missing key< | WorkplacePerkEffectModel
+Mole_PrimitiveForagerResolvePenalty_Impossible | >Missing key< | WorkplacePerkEffectModel
+Mole_PrimitiveForagerResolvePenalty_Normal | >Missing key< | WorkplacePerkEffectModel
+Mole_PrimitiveForagerResolvePenalty_VeryHard | >Missing key< | WorkplacePerkEffectModel
+Mole_PrimitiveHerbalistResolvePenalty_Hard | >Missing key< | WorkplacePerkEffectModel
+Mole_PrimitiveHerbalistResolvePenalty_Impossible | >Missing key< | WorkplacePerkEffectModel
+Mole_PrimitiveHerbalistResolvePenalty_Normal | >Missing key< | WorkplacePerkEffectModel
+Mole_PrimitiveHerbalistResolvePenalty_VeryHard | >Missing key< | WorkplacePerkEffectModel
+Mole_StonecuttersResolvePenalty_Hard | >Missing key< | WorkplacePerkEffectModel
+Mole_StonecuttersResolvePenalty_Impossible | >Missing key< | WorkplacePerkEffectModel
+Mole_StonecuttersResolvePenalty_Normal | >Missing key< | WorkplacePerkEffectModel
+Mole_StonecuttersResolvePenalty_VeryHard | >Missing key< | WorkplacePerkEffectModel
+Mole_TrappersResolvePenalty_Hard | >Missing key< | WorkplacePerkEffectModel
+Mole_TrappersResolvePenalty_Impossible | >Missing key< | WorkplacePerkEffectModel
+Mole_TrappersResolvePenalty_Normal | >Missing key< | WorkplacePerkEffectModel
+Mole_TrappersResolvePenalty_VeryHard | >Missing key< | WorkplacePerkEffectModel
+Mole_WoodcuttersResolvePenalty_Hard | >Missing key< | WorkplacePerkEffectModel
+Mole_WoodcuttersResolvePenalty_Impossible | >Missing key< | WorkplacePerkEffectModel
+Mole_WoodcuttersResolvePenalty_Normal | >Missing key< | WorkplacePerkEffectModel
+Mole_WoodcuttersResolvePenalty_VeryHard | >Missing key< | WorkplacePerkEffectModel
+Vault_ForagersResolvePenalty_hard | >Missing key< | WorkplacePerkEffectModel
+Vault_ForagersResolvePenalty_impossible | >Missing key< | WorkplacePerkEffectModel
+Vault_ForagersResolvePenalty_normal | >Missing key< | WorkplacePerkEffectModel
+Vault_ForagersResolvePenalty_very hard | >Missing key< | WorkplacePerkEffectModel
+Vault_HarvesterResolvePenalty_hard | >Missing key< | WorkplacePerkEffectModel
+Vault_HarvesterResolvePenalty_impossible | >Missing key< | WorkplacePerkEffectModel
+Vault_HarvesterResolvePenalty_normal | >Missing key< | WorkplacePerkEffectModel
+Vault_HarvesterResolvePenalty_very hard | >Missing key< | WorkplacePerkEffectModel
+Vault_HerablistResolvePenalty_hard | >Missing key< | WorkplacePerkEffectModel
+Vault_HerablistResolvePenalty_impossible | >Missing key< | WorkplacePerkEffectModel
+Vault_HerablistResolvePenalty_normal | >Missing key< | WorkplacePerkEffectModel
+Vault_HerablistResolvePenalty_very hard | >Missing key< | WorkplacePerkEffectModel
+Vault_PrimitiveForagerResolvePenalty_hard | >Missing key< | WorkplacePerkEffectModel
+Vault_PrimitiveForagerResolvePenalty_impossible | >Missing key< | WorkplacePerkEffectModel
+Vault_PrimitiveForagerResolvePenalty_normal | >Missing key< | WorkplacePerkEffectModel
+Vault_PrimitiveForagerResolvePenalty_very hard | >Missing key< | WorkplacePerkEffectModel
+Vault_PrimitiveHerbalistResolvePenalty_hard | >Missing key< | WorkplacePerkEffectModel
+Vault_PrimitiveHerbalistResolvePenalty_impossible | >Missing key< | WorkplacePerkEffectModel
+Vault_PrimitiveHerbalistResolvePenalty_normal | >Missing key< | WorkplacePerkEffectModel
+Vault_PrimitiveHerbalistResolvePenalty_very hard | >Missing key< | WorkplacePerkEffectModel
+Vault_PrimitiveTrapperResolvePenalty_hard | >Missing key< | WorkplacePerkEffectModel
+Vault_PrimitiveTrapperResolvePenalty_impossible | >Missing key< | WorkplacePerkEffectModel
+Vault_PrimitiveTrapperResolvePenalty_normal | >Missing key< | WorkplacePerkEffectModel
+Vault_PrimitiveTrapperResolvePenalty_very hard | >Missing key< | WorkplacePerkEffectModel
+Vault_StonecuttersResolvePenalty_hard | >Missing key< | WorkplacePerkEffectModel
+Vault_StonecuttersResolvePenalty_impossible | >Missing key< | WorkplacePerkEffectModel
+Vault_StonecuttersResolvePenalty_normal | >Missing key< | WorkplacePerkEffectModel
+Vault_StonecuttersResolvePenalty_very hard | >Missing key< | WorkplacePerkEffectModel
+Vault_TrappersResolvePenalty_hard | >Missing key< | WorkplacePerkEffectModel
+Vault_TrappersResolvePenalty_impossible | >Missing key< | WorkplacePerkEffectModel
+Vault_TrappersResolvePenalty_normal | >Missing key< | WorkplacePerkEffectModel
+Vault_TrappersResolvePenalty_very hard | >Missing key< | WorkplacePerkEffectModel
+Vault_WoodcuttersResolvePenalty_hard | >Missing key< | WorkplacePerkEffectModel
+Vault_WoodcuttersResolvePenalty_impossible | >Missing key< | WorkplacePerkEffectModel
+Vault_WoodcuttersResolvePenalty_normal | >Missing key< | WorkplacePerkEffectModel
+Vault_WoodcuttersResolvePenalty_very hard | >Missing key< | WorkplacePerkEffectModel

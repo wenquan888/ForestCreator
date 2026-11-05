@@ -47,7 +47,7 @@ namespace ForestCreator
                 {
                     int oldValue = settings.embarkConfig.preparationPoints;
                     settings.embarkConfig.preparationPoints = 100;
-                    Instance.Logger.LogInfo($"Starting preparation points changed from {oldValue} to 100.");
+                    LogDebug($"Starting preparation points changed from {oldValue} to 100.");
                 }
                 else
                 {
@@ -72,7 +72,7 @@ namespace ForestCreator
         private static void ExpandStartingPicks(BuildingsPickScreen __instance)
         {
             __instance.maxInOffer = 27;
-            Instance.Logger.LogInfo($"Starting picks limit raised to {__instance.maxInOffer} (3 rows).");
+            LogDebug($"Starting picks limit raised to {__instance.maxInOffer} (3 rows).");
         }
 
         // ============ FEATURE: add extra items (Dew/Copper/Fiber/Herb/OceanEssence/Dye) and effects (cart/insect line) to the embark offer ============
@@ -135,7 +135,7 @@ namespace ForestCreator
                         string k = KindOf(o.name);
                         bnames.Add(o.name + (k != "" ? "[" + k + "]" : ""));
                     }
-                    Instance.Logger.LogInfo("FC EMBARK-STATE buildingsOptions(" + state.buildingsOptions.Count + "): " + string.Join(", ", bnames));
+                    LogDebug("FC EMBARK-STATE buildingsOptions(" + state.buildingsOptions.Count + "): " + string.Join(", ", bnames));
                     FileLog("FC EMBARK-STATE buildingsOptions(" + state.buildingsOptions.Count + "): " + string.Join(", ", bnames));
 
                     var eff = new List<string>();
@@ -145,7 +145,7 @@ namespace ForestCreator
                         string k = KindOf(o.name);
                         eff.Add(o.name + (k != "" ? "[" + k + "]" : "") + "<" + EffTypeOf(o.name) + ">");
                     }
-                    Instance.Logger.LogInfo("FC EMBARK-STATE effectsOptions(" + state.effectsOptions.Count + "): " + string.Join(", ", eff));
+                    LogDebug("FC EMBARK-STATE effectsOptions(" + state.effectsOptions.Count + "): " + string.Join(", ", eff));
                     FileLog("FC EMBARK-STATE effectsOptions(" + state.effectsOptions.Count + "): " + string.Join(", ", eff));
 
                     var goods = new List<string>();
@@ -155,7 +155,7 @@ namespace ForestCreator
                         string k = KindOf(o.name);
                         goods.Add(o.name + (k != "" ? "[" + k + "]" : ""));
                     }
-                    Instance.Logger.LogInfo("FC EMBARK-STATE goodsOptions(" + state.goodsOptions.Count + "): " + string.Join(", ", goods));
+                    LogDebug("FC EMBARK-STATE goodsOptions(" + state.goodsOptions.Count + "): " + string.Join(", ", goods));
                     FileLog("FC EMBARK-STATE goodsOptions(" + state.goodsOptions.Count + "): " + string.Join(", ", goods));
                 }
                 catch (Exception de)
@@ -207,46 +207,37 @@ namespace ForestCreator
                     bool isHerb = lower.Contains("香草") || lower.Contains("herb") || lower.Contains("vanilla");
                     bool isFossil = lower.Contains("海洋精华") || lower.Contains("ocean essence");
                     bool isDye = lower.Contains("染料") || lower.Contains("dye");
-                    if ((isDew || isCopper || isCopperBar || isFiber || isHerb || isFossil || isDye) && !HasGoodOption(state, good.Name))
+                    bool isPipe = lower.Contains("管道") || lower.Contains("pipe");
+                    bool isFertilizer = lower.Contains("肥料") || lower.Contains("fertilizer");
+                    if ((isDew || isCopper || isCopperBar || isFiber || isHerb || isFossil || isDye || isPipe || isFertilizer) && !HasGoodOption(state, good.Name))
+                    {
                         state.goodsOptions.Add(new GoodPickState { name = good.Name, amount = 10, cost = 1 });
+                        if (isPipe || isFertilizer)
+                            LogDebug($"FC EXTRA-GOOD added: {good.Name} | {disp}");
+                    }
                 }
 
-                // ---- resolve the cart buff / supply-line effects by localized display name ----
+                // ---- supply-line effects keep as SELECTABLE (insect line only; double-transport is now direct-injected) ----
                 foreach (var effect in settings.effects)
                 {
                     if (effect == null) continue;
                     string disp = null;
                     try { disp = effect.displayName != null ? effect.displayName.Text : null; } catch { }
                     string lower = (disp ?? "").ToLowerInvariant();
-                    bool isCart = lower.Contains("双重运输系统") || lower.Contains("双重运输") || lower.Contains("double transport");
                     bool isInsectLine = lower.Contains("昆虫输送线") || lower.Contains("昆虫输送") || lower.Contains("insect supply") || lower.Contains("insect line");
-                    if ((isCart || isInsectLine) && !HasEffectOption(state, effect.Name))
+                    if (isInsectLine && effect is CompositeEffectModel && !HasEffectOption(state, effect.Name))
                     {
                         state.effectsOptions.Add(new ConditionPickState { name = effect.Name, cost = 1 });
-                        FileLog($"EXTRA-EFFECT added: {effect.Name} | {disp}");
+                        FileLog($"EXTRA-EFFECT added(optional): {effect.Name} | {disp}");
                     }
                     // diagnostic: even if the exact name didn't match, log any effect mentioning dye/insect
                     if (lower.Contains("染料") || lower.Contains("dye")) FileLog($"EXTRA-EFFECT[dye?] {effect.Name} | {disp}");
                     if (lower.Contains("昆虫") || lower.Contains("insect")) FileLog($"EXTRA-EFFECT[insect?] {effect.Name} | {disp}");
                 }
 
-                // ---- golden cornerstone "搬运车": all 3 variants are Legendary (gold). ----
-                // Inject only the COMPLETE composite cornerstone (CompositeEffectModel), not the
-                // "- main" / "- small" sub-effects, so the player gets exactly one golden cart.
-                foreach (var effect in settings.effects)
-                {
-                    if (effect == null) continue;
-                    string disp = null;
-                    try { disp = effect.displayName != null ? effect.displayName.Text : null; } catch { }
-                    string lower = (disp ?? "").ToLowerInvariant();
-                    if (lower.Contains("搬运车"))
-                        Instance.Logger.LogInfo($"FC CART-RARITY: {effect.Name} | {disp} | {effect.GetType().Name}");
-                    if (lower.Contains("搬运车") && effect is CompositeEffectModel && !HasEffectOption(state, effect.Name))
-                    {
-                        state.effectsOptions.Add(new ConditionPickState { name = effect.Name, cost = 1 });
-                        Instance.Logger.LogInfo($"FC EXTRA-CORNERSTONE added: {effect.Name} | {disp}");
-                    }
-                }
+                // ---- golden cornerstones (搬运车/双重运输/镇静之水/伐木税/过于勤劳/强化斧/强劲之水) ----
+                // are now auto-applied directly at game start (see Patches.StartingCornerstones.cs,
+                // GameController.StartGame postfix). They are NO LONGER injected into the embark offer.
 
                 // ---- re-render the offer slots so the new items show up right away ----
                 var t = __instance.GetType();
@@ -274,6 +265,13 @@ namespace ForestCreator
         private static bool HasEffectOption(EmbarkBonusesState state, string name)
         {
             foreach (var o in state.effectsOptions)
+                if (o != null && o.name == name) return true;
+            return false;
+        }
+
+        private static bool HasRewardPicked(EmbarkBonusesState state, string name)
+        {
+            foreach (var o in state.rewardsPicked)
                 if (o != null && o.name == name) return true;
             return false;
         }

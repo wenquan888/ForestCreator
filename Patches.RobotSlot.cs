@@ -76,17 +76,17 @@ namespace ForestCreator
         {
             try
             {
-                if (__instance == null) { Instance.Logger.LogInfo("ROBOT: fired but instance is null"); return; }
-                Instance.Logger.LogInfo("ROBOT: AddRobotSlot fired.");
+                if (__instance == null) { LogDebug("ROBOT: fired but instance is null"); return; }
+                LogDebug("ROBOT: AddRobotSlot fired.");
                 var slotsField = typeof(RacesMenu).GetField("slots", BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic);
-                if (slotsField == null) { Instance.Logger.LogInfo("ROBOT: RacesMenu.slots field not found"); return; }
+                if (slotsField == null) { LogDebug("ROBOT: RacesMenu.slots field not found"); return; }
                 var slots = slotsField.GetValue(__instance) as List<RacesMenuSlot>;
-                if (slots == null || slots.Count == 0) { Instance.Logger.LogInfo($"ROBOT: no slots ({(slots == null ? "null" : slots.Count.ToString())})"); return; }
+                if (slots == null || slots.Count == 0) { LogDebug($"ROBOT: no slots ({(slots == null ? "null" : slots.Count.ToString())})"); return; }
 
                 // Diagnostic so this path is visible in LogOutput.log (FileLog target is dead).
                 var diagBuilding = (Building)(
                     typeof(RacesMenu).GetField("building", BindingFlags.Instance | BindingFlags.Public | BindingFlags.NonPublic)?.GetValue(__instance));
-                Instance.Logger.LogInfo($"ROBOT: slots={slots.Count}, building={(diagBuilding != null ? diagBuilding.GetType().Name : "null")}, supports={BuildingSupportsRobot(__instance)}");
+                LogDebug($"ROBOT: slots={slots.Count}, building={(diagBuilding != null ? diagBuilding.GetType().Name : "null")}, supports={BuildingSupportsRobot(__instance)}");
 
                 // RacesMenu is a REUSED object: a RobotSlot we cloned on a previous open stays in the
                 // hierarchy (it is NOT part of the slots list). Clear any leftover RobotSlot first so

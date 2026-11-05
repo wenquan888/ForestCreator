@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -54,6 +55,14 @@ namespace ForestCreator
             Instance = this;
             harmony = Harmony.CreateAndPatchAll(typeof(Plugin), (string)null);
             Instance.Logger.LogInfo("Plugin ForestCreator is loaded!");
+        }
+
+        // Debug-only diagnostic log. Calls are completely stripped from Release builds by
+        // [Conditional("DEBUG")], so no diagnostic noise ships in the packaged mod.
+        [Conditional("DEBUG")]
+        internal static void LogDebug(string msg)
+        {
+            Instance.Logger.LogInfo(msg);
         }
     }
 

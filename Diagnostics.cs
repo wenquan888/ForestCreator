@@ -1,6 +1,7 @@
 using System;
 using System.Collections;
 using System.Collections.Generic;
+using System.Diagnostics;
 using System.Linq;
 using System.Reflection;
 using System.Runtime.CompilerServices;
@@ -32,6 +33,7 @@ namespace ForestCreator
         private const string LayoutLogPath =
             @"C:\Users\WenQuan\Doubao\chats\2026-10-18\new-chat-2\housing10x\layout_dump.txt";
 
+        [Conditional("DEBUG")]
         internal static void FileLog(string msg)
         {
             try { System.IO.File.AppendAllText(LayoutLogPath, msg + "\n"); }

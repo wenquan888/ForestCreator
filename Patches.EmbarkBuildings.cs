@@ -53,7 +53,7 @@ namespace ForestCreator
                     if (b != null && IsGatherOrFarm(b)) { removed.Add(opt.name); return true; }
                     return false;
                 });
-                Instance.Logger.LogInfo($"FC EMBARK-FILTER: CreateEmbarkBonuses fired. buildingsOptions {before} -> {__result.buildingsOptions.Count}; removed: {string.Join(", ", removed)}");
+                LogDebug($"FC EMBARK-FILTER: CreateEmbarkBonuses fired. buildingsOptions {before} -> {__result.buildingsOptions.Count}; removed: {string.Join(", ", removed)}");
                 FileLog($"FC EMBARK-FILTER: CreateEmbarkBonuses fired. buildingsOptions {before} -> {__result.buildingsOptions.Count}; removed: {string.Join(", ", removed)}");
             }
             catch (Exception ex)
@@ -87,7 +87,9 @@ namespace ForestCreator
             // advanced rain catcher
             "Advanced Rain Catcher",
             // all farming buildings
-            "SmallFarm", "Plantation", "Herb Garden", "Brineworks"
+            "SmallFarm", "Plantation", "Herb Garden", "Brineworks",
+            // 沃土 / 肥沃田地 (user-requested auto-unlock)
+            "Biome Grass Spawner"
         };
 
         [HarmonyPatch(typeof(MetaPerksService), "GetBasePreparationPoints")]
@@ -110,7 +112,7 @@ namespace ForestCreator
                     bool valid = settings != null && settings.GetBuilding(name) != null;
                     if (!valid)
                     {
-                        Instance.Logger.LogInfo($"FC AUTOUNLOCK: skip missing building '{name}'");
+                        LogDebug($"FC AUTOUNLOCK: skip missing building '{name}'");
                         continue;
                     }
                     if (!content.buildings.Contains(name)) content.buildings.Add(name);
@@ -121,9 +123,9 @@ namespace ForestCreator
                     }
                 }
                 if (added.Count > 0)
-                    Instance.Logger.LogInfo("FC AUTOUNLOCK added to essentialBuildings: " + string.Join(", ", added));
+                    LogDebug("FC AUTOUNLOCK added to essentialBuildings: " + string.Join(", ", added));
                 else
-                    Instance.Logger.LogInfo("FC AUTOUNLOCK ran; nothing new added.");
+                    LogDebug("FC AUTOUNLOCK ran; nothing new added.");
             }
             catch (Exception ex)
             {
@@ -150,6 +152,9 @@ namespace ForestCreator
         {
             // all farming buildings are auto-unlocked
             if (b is FarmModel) return true;
+
+            // 沃土 / 肥沃田地
+            if (b.Name == "Biome Grass Spawner") return true;
 
             // advanced gathering camps and the advanced rain collector: match by localized name.
             // (b.displayName.Text is safe here because this only runs during active gameplay.)
@@ -185,9 +190,20 @@ namespace ForestCreator
                     string dl = (d ?? "").ToLowerInvariant();
                     bool interesting = kind != "" || dl.Contains("高级") || dl.Contains("advanced") || dl.Contains("雨") || dl.Contains("集雨") || dl.Contains("营") || dl.Contains("农") || dl.Contains("园");
                     if (interesting)
-                        Instance.Logger.LogInfo($"FC BUILDING: {b.Name} | {d} | {kind}");
+                        LogDebug($"FC BUILDING: {b.Name} | {d} | {kind}");
                 }
-                Instance.Logger.LogInfo("FC BUILDING: dump complete.");
+                LogDebug("FC BUILDING: dump complete.");
+
+                // Search for the "沃土" (fertile soil) building the user wants auto-unlocked.
+                foreach (var b in settings.Buildings)
+                {
+                    if (b == null) continue;
+                    string d = null;
+                    try { d = b.displayName != null ? b.displayName.Text : null; } catch { }
+                    string dl = (d ?? "");
+                    if (dl.Contains("沃土") || dl.Contains("土") || dl.Contains("壤") || dl.Contains("肥") || (b.Name ?? "").ToLowerInvariant().Contains("fertile"))
+                        LogDebug($"FC FERTILE-BUILDING: {b.Name} | {d} | {b.GetType().Name}");
+                }
             }
             catch (Exception ex)
             {

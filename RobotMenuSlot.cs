@@ -177,6 +177,20 @@ namespace ForestCreator
                     return;
                 }
 
+                // Consume PartsCost (2) pipes from the main warehouse after a successful spawn.
+                var partsGood = ResolvePartsGood();
+                if (partsGood != null)
+                {
+                    var storage = GameMB.StorageService != null ? GameMB.StorageService.Main : null;
+                    if (storage != null && storage.Goods != null)
+                    {
+                        int have = storage.Goods.GetAmount(partsGood.Name);
+                        int cost = Math.Min(PartsCost, have);
+                        if (cost > 0) storage.Goods.Remove(partsGood.Name, cost);
+                        Plugin.FileLog($"ROBOTBTN: consumed {cost}x {partsGood.Name} (had {have})");
+                    }
+                }
+
                 CloseMenu();
             }
             catch (Exception ex)
@@ -244,7 +258,8 @@ namespace ForestCreator
                 string d = null;
                 try { d = g.displayName != null ? g.displayName.Text : null; } catch { }
                 string l = (d ?? "").ToLowerInvariant();
-                if (l.Contains("零件") || l.Contains("部件") || l.Contains("part"))
+                // Robot deployment consumes 2 PIPES (not the generic "parts").
+                if (l.Contains("管道") || l.Contains("pipe"))
                     return g;
             }
             return null;
