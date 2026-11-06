@@ -34,7 +34,7 @@ namespace ForestCreator
     /// </summary>
     public class RobotMenuSlot : MonoBehaviour
     {
-        private const int PartsCost = 2;
+        private static int PartsCost => FCConfig.RobotDeployPartsCost.Value;
 
         private RacesMenu menu;
         private Building building;

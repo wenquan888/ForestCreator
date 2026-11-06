@@ -1,3 +1,12 @@
+## v1.0.3
+- Free upgrades for mines, geyser pumps and every racial house — no materials consumed, and the cost row is hidden in the upgrade panel / 矿山、间歇泉泵、所有种族住房升级全部免费，升级面板不再显示材料需求
+- Housing sync upgrade: upgrading one house also upgrades every house of the same race and model / 住房同步升级：升级一处住房后同种族同型号住房同步升级
+- Coverage doubled: hearth hubRange x2 and woodcutter camp maxDistance x2 / 覆盖范围 ×2：火塘覆盖范围、伐木工营地采集范围翻倍
+- Robot production multiplier x5 (output amount) / 机器人产出倍率 ×5
+- Robot production rate x2, i.e. production time halved / 机器人生产速度 ×2，生产时间减半
+- All tunable numbers moved into a BepInEx config file (BepInEx/config/ForestCreator.cfg) with bilingual CN/EN comments / 所有可调数值移入 BepInEx 配置文件，中英双语注释
+- Mod version bumped to 1.0.3 / 版本号升至 1.0.3
+
 ## v1.0.2
 - Auto-inject starting cornerstones (Hauling Cart, Double Transport, Accidental Barrels, Amber for Wood, Woodcutting speed for water, Lumber Speed +50, Villager for glade) directly at game start / 开局自动注入7个基石（搬运车、双重运输、过于勤劳的木工、伐木税、强劲之水、强化斧、迷失荒野）
 - Add pipe & fertilizer to starting goods options (1 cost, 10 each) / 开局可选项新增管道、肥料（1费10个）

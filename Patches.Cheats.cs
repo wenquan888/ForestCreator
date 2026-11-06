@@ -19,12 +19,7 @@ namespace ForestCreator
         //   - impatience / woodcutter speed / rewards: Harmony Postfix patches
         //   - storm resolve: directly new a GlobalResolveEffectEffectModel and Apply it
 
-        private const float ImpatienceMultiplier = 0.1337f;
-        private const float WoodcutterWalkBonus = 13.37f;
-        private const float WoodcutterWorkMultiplier = 13.37f;
-        private const int StormGlobalResolve = 8;
-        private const float RewardMultiplier = 13.37f;
-        private const int StartHostility = -1337;
+        // All tunable values now live in FCConfig (BepInEx/config/ForestCreator.cfg).
 
         [HarmonyPatch(typeof(GameController), "StartGame")]
         [HarmonyPostfix]
@@ -35,7 +30,7 @@ namespace ForestCreator
                 if (!GameController.IsGameActive) return;
 
                 // 1) Quell forest hostility at game start.
-                try { SO.HostilityService.AddEffectHostility(StartHostility); } catch { }
+                try { SO.HostilityService.AddEffectHostility(FCConfig.StartHostility.Value); } catch { }
 
                 // 2) Storm resolve: DISABLED for now — directly newing a GlobalResolveEffectEffectModel
                 //    without a full ScriptableObject setup throws "Failed to compare two elements in
@@ -62,7 +57,7 @@ namespace ForestCreator
         [HarmonyPostfix]
         private static void PatchImpatienceRate(ref float __result)
         {
-            __result *= ImpatienceMultiplier;
+            __result *= FCConfig.ImpatienceMultiplier.Value;
         }
 
         // 4) Woodcutter walking speed bonus.
@@ -71,7 +66,7 @@ namespace ForestCreator
         private static void PatchWoodcutterWalk(string profession, ref float __result)
         {
             if (profession != null && profession.IndexOf("wood", StringComparison.OrdinalIgnoreCase) >= 0)
-                __result += WoodcutterWalkBonus;
+                __result += FCConfig.WoodcutterWalkBonus.Value;
         }
 
         // 5) Woodcutter working speed multiplier.
@@ -86,7 +81,7 @@ namespace ForestCreator
                 var prof = bm != null ? bm.Profession : null;
                 string pname = prof != null ? prof.name : null;
                 if (pname != null && pname.IndexOf("wood", StringComparison.OrdinalIgnoreCase) >= 0)
-                    __result *= WoodcutterWorkMultiplier;
+                    __result *= FCConfig.WoodcutterWorkMultiplier.Value;
             }
             catch { }
         }
@@ -99,8 +94,9 @@ namespace ForestCreator
             try
             {
                 if (__result == null) return;
+                var mult = FCConfig.DailyRewardMultiplier.Value;
                 for (int i = 0; i < __result.Count; i++)
-                    __result[i] = __result[i] * RewardMultiplier;
+                    __result[i] = __result[i] * mult;
             }
             catch { }
         }
@@ -113,8 +109,9 @@ namespace ForestCreator
             try
             {
                 if (__result == null) return;
+                var mult = FCConfig.RegularRewardMultiplier.Value;
                 for (int i = 0; i < __result.Count; i++)
-                    __result[i] = __result[i] * RewardMultiplier;
+                    __result[i] = __result[i] * mult;
             }
             catch { }
         }
@@ -148,6 +145,79 @@ namespace ForestCreator
                 }
             }
             catch (Exception ex) { Instance.Logger.LogError("FC CLEAN perks: " + ex.Message); }
+        }
+
+        // Double the coverage range of hearths (hubRange) and gathering camps (maxDistance).
+        [HarmonyPatch(typeof(MainController), "OnServicesReady")]
+        [HarmonyPostfix]
+        private static void DoubleCoverageRange()
+        {
+            try
+            {
+                var settings = MainController.Instance.Settings;
+                if (settings == null || settings.Buildings == null) return;
+                int hearth = 0, camp = 0;
+                foreach (var b in settings.Buildings)
+                {
+                    if (b is HearthModel hearthModel)
+                    {
+                        hearthModel.hubRange *= FCConfig.HearthRangeMultiplier.Value;
+                        hearth++;
+                    }
+                    else if (b is CampModel campModel)
+                    {
+                        campModel.maxDistance *= FCConfig.CampRangeMultiplier.Value;
+                        camp++;
+                    }
+                }
+                Instance.Logger.LogInfo($"FC: doubled coverage for {hearth} hearths and {camp} camps");
+            }
+            catch (Exception ex) { Instance.Logger.LogError("FC COVERAGE: " + ex.Message); }
+        }
+
+        // Robot production multiplier: when an Automaton is working, multiply output by 5.
+        [HarmonyPatch(typeof(Eremite.Buildings.ProductionCalculator), "GetProductionMultiplier")]
+        [HarmonyPostfix]
+        private static void Robot_ProductionMultiplier(Eremite.Buildings.Building __0, Eremite.Buildings.RecipeModel __1, Eremite.Characters.Actor __2, float __3, ref int __result)
+        {
+            try
+            {
+                if (__2 is Eremite.Characters.Automatons.Automaton)
+                {
+                    __result = (int)(__result * FCConfig.RobotProductionMultiplier.Value);
+                }
+            }
+            catch { }
+        }
+
+        // Robot production speed: double production rate (halve production time) for automatons.
+        [HarmonyPatch(typeof(Eremite.Services.EffectsService), "GetProductionRate")]
+        [HarmonyPostfix]
+        private static void Robot_ProductionRate(Eremite.Buildings.Building __0, Eremite.Characters.Actor __1, Eremite.Buildings.RecipeModel __2, ref float __result)
+        {
+            try
+            {
+                if (__1 is Eremite.Characters.Automatons.Automaton)
+                {
+                    __result *= FCConfig.RobotProductionRateMultiplier.Value;
+                }
+            }
+            catch { }
+        }
+
+        // Custom text for automaton description.
+        [HarmonyPatch(typeof(Eremite.MB), "GetText", new System.Type[] { typeof(string) })]
+        [HarmonyPostfix]
+        private static void MB_GetText(string key, ref string __result)
+        {
+            try
+            {
+                if (key == "GameUI_WorkerSlot_AutomatonTooltip_Desc")
+                {
+                    __result = "使用先进的机器人技术代替工人工作，生产时间大幅缩短，产出倍率大幅提升。";
+                }
+            }
+            catch { }
         }
     }
 }

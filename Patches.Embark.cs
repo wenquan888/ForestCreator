@@ -46,8 +46,9 @@ namespace ForestCreator
                 if (settings != null && settings.embarkConfig != null)
                 {
                     int oldValue = settings.embarkConfig.preparationPoints;
-                    settings.embarkConfig.preparationPoints = 100;
-                    LogDebug($"Starting preparation points changed from {oldValue} to 100.");
+                    int newValue = FCConfig.EmbarkPreparationPoints.Value;
+                    settings.embarkConfig.preparationPoints = newValue;
+                    LogDebug($"Starting preparation points changed from {oldValue} to {newValue}.");
                 }
                 else
                 {
@@ -71,8 +72,8 @@ namespace ForestCreator
         [HarmonyPrefix]
         private static void ExpandStartingPicks(BuildingsPickScreen __instance)
         {
-            __instance.maxInOffer = 27;
-            LogDebug($"Starting picks limit raised to {__instance.maxInOffer} (3 rows).");
+            __instance.maxInOffer = FCConfig.EmbarkMaxPicks.Value;
+            LogDebug($"Starting picks limit raised to {__instance.maxInOffer}.");
         }
 
         // ============ FEATURE: add extra items (Dew/Copper/Fiber/Herb/OceanEssence/Dye) and effects (cart/insect line) to the embark offer ============

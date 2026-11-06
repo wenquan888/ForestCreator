@@ -39,14 +39,14 @@ namespace ForestCreator
         [HarmonyPostfix]
         private static void GetHouseCapacity_House_Postfix(ref int __result)
         {
-            __result *= 10;
+            __result *= FCConfig.HouseCapacityMultiplier.Value;
         }
 
         [HarmonyPatch(typeof(EffectsService), "GetHouseCapacity", new Type[] { typeof(HouseModel) })]
         [HarmonyPostfix]
         private static void GetHouseCapacity_HouseModel_Postfix(ref int __result)
         {
-            __result *= 10;
+            __result *= FCConfig.HouseCapacityMultiplier.Value;
         }
     }
 }

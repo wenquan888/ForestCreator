@@ -44,6 +44,7 @@ namespace ForestCreator
 
                 // Decoration-derived resistance
                 int decorationResistance = 0;
+                if (FCConfig.EnableDecorationResistance.Value)
                 try
                 {
                     var bs = GameMB.BuildingsService;
@@ -57,15 +58,15 @@ namespace ForestCreator
                             if (dm == null) continue;
 
                             int tiles = Mathf.Max(1, dm.size.x * dm.size.y);
-                            int perTile = 0;
+                            int perTile = FCConfig.DecorationGreenPerTile.Value;
                             if (dm.tier != null)
                             {
                                 switch (dm.tier.order)
                                 {
-                                    case 0: perTile = 50; break;    // green
-                                    case 1: perTile = 150; break;   // blue
-                                    case 2: perTile = 300; break;   // gold
-                                    default: perTile = 50; break;   // fallback: treat unknown as green
+                                    case 0: perTile = FCConfig.DecorationGreenPerTile.Value; break;  // green
+                                    case 1: perTile = FCConfig.DecorationBluePerTile.Value; break;   // blue
+                                    case 2: perTile = FCConfig.DecorationGoldPerTile.Value; break;   // gold
+                                    default: perTile = FCConfig.DecorationGreenPerTile.Value; break;
                                 }
                             }
                             decorationResistance += tiles * perTile;
@@ -77,7 +78,7 @@ namespace ForestCreator
                     FileLog("ERR decoration resistance: " + exDec.Message);
                 }
 
-                __result = Mathf.Max(1, baseHP + bonusHP * 10 + decorationResistance);
+                __result = Mathf.Max(1, baseHP + bonusHP * FCConfig.HearthUpgradeBonusMultiplier.Value + decorationResistance);
             }
             catch (Exception ex)
             {

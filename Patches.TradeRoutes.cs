@@ -37,7 +37,8 @@ namespace ForestCreator
         [HarmonyPostfix]
         private static void TradeRoutesLimitRaise(ref int __result)
         {
-            if (__result < 10) __result = 10;
+            var limit = FCConfig.MaxTradeRoutes.Value;
+            if (__result < limit) __result = limit;
         }
     }
 }

@@ -103,12 +103,12 @@ namespace ForestCreator
                 if (rowH > 0f && confirmT != null)
                 {
                     RectTransform confirm = confirmT as RectTransform;
-                    int rowsNeeded = 3; // 27 picks @ 9 columns = 3 rows
+                    int rowsNeeded = Mathf.Max(1, (FCConfig.EmbarkMaxPicks.Value + columns - 1) / columns);
                     float gridTopFromPicked = gridContent != null ? -gridContent.localPosition.y : 0f; // grid top below Picked top
                     float lastRowBottom = gridTopFromPicked + rowsNeeded * rowH;                       // bottom of the last slot row
                     float btnOffset = confirm.anchoredPosition.y;                                     // bottom-anchored: center is this far above Picked bottom
                     float btnH = confirm.rect.height;
-                    const float gap = 15f; // desired gap below the last slot row
+                    float gap = 15f; // desired gap below the last slot row
                     float buttonTopFromPicked = picked.rect.height - btnOffset - btnH / 2f;
                     float delta = (lastRowBottom + gap) - buttonTopFromPicked;
 

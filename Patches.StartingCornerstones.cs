@@ -98,17 +98,18 @@ namespace ForestCreator
                 if (goods == null) return;
 
                 var names = new List<string>(goods.goods.Keys);
+                int target = FCConfig.WarehouseTopUpTarget.Value;
                 int topped = 0;
                 foreach (var name in names)
                 {
                     int amount = goods.GetAmount(name);
-                    if (amount < 200)
+                    if (amount < target)
                     {
-                        goods.Add(name, 200 - amount);
+                        goods.Add(name, target - amount);
                         topped++;
                     }
                 }
-                LogDebug($"FC: topped up {topped} warehouse item(s) to 200");
+                LogDebug($"FC: topped up {topped} warehouse item(s) to {target}");
             }
             catch (Exception ex)
             {

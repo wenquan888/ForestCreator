@@ -53,6 +53,7 @@ namespace ForestCreator
         private void Awake()
         {
             Instance = this;
+            FCConfig.Init(Config);
             harmony = Harmony.CreateAndPatchAll(typeof(Plugin), (string)null);
             Instance.Logger.LogInfo("Plugin ForestCreator is loaded!");
         }
@@ -70,6 +71,6 @@ namespace ForestCreator
     {
         public const string PLUGIN_GUID = "ForestCreator";
         public const string PLUGIN_NAME = "ForestCreator";
-        public const string PLUGIN_VERSION = "1.0.0";
+        public const string PLUGIN_VERSION = "1.0.3";
     }
 }
