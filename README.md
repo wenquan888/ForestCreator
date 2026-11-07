@@ -21,9 +21,9 @@ A super-cheat mod for Against the Storm. Master everything like the Forest Creat
 
   100 starting points, up to 27 picks
 
-- 初始可选额外物品：植物纤维、香草、海洋精华、铜条、昆虫输送线、染料输送线、金色基石「搬运车」、管道、肥料
+- 初始可选额外物品：植物纤维、香草、海洋精华、铜条、昆虫输送线、染料输送线、管道、肥料；另加可选组合「1 费 10 个管道」「1 费 10 个肥料」
 
-  Extra starting goods: plant fibre, herbs, sea essence, copper bars, insect conveyor, dye conveyor, golden cornerstone "Hauling Cart", pipes, fertilizer
+  Extra starting goods: plant fibre, herbs, sea essence, copper bars, insect conveyor, dye conveyor, pipes, fertilizer; plus two 1-point picks giving 10 pipes or 10 fertilizer
 
 - **开局可选项移除所有采集/种植建筑**：采集营地（觅食/草药/设阱/渔屋/收割/石匠营地）与种植建筑（小农场/种植园/香草园/卤水作坊）的蓝图不再占用开局拾取
 
@@ -51,17 +51,21 @@ A super-cheat mod for Against the Storm. Master everything like the Forest Creat
 
   Trading posts can be moved
 
-- **矿山、间歇泉泵升级免费**（升级不需要消耗任何材料，升级面板也不再显示材料需求）
+- **低级采集营地从建造列表移除**：小型觅食者营地、小型草药医生营地、小型设阱捕兽者营地、小型捕鱼小屋不再出现在建造菜单（纯显示层拦截，不改动任何存档数据，老档照旧能开）
 
-  Free upgrades for mines and geyser pumps — no materials required, and the cost row is hidden in the upgrade panel
+  The four primitive camps (small forager / herbalist / trapper / fishing hut) are hidden from the build menu. Purely a display-layer filter — no save data is touched, so existing settlements still load
 
-- **所有种族住房升级免费**（住房升级不消耗材料，面板同样不显示材料需求）
+- **建筑升级全部免费**：矿山、间歇泉泵、住房、作坊等所有可升级建筑，升级不消耗任何材料，升级面板也不再显示材料需求，升级按钮始终可点
 
-  Free upgrades for every racial house, with the same hidden cost row
+  Every upgradable building — mines, geyser pumps, houses, workshops and the rest — upgrades for free: no materials are spent and the cost row is gone from the panel, so the upgrade button is always clickable
 
-- **住房同步升级**：升级某一处住房后，同种族同型号的其他住房会同步升到相同等级
+- **住房同步升级**：升级某一处住房后，同种族同型号的其他住房会同步升到相同等级，第二级同样可以继续升
 
-  Housing sync upgrade: upgrading one house also upgrades every house of the same race and model
+  Housing sync upgrade: upgrading one house also upgrades every house of the same race and model, and the next level stays available
+
+- **启用雨朋克免费**：给建筑启用雨朋克引擎不再消耗管道，解锁按钮上也不再显示管道数量和图标
+
+  Enabling rainpunk on a building costs no pipes any more, and the unlock button no longer prints the pipe count or its icon
 
 ### 覆盖范围 
 ### Coverage

@@ -1,3 +1,12 @@
+## v1.0.4
+- Free upgrades extended to every upgradable building (workshops and other production buildings included); the upgrade button is always clickable and no cost row is shown / 升级免费扩展到所有可升级建筑（含作坊等生产类建筑），升级按钮始终可点，面板不再显示材料需求
+- Enabling rainpunk no longer costs pipes / 给建筑启用雨朋克不再消耗管道
+- The rainpunk unlock button no longer shows the pipe count and icon / 雨朋克解锁按钮不再显示管道数量和图标
+- The four primitive camps (small forager / herbalist / trapper / fishing hut) are hidden from the build menu — display-layer only, no save data is modified / 四个低级采集营地不再出现在建造菜单，纯显示层拦截、不改存档
+- Houses of the same race and model stay upgradeable to the next level after a sync upgrade / 住房同步升级后仍可继续升到下一级
+- Starting goods list: the Hauling Cart cornerstone is no longer offered as a pick (it is injected at game start instead) / 开局可选项不再提供「搬运车」基石（改为开局直接注入）
+- Mod version bumped to 1.0.4 / 版本号升至 1.0.4
+
 ## v1.0.3
 - Free upgrades for mines, geyser pumps and every racial house — no materials consumed, and the cost row is hidden in the upgrade panel / 矿山、间歇泉泵、所有种族住房升级全部免费，升级面板不再显示材料需求
 - Housing sync upgrade: upgrading one house also upgrades every house of the same race and model / 住房同步升级：升级一处住房后同种族同型号住房同步升级
