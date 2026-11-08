@@ -33,6 +33,16 @@ namespace ForestCreator
         public static ConfigEntry<int> DecorationBluePerTile;
         public static ConfigEntry<int> DecorationGoldPerTile;
 
+        // ---- 火塘等级产出加成 / Hearth level production bonus ----
+        public static ConfigEntry<int> HearthLevel1ProductionMultiplier;
+        public static ConfigEntry<int> HearthLevel2ProductionMultiplier;
+        public static ConfigEntry<int> HearthLevel3ProductionMultiplier;
+
+        // ---- 装饰满意度 / Decoration resolve ----
+        public static ConfigEntry<int> DecorationGreenResolvePerTile;
+        public static ConfigEntry<int> DecorationBlueResolvePerTile;
+        public static ConfigEntry<int> DecorationGoldResolvePerTile;
+
         // ---- 覆盖范围 / Coverage ----
         public static ConfigEntry<float> HearthRangeMultiplier;
         public static ConfigEntry<float> CampRangeMultiplier;
@@ -113,6 +123,36 @@ namespace ForestCreator
                 300,
                 "金色（传奇）装饰建筑每格提供的腐蚀抗性。\n" +
                 "Corruption resistance added per tile for gold/legendary decorations.");
+
+            HearthLevel1ProductionMultiplier = config.Bind("Hearth 火塘", "Level 1 Production Multiplier 1级产出倍率",
+                2,
+                "古老火塘为 1 级时，采集与种植建筑（营地、渔屋、农场、集雨器）产出数量的倍率。\n" +
+                "Output multiplier for gathering and farming buildings while the Ancient Hearth is at level 1.");
+
+            HearthLevel2ProductionMultiplier = config.Bind("Hearth 火塘", "Level 2 Production Multiplier 2级产出倍率",
+                5,
+                "古老火塘为 2 级时，采集与种植建筑产出数量的倍率。\n" +
+                "Output multiplier for gathering and farming buildings while the Ancient Hearth is at level 2.");
+
+            HearthLevel3ProductionMultiplier = config.Bind("Hearth 火塘", "Level 3 Production Multiplier 3级产出倍率",
+                10,
+                "古老火塘为 3 级时，采集与种植建筑产出数量的倍率。\n" +
+                "Output multiplier for gathering and farming buildings while the Ancient Hearth is at level 3.");
+
+            DecorationGreenResolvePerTile = config.Bind("Decoration 装饰", "Green Resolve Per Tile 绿色装饰每格满意度",
+                1,
+                "绿色（普通）装饰建筑每格为所有种族提供的满意度。\n" +
+                "Resolve added for every race per tile of green/common decorations.");
+
+            DecorationBlueResolvePerTile = config.Bind("Decoration 装饰", "Blue Resolve Per Tile 蓝色装饰每格满意度",
+                2,
+                "蓝色（稀有）装饰建筑每格为所有种族提供的满意度。\n" +
+                "Resolve added for every race per tile of blue/rare decorations.");
+
+            DecorationGoldResolvePerTile = config.Bind("Decoration 装饰", "Gold Resolve Per Tile 金色装饰每格满意度",
+                3,
+                "金色（传奇）装饰建筑每格为所有种族提供的满意度。\n" +
+                "Resolve added for every race per tile of gold/legendary decorations.");
 
             HearthRangeMultiplier = config.Bind("Coverage 覆盖范围", "Hearth Range Multiplier 火塘范围倍率",
                 2f,
