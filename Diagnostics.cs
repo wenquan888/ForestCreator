@@ -31,13 +31,21 @@ namespace ForestCreator
     {
         // Layout / robot / embark diagnostics go to a txt file (so the game console doesn't need to be open).
         private const string LayoutLogPath =
-            @"C:\Users\WenQuan\Doubao\chats\2026-10-18\new-chat-2\housing10x\layout_dump.txt";
+            @"C:\Users\WenQuan\Doubao\chats\2026-11-07\new-chat\fc_diag.txt";
 
         [Conditional("DEBUG")]
         internal static void FileLog(string msg)
         {
-            try { System.IO.File.AppendAllText(LayoutLogPath, msg + "\n"); }
+            try
+            {
+                var dir = System.IO.Path.GetDirectoryName(LayoutLogPath);
+                if (!System.IO.Directory.Exists(dir)) System.IO.Directory.CreateDirectory(dir);
+                System.IO.File.AppendAllText(LayoutLogPath, msg + "\n");
+            }
             catch { }
+
+            // Mirror into the BepInEx log as well, so a missing/unwritable file can never hide a probe.
+            try { Instance?.Logger?.LogInfo("[DIAG] " + msg); } catch { }
         }
 
         // Diagnostic: dump every Image component under a GameObject with its sprite name, so we can

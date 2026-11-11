@@ -15,25 +15,44 @@ namespace ForestCreator
         // "primary" goods, i.e. things you take straight off the map by gathering or farming:
         //   Camp (woodcutter camp & other camps), GathererHut, FishingHut, Farm, RainCatcher.
         //
-        // Hook: ProductionCalculator.GetProductionMultiplier(Building, RecipeModel, Actor, Single)
-        // returns the integer output multiplier for one production cycle. We scale that result,
-        // which raises the produced amount without touching production time.
-        // A result of 0 means "no production this cycle" (failed roll) and is left alone.
-        [HarmonyPatch(typeof(ProductionCalculator), "GetProductionMultiplier")]
+        // Hook note (verified IL): GetProductionMultiplier only returns the 1/2/3 crit
+        // "extra production" factor and is NOT the amount path. The produced amount comes from
+        //   ProductionCalculator.GetResult(building, good, recipe, isExtra)
+        //     good = good + GetRawProductionBonusFor(good.name)
+        //     good = good * GetProductionFactor(building, recipe, isExtra)
+        //     good.Clamp()
+        // where GetProductionFactor = 1 + buildingBonus + buildingExtraBonus + recipeBonus.
+        // Scaling GetProductionFactor therefore scales the final amount.
+        // Harmony binds patch arguments by NAME; the parameter of
+        // GetProductionFactor(Building, RecipeModel, Boolean) is not guaranteed to be called
+        // "building", so positional __0 is used. A wrong name throws
+        // 'Parameter "..." not found in method' and aborts patch application.
+        [HarmonyPatch(typeof(ProductionCalculator), "GetProductionFactor")]
         [HarmonyPostfix]
-        private static void HearthBoostPrimaryProduction(Building building, ref int __result)
+        private static void HearthBoostPrimaryProduction(Building __0, ref float __result)
         {
             try
             {
-                if (__result <= 0) return;
-                if (!IsPrimaryGoodProducer(building)) return;
+                if (__result <= 0f) return;
+                if (!IsPrimaryGoodProducer(__0)) return;
 
                 int multiplier = GetHearthProductionMultiplier();
                 if (multiplier <= 1) return;
 
                 __result *= multiplier;
+                DebugLogProduction(__0, multiplier);
             }
             catch (Exception ex) { FileLog("ERR hearth production: " + ex.Message); }
+        }
+
+        private static int _hearthProductionLogBudget = 24;
+
+        [System.Diagnostics.Conditional("DEBUG")]
+        private static void DebugLogProduction(Building building, int multiplier)
+        {
+            if (_hearthProductionLogBudget <= 0) return;
+            _hearthProductionLogBudget--;
+            LogDebug($"FC HEARTH-PROD: {building?.ModelName} hearthLevel={GetAncientHearthLevel()} x{multiplier}");
         }
 
         private static bool IsPrimaryGoodProducer(Building building)

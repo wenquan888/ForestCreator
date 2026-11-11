@@ -55,8 +55,9 @@ namespace ForestCreator
             Instance = this;
             FCConfig.Init(Config);
             harmony = Harmony.CreateAndPatchAll(typeof(Plugin), (string)null);
+            ApiSaveCompat.Install(harmony);
             Instance.Logger.LogInfo("Plugin ForestCreator is loaded!");
-        }
+            StartPopupProbe();        }
 
         // Debug-only diagnostic log. Calls are completely stripped from Release builds by
         // [Conditional("DEBUG")], so no diagnostic noise ships in the packaged mod.
@@ -71,6 +72,6 @@ namespace ForestCreator
     {
         public const string PLUGIN_GUID = "ForestCreator";
         public const string PLUGIN_NAME = "ForestCreator";
-        public const string PLUGIN_VERSION = "1.0.4";
+        public const string PLUGIN_VERSION = "1.0.5";
     }
 }

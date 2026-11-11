@@ -91,6 +91,15 @@ namespace ForestCreator
         // every town end (win / lose / abandon) pushes the cycle year forward -> the purple progress
         // bar grows even when you abandon or lose. For free debugging we skip the whole GameFinished
         // when hasWon == false, so the cycle year does not advance on defeats/abandons. Wins untouched.
+        //
+        // Verified IL: AddYears() is  Cycle.year += Mathf.Max(GetElapsedYears(), worldConfig.minYearsPerTown)
+        // so a single missed call can jump many years at once -- the bar looks "almost full" after a
+        // few aborted towns. GameFinished() is the only caller inside this type, but AddYears is
+        // public, so a second entry point is possible. The static flag below closes that hole and
+        // logs whether AddYears was actually reached on a defeat.
+
+        private static bool _suppressCycleYears;
+
         [HarmonyPatch(typeof(CycleStateGameUpdater), "GameFinished")]
         [HarmonyPrefix]
         private static bool SkipDefeatCycleProgress(bool __0)
@@ -98,8 +107,27 @@ namespace ForestCreator
             try
             {
                 if (!__0) { LogDebug("FC: skipped cycle progress on defeat/abandon (bar does not grow)"); return false; }
+                _suppressCycleYears = false;   // a real win must always advance the cycle
             }
             catch (Exception ex) { Instance.Logger.LogError("FC ERR SkipDefeatCycleProgress: " + ex.Message); }
+            return true;
+        }
+
+        // Hard stop on the year arithmetic itself, whatever route reached it.
+        [HarmonyPatch(typeof(CycleStateGameUpdater), "AddYears")]
+        [HarmonyPrefix]
+        private static bool GuardAddYears()
+        {
+            try
+            {
+                if (_suppressCycleYears)
+                {
+                    LogDebug("FC: suppressed AddYears() after a defeat/abandon (no cycle year added)");
+                    return false;
+                }
+                return true;
+            }
+            catch (Exception ex) { Instance.Logger.LogError("FC ERR GuardAddYears: " + ex.Message); }
             return true;
         }
     }

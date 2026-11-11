@@ -67,6 +67,14 @@ A super-cheat mod for Against the Storm. Master everything like the Forest Creat
 
   Enabling rainpunk on a building costs no pipes any more, and the unlock button no longer prints the pipe count or its icon
 
+- **沃土支持拖框批量建造**：选中沃土后按住鼠标拖出一个方框，一次就能铺满一整片，不必一格一格点
+
+  Fertile Soil supports drag-box batch placement — hold the mouse and drag a rectangle to lay down a whole patch in one go
+
+- **解锁自耕农场**：自耕农场出现在建造菜单的「食物生产」分类里。它只被注入到本局游戏内存中的已解锁建筑池，不写入元存档，因此既有定居点照常读取
+
+  Homestead is unlocked in the Food Production category of the build menu. It is injected into the in-game unlocked-building pool only — MetaSave is never written, so existing settlements keep loading normally
+
 ### 覆盖范围 
 ### Coverage
 - **火塘覆盖范围 ×2**（hubRange 翻倍，服务范围更大）
@@ -149,6 +157,20 @@ Hearth Corruption Resistance
 
   Decorations add resistance by footprint: green +50 per tile, blue +150 per tile, gold +300 per tile
 
+### 火塘产出加成 
+Hearth Production Bonus
+
+- 古老火塘按等级提升采集与种植建筑（营地、渔屋、农场、集雨器）的产出数量：1 级 ×2、2 级 ×5、3 级 ×10
+
+  Gathering and farming buildings (camps, fishing huts, farms, rain collectors) produce ×2 / ×5 / ×10 while the Ancient Hearth is at level 1 / 2 / 3
+
+### 装饰满意度 
+Decoration Resolve
+
+- 装饰建筑按占地格数与稀有度给所有种族加满意度：绿色 +1/格、蓝色 +2/格、金色 +3/格
+
+  Decorations grant extra resolve to every race by footprint and rarity: green +1, blue +2, gold +3 per tile
+
 ### 稳定性 
 Stability
 
@@ -179,7 +201,8 @@ Save the file and the new values are picked up the next time the matching logic 
 | Woodcutter 伐木工 | 行走速度加成、工作速度倍率（默认 13.37 / 13.37）<br>Walk speed bonus and work rate multiplier (default 13.37 / 13.37) |
 | Rewards 结算奖励 | 每日局、常规局奖励倍率（默认 13.37）<br>Daily and regular run reward multipliers (default 13.37) |
 | Housing 住房 | 住房容量倍率（默认 10）<br>House capacity multiplier (default 10) |
-| Hearth 火塘 | 升级抗性倍率、装饰抗性开关、绿/蓝/金装饰每格抗性（默认 10 / true / 50 / 150 / 300）<br>Upgrade bonus multiplier, decoration resistance toggle, and per-tile resistance for green/blue/gold decorations |
+| Hearth 火塘 | 升级抗性倍率、装饰抗性开关、绿/蓝/金装饰每格抗性、1/2/3 级产出倍率（默认 10 / true / 50 / 150 / 300 / 2 / 5 / 10）<br>Upgrade bonus multiplier, decoration resistance toggle, per-tile resistance for green/blue/gold decorations, and production multipliers per hearth level |
+| Decoration 装饰 | 绿/蓝/金装饰每格满意度（默认 1 / 2 / 3）<br>Resolve per tile for green/blue/gold decorations (default 1 / 2 / 3) |
 | Coverage 覆盖范围 | 火塘范围倍率、伐木工营地范围倍率（默认 2 / 2）<br>Hearth and woodcutter camp range multipliers (default 2 / 2) |
 | Robot 机器人 | 产出倍率、生产速度倍率、部署耗材数量（默认 5 / 2 / 2）<br>Output multiplier, production rate multiplier and deployment cost (default 5 / 2 / 2) |
 | TradeRoutes 贸易路线 | 贸易路线上限（默认 10）<br>Trade route limit (default 10) |

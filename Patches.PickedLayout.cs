@@ -108,7 +108,7 @@ namespace ForestCreator
                     float lastRowBottom = gridTopFromPicked + rowsNeeded * rowH;                       // bottom of the last slot row
                     float btnOffset = confirm.anchoredPosition.y;                                     // bottom-anchored: center is this far above Picked bottom
                     float btnH = confirm.rect.height;
-                    float gap = 15f; // desired gap below the last slot row
+                    float gap = 70f; // desired gap below the last slot row
                     float buttonTopFromPicked = picked.rect.height - btnOffset - btnH / 2f;
                     float delta = (lastRowBottom + gap) - buttonTopFromPicked;
 

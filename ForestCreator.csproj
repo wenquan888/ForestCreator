@@ -5,7 +5,7 @@
     <LangVersion>latest</LangVersion>
     <AssemblyName>ForestCreator</AssemblyName>
     <RootNamespace>ForestCreator</RootNamespace>
-    <Version>1.0.4</Version>
+    <Version>1.0.5</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>CS0436;CS0618;CS8619;CS1591;NU1701;CS1701</NoWarn>
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
@@ -54,6 +54,10 @@
     </Reference>
     <Reference Include="Unity.TextMeshPro">
       <HintPath>libs\Unity.TextMeshPro.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+    <Reference Include="UniTask">
+      <HintPath>libs\UniTask.dll</HintPath>
       <Private>false</Private>
     </Reference>
     <Reference Include="Sirenix.Serialization">

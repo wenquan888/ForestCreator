@@ -1,3 +1,12 @@
+## v1.0.5
+- Fertile Soil (Biome Grass Spawner) now supports drag-box batch placement: hold the mouse and drag a rectangle to lay down a whole patch of fertile soil in one go / 沃土（肥沃田地）支持鼠标拖框批量建造：按住鼠标拖出一个方框，一次铺满一整片沃土
+- Homestead (自耕农场) unlocked and available in the Food Production category of the build menu. It is injected into the in-game unlocked-building pool only — MetaSave is never written, so existing settlements keep loading normally / 解锁自耕农场，出现在建造菜单的「食物生产」分类。它只被注入到本局的已解锁建筑池，不写入元存档，因此既有定居点照常读取
+- Ancient Hearth production bonus by level: gathering and farming buildings produce ×2 at hearth level 1, ×5 at level 2, ×10 at level 3 (configurable) / 古老火塘按等级提供产出倍率：1 级 ×2、2 级 ×5、3 级 ×10（可在配置文件中调整）
+- Decoration resolve: every race gains extra resolve from decorations by footprint and rarity — green +1, blue +2, gold +3 per tile (configurable) / 装饰建筑按占地与稀有度提供满意度：绿色 +1/格、蓝色 +2/格、金色 +3/格（可调）
+- Farming buildings: the build menu is no longer reduced to just Farmfield and Field Kitchen — the whole planting set is offered again at game start / 修复种植菜单被筛到只剩「田地」和「野外厨房」的问题，开局种植建筑全部恢复可选
+- Defeat/abandon no longer advances the cycle year: AddYears() is hard-blocked after a failed run, so repeated retries can no longer inflate cycle progress / 失败或放弃不再推进循环年份：失败后 AddYears() 被直接拦截，反复重开不会再把循环进度顶满
+- Mod version bumped to 1.0.5 / 版本号升至 1.0.5
+
 ## v1.0.4
 - Free upgrades extended to every upgradable building (workshops and other production buildings included); the upgrade button is always clickable and no cost row is shown / 升级免费扩展到所有可升级建筑（含作坊等生产类建筑），升级按钮始终可点，面板不再显示材料需求
 - Enabling rainpunk no longer costs pipes / 给建筑启用雨朋克不再消耗管道
