@@ -44,6 +44,9 @@ namespace ForestCreator
     /// (Patches.*.cs / RobotMenuSlot.cs / Diagnostics.cs) as members of this partial class.
     /// </summary>
     [BepInPlugin(PluginInfo.PLUGIN_GUID, PluginInfo.PLUGIN_NAME, PluginInfo.PLUGIN_VERSION)]
+    // Required for the two custom cornerstones: they are registered through ATS_API, so the API
+    // plugin has to be loaded first. BepInEx refuses to load us (with a clear message) if it is missing.
+    [BepInDependency("API", BepInDependency.DependencyFlags.HardDependency)]
     public partial class Plugin : BaseUnityPlugin
     {
         public static Plugin Instance;
@@ -54,10 +57,15 @@ namespace ForestCreator
         {
             Instance = this;
             FCConfig.Init(Config);
+            CreateCustomCornerstones();
+            // Registered in Awake so the model always exists by the time any save is read — a late
+            // registration makes saves that reference the building fail to load. The vanilla look
+            // (model + icon) is patched in later, once Settings are readable.
+            CreateTownHall();
             harmony = Harmony.CreateAndPatchAll(typeof(Plugin), (string)null);
             ApiSaveCompat.Install(harmony);
             Instance.Logger.LogInfo("Plugin ForestCreator is loaded!");
-            StartPopupProbe();        }
+        }
 
         // Debug-only diagnostic log. Calls are completely stripped from Release builds by
         // [Conditional("DEBUG")], so no diagnostic noise ships in the packaged mod.
@@ -72,6 +80,6 @@ namespace ForestCreator
     {
         public const string PLUGIN_GUID = "ForestCreator";
         public const string PLUGIN_NAME = "ForestCreator";
-        public const string PLUGIN_VERSION = "1.0.5";
+        public const string PLUGIN_VERSION = "1.1.0";
     }
 }

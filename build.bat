@@ -1,7 +1,7 @@
 @echo off
 setlocal
 rem One-click build for ForestCreator (Thunderstore).
-rem Compiles the mod and copies the resulting dll into ThunderStore\Forest Creator.
+rem Compiles the mod and stages everything Thunderstore needs inside ThunderStore\Forest Creator.
 cd /d "%~dp0"
 
 rem dotnet is not on PATH on this machine; fall back to the full install path.
@@ -16,14 +16,27 @@ if errorlevel 1 (
     exit /b 1
 )
 
-set "SRC=bin\Release\netstandard2.0\ForestCreator.dll"
+set "OUT=bin\Release\netstandard2.0"
 set "DSTDIR=ThunderStore\Forest Creator"
 if not exist "%DSTDIR%" mkdir "%DSTDIR%"
-copy /Y "%SRC%" "%DSTDIR%\ForestCreator.dll" >nul
+
+copy /Y "%OUT%\ForestCreator.dll" "%DSTDIR%\ForestCreator.dll" >nul
 if errorlevel 1 (
-    echo COPY FAILED
+    echo COPY DLL FAILED
     exit /b 1
 )
+
+rem Every image the mod draws lives here: cornerstone icons, Town Hall frame,
+rem button, card face, card header, avatar ring and the 9-slice border sidecars.
+if exist "%DSTDIR%\Assets" rmdir /S /Q "%DSTDIR%\Assets"
+xcopy /E /I /Y "%OUT%\Assets" "%DSTDIR%\Assets" >nul
+if errorlevel 1 (
+    echo COPY ASSETS FAILED
+    exit /b 1
+)
+
+rem README lives at the project root and is mirrored into the package; CHANGELOG already sits there.
+copy /Y "README.md" "%DSTDIR%\README.md" >nul
 
 echo === Deployed: %DSTDIR%\ForestCreator.dll ===
 echo Done.

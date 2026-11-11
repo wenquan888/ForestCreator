@@ -198,6 +198,12 @@ namespace ForestCreator
         {
             try
             {
+                _fcContentSvc = __instance;
+
+                // Register the custom Town Hall here rather than in Awake: it copies a vanilla
+                // building's prefab, and Settings are only readable from this point on.
+                if (!_fcTownHallRegistered && !_fcTownHallFailed) CreateTownHall();
+
                 var settings = MainController.Instance != null ? MainController.Instance.Settings : null;
                 var state = __instance != null ? __instance.State : null;
                 if (settings == null || state == null || state.buildings == null) return;
@@ -223,6 +229,10 @@ namespace ForestCreator
                 {
                     LogDebug("FC POOL INJECT: already present, nothing to add.");
                 }
+
+                // Custom ATS_API buildings need the same treatment: they exist in Settings but are
+                // not part of the settlement's building pool, so the build menu would never list them.
+                InjectTownHallIntoPool(__instance);
             }
             catch (Exception ex)
             {
@@ -341,6 +351,10 @@ namespace ForestCreator
         private static bool IsAutoUnlocked(BuildingModel b)
         {
             if (b == null) return false;
+
+            // The custom Town Hall: always unlocked so it can be built right away, and it is already
+            // part of the pool through InjectTownHallIntoPool().
+            if (FC_IsTownHall(b)) return true;
 
             // 纯查询层放行：只影响"能不能选"，不写任何存档状态。
             if (IsQueryOnlyUnlock(b)) return true;

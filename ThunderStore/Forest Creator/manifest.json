@@ -1,9 +1,10 @@
 {
   "name": "ForestCreator",
-  "version_number": "1.0.5",
+  "version_number": "1.1.0",
   "website_url": "https://github.com/wenquan888/ForestCreator",
-  "description": "A super-cheat mod for Against the Storm. Master everything like the Forest Creator himself — even the hardest difficulty becomes trivially easy.",
+  "description": "A super-cheat mod for Against the Storm. Master everything like the Forest Creator himself — even the hardest difficulty becomes trivially easy. Adds the Forest Creator Town Hall, where you recruit villagers for 2 amber each.",
   "dependencies": [
-    "BepInEx-BepInExPack-5.4.2100"
+    "BepInEx-BepInExPack-5.4.2100",
+    "ATS_API_Devs-API-3.7.0"
   ]
 }

@@ -75,6 +75,40 @@ A super-cheat mod for Against the Storm. Master everything like the Forest Creat
 
   Homestead is unlocked in the Food Production category of the build menu. It is injected into the in-game unlocked-building pool only — MetaSave is never written, so existing settlements keep loading normally
 
+### 城镇大厅 
+### Town Hall
+
+- **新增建筑「城镇大厅」**：3×3 占地，造价 15 木材，开局即可建造，不带配方与工人位。外观与图标直接复用游戏原生的「圣殿」，所以不会在建造菜单里显得突兀
+
+  A new Town Hall building: 3×3 footprint, 15 wood, buildable from the start, with no recipes or worker slots. Its model and icon reuse the game's own Holy Temple, so it looks native in the build menu
+
+- **点击城镇大厅弹出招募菜单**：窗口照游戏原生弹窗（基石熔炉）的皮做的——同样的描边、四角金色藤蔓、顶部居中金色标题。五张种族卡片横排，卡片内含金色标题条、圆形种族头像（铜金圆环）、价格与招募按钮
+
+  Clicking the Town Hall opens a recruitment menu skinned after the game's own popup: same frame, gold corner ornaments and a centred gold title. Each race gets a card with a gold name plaque, a round portrait inside a copper ring, the price and a recruit button
+
+- **每张卡片 = 一个种族 + 2 琥珀 + 招募按钮**：花 2 琥珀立刻招募一名该种族居民，琥珀不足时按钮不可用
+
+  Each card is one race: 2 amber recruits one villager of that race on the spot. The button stays disabled when you cannot afford it
+
+- **菜单皮肤全部随 mod 一起分发**：窗体、按钮、卡片底纹、卡片标题条、头像圆环都是 `Assets/` 里现成的 PNG，游戏数据里不存在的窗口不会再被依赖，任何地图、任何存档都长一个样
+
+  Every skin the menu uses ships with the mod as PNG in `Assets/`: window frame, button, card face, card header and avatar ring. Nothing is harvested from the game at runtime, so the menu looks identical on every map and every save
+
+### 自定义基石 
+### Custom Cornerstones
+
+- **森林造物主的狂热崇拜**（金色）：持有期间，居民不会因为不满而离开定居点
+
+  Forest Creator's Fervent Worship (gold): while you hold it, villagers never leave your settlement out of low resolve
+
+- **森林造物主的神圣庇佑**（金色）：持有期间，居民不会因异常原因死亡
+
+  Forest Creator's Sacred Protection (gold): while you hold it, villagers never die from accidents
+
+- 两个基石中英双语、全生态全季节可用、抽取上限各 1 张
+
+  Both cornerstones are bilingual, available in every biome and season, and limited to one draw each
+
 ### 覆盖范围 
 ### Coverage
 - **火塘覆盖范围 ×2**（hubRange 翻倍，服务范围更大）
@@ -220,9 +254,9 @@ Setting a value to 1 or 0 effectively disables that bonus, so you can tune the d
 1. 使用 [r2modman](https://thunderstore.io/c/against-the-storm/) 或手动安装 BepInEx（需 BepInExPack 5.4.2100）。
 
    Install BepInEx with [r2modman](https://thunderstore.io/c/against-the-storm/) or manually (BepInExPack 5.4.2100 required).
-2. 将 `ForestCreator.dll` 放入 `BepInEx/plugins/` 目录。
+2. 把整个 `TuHua_Technology-ForestCreator` 文件夹放进 `BepInEx/plugins/`，**保留里面的 `Assets` 子目录**——城镇大厅的窗口皮肤、卡片底纹、种族头像圆环和两个基石图标都从这里读取，删掉会退回纯色占位外观。
 
-   Drop `ForestCreator.dll` into the `BepInEx/plugins/` folder.
+   Drop the whole `TuHua_Technology-ForestCreator` folder into `BepInEx/plugins/`, **keeping its `Assets` subfolder** — the Town Hall window skin, card face, avatar ring and both cornerstone icons are read from there, and the menu falls back to flat placeholder colours without them.
 3. 启动游戏。
 
    Launch the game.

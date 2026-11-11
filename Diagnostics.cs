@@ -33,6 +33,18 @@ namespace ForestCreator
         private const string LayoutLogPath =
             @"C:\Users\WenQuan\Doubao\chats\2026-11-07\new-chat\fc_diag.txt";
 
+        // Helpers so feature files that live outside the Plugin class (e.g. TownHallUI) can log
+        // without touching the protected BaseUnityPlugin.Logger.
+        internal static void LogInfo(string msg)
+        {
+            try { Instance?.Logger?.LogInfo(msg); } catch { }
+        }
+
+        internal static void LogError(string msg)
+        {
+            try { Instance?.Logger?.LogError(msg); } catch { }
+        }
+
         [Conditional("DEBUG")]
         internal static void FileLog(string msg)
         {
@@ -48,10 +60,56 @@ namespace ForestCreator
             try { Instance?.Logger?.LogInfo("[DIAG] " + msg); } catch { }
         }
 
+        // One-shot capture of a native UI panel's real art: object paths, Image sprites, TMP fonts
+        // and button markers. Used to rebuild the custom Town Hall menu out of the game's own visuals.
+        private static bool _fcNativePanelDumped;
+
+        internal static void DumpNativePanelOnce(Transform root)
+        {
+            if (_fcNativePanelDumped || root == null) return;
+            _fcNativePanelDumped = true;
+            try
+            {
+                var sb = new System.Text.StringBuilder();
+                sb.AppendLine("==== NATIVE PANEL DUMP (TownHall reference) ====");
+                WalkUI(root, 0, sb);
+                FileLog(sb.ToString());
+            }
+            catch (Exception ex) { FileLog("ERR DumpNativePanelOnce: " + ex.Message); }
+        }
+
+        private static void WalkUI(Transform t, int depth, System.Text.StringBuilder sb)
+        {
+            if (t == null || depth > 5 || sb.Length > 150000) return;
+            try
+            {
+                sb.Append(' ', depth * 2).Append('[').Append(t.gameObject.name).Append(']');
+                if (!t.gameObject.activeSelf) sb.Append(" inactive");
+
+                var img = t.GetComponent<Image>();
+                if (img != null)
+                    sb.Append(" img(spr=").Append(img.sprite != null ? img.sprite.name : "null")
+                      .Append(", type=").Append(img.type)
+                      .Append(", c=").Append(img.color).Append(')');
+
+                var tmp = t.GetComponent<TMP_Text>();
+                if (tmp != null)
+                    sb.Append(" tmp(\"").Append((tmp.text ?? "").Replace("\n", "\\n")).Append("\" font=")
+                      .Append(tmp.font != null ? tmp.font.name : "null")
+                      .Append(" size=").Append(tmp.fontSize)
+                      .Append(" c=").Append(tmp.color).Append(')');
+
+                if (t.GetComponent<Button>() != null) sb.Append(" <BUTTON>");
+                if (t.GetComponent<ScrollRect>() != null) sb.Append(" <SCROLL>");
+                sb.AppendLine();
+
+                for (int i = 0; i < t.childCount; i++) WalkUI(t.GetChild(i), depth + 1, sb);
+            }
+            catch { }
+        }
         // Diagnostic: dump every Image component under a GameObject with its sprite name, so we can
         // see exactly which Image is actually rendered by the robot slot (icon-not-showing bug).
-        private static void DumpImages(GameObject go, string tag)
-        {
+        private static void DumpImages(GameObject go, string tag)        {
             try
             {
                 var sb = new System.Text.StringBuilder();

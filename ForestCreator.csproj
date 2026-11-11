@@ -5,7 +5,7 @@
     <LangVersion>latest</LangVersion>
     <AssemblyName>ForestCreator</AssemblyName>
     <RootNamespace>ForestCreator</RootNamespace>
-    <Version>1.0.5</Version>
+    <Version>1.1.0</Version>
     <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
     <NoWarn>CS0436;CS0618;CS8619;CS1591;NU1701;CS1701</NoWarn>
     <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
@@ -76,6 +76,24 @@
       <HintPath>libs\Sirenix.OdinInspector.Attributes.dll</HintPath>
       <Private>false</Private>
     </Reference>
+    <!-- ATS_API (Against The Storm API, GUID "API"). Used to register the two custom
+         cornerstones. Never copied next to our dll: the API plugin ships it itself. -->
+    <Reference Include="API">
+      <HintPath>libs\API.dll</HintPath>
+      <Private>false</Private>
+    </Reference>
+  </ItemGroup>
+
+  <!-- Every image the mod draws is read at runtime from the Assets folder next to the dll:
+       cornerstone icons, the Town Hall window frame, button, card face, card header and the
+       avatar ring. Nothing is harvested from the game at runtime, so they must ship with it. -->
+  <ItemGroup>
+    <None Include="Assets\*.png">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
+    <None Include="Assets\*.txt">
+      <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
+    </None>
   </ItemGroup>
 
 </Project>

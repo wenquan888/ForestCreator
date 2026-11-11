@@ -1,3 +1,12 @@
+## v1.1.0
+- New building: **Forest Creator Town Hall** — 3×3 footprint, 15 wood, buildable from the start, no recipes or worker slots. Its model and icon reuse the game's own Holy Temple so it looks native in the build menu / 新增建筑「城镇大厅」：3×3 占地、造价 15 木材、开局可建、无配方与工人位。外观与图标复用游戏原生的「圣殿」，在建造菜单里不突兀
+- Clicking the Town Hall opens a recruitment menu, skinned entirely after the game's own popup (same frame, gold corner ornaments, centred gold title, inset race cards) / 点击城镇大厅弹出招募菜单，窗体完全照游戏原生弹窗复刻：同样的描边、四角金色藤蔓、居中金色标题、内嵌种族卡片
+- Each card = one race + 2 amber + a recruit button: 2 amber spawns one villager of that race immediately, and the button is disabled when you cannot afford it / 每张卡片 = 一个种族 + 2 琥珀 + 招募按钮：花 2 琥珀立刻招募一名该种族居民，琥珀不足时按钮不可用
+- The menu skin (window frame, button, card face, card header, avatar ring) now ships as PNG inside `Assets/` and is loaded from disk at startup — no runtime harvesting from live game popups any more, so it looks identical on every map and every save / 菜单皮肤（窗体、按钮、卡片底纹、卡片标题条、头像圆环）全部随 mod 以 PNG 分发，启动时从 Assets 读取，不再在运行时从游戏弹窗抓图，任何地图、任何存档都长一个样
+- Two new custom cornerstones: **Forest Creator's Fervent Worship** (villagers never leave out of low resolve) and **Forest Creator's Sacred Protection** (villagers never die from accidents) / 两个新增自定义基石：「森林造物主的狂热崇拜」（居民不会因不满离开）与「森林造物主的神圣庇佑」（居民不会因异常死亡）
+- Diagnostic popup probe removed from the shipped build / 打包版移除了临时的弹窗诊断探针
+- Mod version bumped to 1.1.0 / 版本号升至 1.1.0
+
 ## v1.0.5
 - Fertile Soil (Biome Grass Spawner) now supports drag-box batch placement: hold the mouse and drag a rectangle to lay down a whole patch of fertile soil in one go / 沃土（肥沃田地）支持鼠标拖框批量建造：按住鼠标拖出一个方框，一次铺满一整片沃土
 - Homestead (自耕农场) unlocked and available in the Food Production category of the build menu. It is injected into the in-game unlocked-building pool only — MetaSave is never written, so existing settlements keep loading normally / 解锁自耕农场，出现在建造菜单的「食物生产」分类。它只被注入到本局的已解锁建筑池，不写入元存档，因此既有定居点照常读取

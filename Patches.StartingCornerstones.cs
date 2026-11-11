@@ -29,6 +29,10 @@ namespace ForestCreator
         //   强化斧         -> Lumber Speed +50 (top tier)
         //   迷失荒野       -> [Altar] Villager for glade
         //   镇静之水       -> (pending: real internal name not yet identified)
+        //
+        // The two custom cornerstones (see Patches.CustomCornerstones.cs) are appended at runtime:
+        // ATS_API renames every effect to "<mod guid>_<name>", so their real names are only known
+        // once the builder has created them.
         private static readonly string[] FC_StartingCornerstoneNames = new[]
         {
             "Hauling Cart in All Warehouses",
@@ -66,16 +70,32 @@ namespace ForestCreator
                         LogDebug($"FC START-CORNERSTONE not found: {effectName}");
                         continue;
                     }
-
                     string disp = null;
                     try { disp = effect.displayName != null ? effect.displayName.Text : null; } catch { }
 
                     // already applied (e.g. loaded save) -> skip to avoid double buff
-                    if (perks != null && perks.ContainsKey(effect.name)) continue;
+                    if (FC_IsAlreadyApplied(effect.name)) continue;
 
-                    effect.Apply(EffectContextType.None, null, 0);
-                    LogDebug($"FC START-CORNERSTONE applied: {effect.name} | {disp}");
+                    // Applied one by one: a cornerstone that fails must not stop the others.
+                    try
+                    {
+                        effect.Apply(EffectContextType.None, null, 0);
+                        LogDebug($"FC START-CORNERSTONE applied: {effect.name} | {disp}");
+                    }
+                    catch (Exception exApply)
+                    {
+                        Instance.Logger.LogError($"FC ERR apply cornerstone '{effect.name}': {exApply.Message}");
+                    }
                 }
+
+                // ---- the two custom ATS_API cornerstones ----
+                // They carry the real (renamed) name and are applied through the model reference,
+                // see Patches.CustomCornerstones.cs.
+                FC_InjectCustomCornerstones();
+
+                // The two custom cornerstones are only meant to be felt while they are really
+                // present in this settlement, so the flags are refreshed right after injection.
+                SyncCustomCornerstoneFlags();
             }
             catch (Exception ex)
             {
