@@ -1,3 +1,7 @@
+## v1.0.7
+- Repackaged under a new version number; README trimmed / README 精简，重新打包发布
+- Mod version bumped to 1.0.7 / 版本号升至 1.0.7
+
 ## v1.0.6
 - New building: **Forest Creator Town Hall** — 3×3 footprint, 15 wood, buildable from the start, no recipes or worker slots. Its model and icon reuse the game's own Holy Temple so it looks native in the build menu / 新增建筑「城镇大厅」：3×3 占地、造价 15 木材、开局可建、无配方与工人位。外观与图标复用游戏原生的「圣殿」，在建造菜单里不突兀
 - Clicking the Town Hall opens a recruitment menu, skinned entirely after the game's own popup (same frame, gold corner ornaments, centred gold title, inset race cards) / 点击城镇大厅弹出招募菜单，窗体完全照游戏原生弹窗复刻：同样的描边、四角金色藤蔓、居中金色标题、内嵌种族卡片
